@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMS", "CMS", "{B42D66EC-2632-425E-97EC-FDBCECF36DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paradise.CMS", "Paradise.CMS\Paradise.CMS.csproj", "{A6688BE4-B5F9-4E88-A622-92130862529B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paradise.CMS.Tests", "Paradise.CMS.Tests\Paradise.CMS.Tests.csproj", "{681747EC-C654-4581-8237-784FA01F764C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6688BE4-B5F9-4E88-A622-92130862529B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6688BE4-B5F9-4E88-A622-92130862529B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6688BE4-B5F9-4E88-A622-92130862529B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6688BE4-B5F9-4E88-A622-92130862529B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681747EC-C654-4581-8237-784FA01F764C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681747EC-C654-4581-8237-784FA01F764C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681747EC-C654-4581-8237-784FA01F764C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681747EC-C654-4581-8237-784FA01F764C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6688BE4-B5F9-4E88-A622-92130862529B} = {B42D66EC-2632-425E-97EC-FDBCECF36DDA}
+		{681747EC-C654-4581-8237-784FA01F764C} = {B42D66EC-2632-425E-97EC-FDBCECF36DDA}
+	EndGlobalSection
+EndGlobal
