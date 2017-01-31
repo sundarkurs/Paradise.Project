@@ -1,0 +1,5 @@
+﻿<Project>
+  <FolderSync SynchronizeProjectOutputFolderOnBuild="False">
+    <Folder SourceFolder="D:\Sun\SitecoreProjects\Paradise.Project\Paradise\Paradise.CMS\Views\" DestinationFolder="C:\inetpub\wwwroot\Paradise\Website\Views\" Mode="Mirror" Pattern="*.*" />
+  </FolderSync>
+</Project>
