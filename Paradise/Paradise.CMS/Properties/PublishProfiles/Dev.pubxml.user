@@ -12,8 +12,44 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ApplicationInsights.config">
       <publishTime>01/31/2017 13:03:11</publishTime>
     </File>
+    <File Include="App_Config/Include/Rainbow.config">
+      <publishTime>01/31/2017 15:34:20</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.AutoPublish.config">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.config">
+      <publishTime>01/31/2017 16:07:06</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.Dependency.config.example">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.NewItemsOnly.example">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.CustomSerializationFolder.config.example">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.DataProvider.config">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Deployed.config.disabled">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Remote.config.disabled">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.UI.config">
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>01/31/2017 13:03:11</publishTime>
+    </File>
+    <File Include="bin/Kamsar.WebConsole.dll">
+      <publishTime>06/21/2013 21:58:30</publishTime>
+    </File>
+    <File Include="bin/MicroCHAP.dll">
+      <publishTime>02/05/2016 07:48:58</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>12/07/2015 19:04:38</publishTime>
@@ -43,7 +79,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
     <File Include="bin/Paradise.CMS.dll">
-      <publishTime>01/31/2017 13:04:24</publishTime>
+      <publishTime>01/31/2017 17:00:47</publishTime>
+    </File>
+    <File Include="bin/Rainbow.dll">
+      <publishTime>01/26/2016 20:35:38</publishTime>
+    </File>
+    <File Include="bin/Rainbow.Storage.Sc.dll">
+      <publishTime>01/26/2016 20:35:38</publishTime>
+    </File>
+    <File Include="bin/Rainbow.Storage.Yaml.dll">
+      <publishTime>01/26/2016 20:35:38</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -105,6 +150,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Web.Webpages.Razor.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
+    <File Include="bin/Unicorn.dll">
+      <publishTime>02/05/2016 08:27:56</publishTime>
+    </File>
     <File Include="Components/Sitecore.Kernel.dll">
       <publishTime>01/30/2017 18:39:07</publishTime>
     </File>
@@ -115,7 +163,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/30/2017 18:52:10</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>01/31/2017 13:03:39</publishTime>
+      <publishTime>01/31/2017 15:34:22</publishTime>
+    </File>
+    <File Include="Paradise.CMS.csproj.sitecore.foldersync">
+      <publishTime>01/31/2017 15:02:51</publishTime>
     </File>
     <File Include="scripts/ai.0.22.9-build00167.js">
       <publishTime>01/30/2017 18:34:21</publishTime>
@@ -124,7 +175,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/30/2017 18:34:21</publishTime>
     </File>
     <File Include="Views/Layouts/Sample.cshtml">
-      <publishTime>01/31/2017 12:07:43</publishTime>
+      <publishTime>01/31/2017 15:02:51</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>01/30/2017 18:33:55</publishTime>
