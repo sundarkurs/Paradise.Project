@@ -1,0 +1,85 @@
+﻿---
+ID: 81033cdf-a862-42a1-84f7-fd5f91e2812a
+Parent: 1ff9ceee-bb24-43f7-a7a8-e60d88295a8f
+Template: ab306f6c-b5fc-46a1-9325-837296558fae
+Path: /sitecore/content/Applications/Layouts/IDE/Toolwindows/Content Explorer
+DB: core
+SharedFields:
+- ID: 2231d160-8bde-43c3-ace3-f5787ba7aed5
+  Hint: Control
+  Value: IDE.ContentExplorer
+- ID: 339b1170-ceb5-4977-b86a-de84e28f510a
+  Hint: Icon
+  Value: People/16x16/cube_blue.png
+- ID: eab4b2f9-1d25-4132-82c9-b97b05bd60e4
+  Hint: Frame Name
+  Value: ContentExplorer
+Languages:
+- Language: da
+  Fields:
+  - ID: 2804cb88-1ca6-44a7-b94e-ef1972a14d57
+    Hint: Title
+    Value: Indholdsexplorer
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indholdsexplorer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031105Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 2804cb88-1ca6-44a7-b94e-ef1972a14d57
+    Hint: Title
+    Value: Content Explorer
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Content Explorer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030817Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 2804cb88-1ca6-44a7-b94e-ef1972a14d57
+    Hint: Title
+    Value: Content Explorer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060104T103606
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060104T103606
+- Language: ja-JP
+  Fields:
+  - ID: 2804cb88-1ca6-44a7-b94e-ef1972a14d57
+    Hint: Title
+    Value: コンテンツ エクスプローラー
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: コンテンツ エクスプローラー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030945Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

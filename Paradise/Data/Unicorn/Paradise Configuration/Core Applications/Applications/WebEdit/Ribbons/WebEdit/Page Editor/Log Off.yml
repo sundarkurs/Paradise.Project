@@ -1,0 +1,99 @@
+﻿---
+ID: 387d702b-b740-43e8-abf6-ce4af420c91e
+Parent: 0642041b-6e6c-4b82-9648-bb6603e8dce5
+Template: 8f3d8f9b-2d76-4ace-803f-35415d2b230a
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Log Off
+DB: core
+SharedFields:
+- ID: 8bb9a5e3-cae8-49c6-b830-258a51d970c9
+  Hint: ID
+  Value: LogOffChunk
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 900
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{B8CC30CD-725A-4353-9EA6-CD9832CB3996}" par="Id=Chunk" uid="{F4849993-8A45-4703-BF21-0CAF7493949A}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Log af
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031052Z
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: Afslutter preview
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Luk
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Abmelden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030805Z
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: Vorschau beenden
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Schließen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20080215T101822
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: Ends Preview
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Close
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ログオフ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030933Z
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: プレビューを終了します
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: 終了

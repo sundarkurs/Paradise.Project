@@ -1,0 +1,111 @@
+﻿---
+ID: b77bc4e4-c25e-4b67-bdbb-699dd1e37ebc
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Site Search
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: SiteSearch
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Hjemmesidesøgning
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Hjemmesidesøgning
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Et vandret søjlediagram, der viser de mest populære søgeord eller sætninger, der benyttes på hjemmesiden.
+        
+        Brug dette dashboard for at finde ud af, hvilket indhold de besøgende oftest søger efter på din hjemmeside. Det kan være indhold, de ikke kan finde via menuer og links, eller manglende indhold. 
+        
+        Standardvisningen viser, hvilke søgeord eller sætninger der førte til besøg af den højeste værdi arrangeret efter værdi.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031114Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Site Suche
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Site Suche
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Ein horizontales Balkendiagramm, welches die beliebtesten Suchbegriffe oder-phrasen anzeigt, die auf der Website benutzt wurden.  
+        
+        Benutzen Sie dieses Dashboard, um den Inhalt zu identifizieren, den Besucher auf Ihrer Website am häufigsten suchen. Dies kann z.B. auch Inhalt sein, den Besucher nicht über die Menüs oder Links finden können oder sogar fehlender Inhalt. 
+        
+        Die Standardansicht zeigt, welche Suchbegriffe oder -phrasen zu den Besuchen mit dem höchsten Wert geführt haben, sortiert nach Wert.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030824Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Site Search
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        A horizontal bar chart that shows the most popular search words or phrases used on the website.
+        
+        Use this dashboard to find out the content that visitors search for most often on your website. This may be content they cannot find through menus and links or content that is missing. 
+        
+        The default view shows which search words or phrases led to the highest value visits ranked by value.
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T193100
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: サイト内の検索
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: サイト内の検索
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        サイト訪問者に関連性のあるコンテンツを検索するために、Web サイトで使用された最も人気の高い検索用語、または検索フレーズを示す水平棒グラフ。
+        
+        このダッシュボードを使用し、自社 Web サイト内で、訪問者が最も多く検索したコンテンツを識別します。これは、Web サイトを最適化する際に有効です。たとえば、ナビゲーションを向上する余地がある、または訪問者が求めるコンテンツのページを新たに追加する必要があるなどです。
+        
+        デフォルトのビューには、最もバリューの高い訪問をもたらした検索用語または検索フレーズが、バリュー順にランク付けされます。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030954Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

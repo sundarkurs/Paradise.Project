@@ -1,0 +1,85 @@
+﻿---
+ID: a3c5a298-7789-4057-b086-b98846835776
+Parent: c77623c0-bd6d-4d9d-9edf-36a1d573fd8d
+Template: 998b965e-6ab8-4568-810f-8101d60d0cc3
+Path: /sitecore/content/Applications/Content Editor/Context Menues/Default/Copying/Move To
+DB: core
+SharedFields:
+- ID: 335c6760-6c0e-4c6c-814c-a53d203f553e
+  Hint: Icon
+  Value: Office/16x16/move_to.png
+- ID: 56776edf-261c-4abc-9fe7-70c618795239
+  Hint: __Help link
+  Value: <link/>
+- ID: cab694fc-e37c-44eb-9012-488b775cf638
+  Hint: Message
+  Value: item:moveto(id=$Target)
+Languages:
+- Language: da
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Flyt til
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Flyt til
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031110Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Verschieben nach
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Verschieben nach
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030822Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Move To
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060215T104932
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060215T104932
+- Language: ja-JP
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: 指定の場所に移動
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 指定の場所に移動
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030951Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

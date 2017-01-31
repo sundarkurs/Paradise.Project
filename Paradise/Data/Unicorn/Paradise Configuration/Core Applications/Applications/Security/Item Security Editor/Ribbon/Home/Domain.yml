@@ -1,0 +1,78 @@
+﻿---
+ID: d207e4b2-8010-48fd-8784-23faf298bde5
+Parent: a9c17376-b651-4c02-9090-1b3968bd0454
+Template: 8f3d8f9b-2d76-4ace-803f-35415d2b230a
+Path: /sitecore/content/Applications/Security/Item Security Editor/Ribbon/Home/Domain
+DB: core
+SharedFields:
+- ID: 8bb9a5e3-cae8-49c6-b830-258a51d970c9
+  Hint: ID
+  Value: DomainChunk
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Domæne
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031119Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Domæne
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Domain
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030829Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Domain
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060607T134941
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060320T120031
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Domain
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ドメイン
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030959Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: ドメイン

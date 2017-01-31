@@ -1,0 +1,72 @@
+﻿---
+ID: 0ef5cacf-4c67-46f5-8dea-da93700b52f7
+Parent: 2cb9ebd3-75b8-428b-99af-ec1f9a7eeb0a
+Template: 72450c9c-98c4-4117-88b7-573110c7e0c0
+Path: /sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools/Security Editor
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: People/32x32/user1_lock.png
+- ID: 8a1ac797-0304-4c50-aaac-4d9dbbff435f
+  Hint: Application
+  Value: "<link text=\"Content Editor\" linktype=\"internal\" url=\"/Applications/Security/Security editor\" anchor=\"\" title=\"\" class=\"\" target=\"\" id=\"{2AE1754F-E258-44D0-92E1-240CAE632699}\" />"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 99
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Users|pd|!*|pe|!*|ar|sitecore\Sitecore Client Securing|pd|+item:read|pe|+item:read|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sikkerhedsredigering
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031046Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Security Editor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030759Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060705T104730
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: セキュリティ エディター
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030926Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

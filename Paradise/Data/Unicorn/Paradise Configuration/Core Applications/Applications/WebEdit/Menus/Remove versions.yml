@@ -1,0 +1,17 @@
+﻿---
+ID: 9abb7631-b5c0-4446-aa26-0b2f4dc059e0
+Parent: df11a502-ba61-48b9-8c02-1f53f3120a6b
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Applications/WebEdit/Menus/Remove versions
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20150217T153648Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

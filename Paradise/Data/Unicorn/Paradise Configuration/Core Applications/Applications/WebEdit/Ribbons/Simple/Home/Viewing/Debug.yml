@@ -1,0 +1,93 @@
+﻿---
+ID: 304a4fdb-9fb3-4c49-8964-0803106feb27
+Parent: 71cb4f99-7fd1-4615-beff-50425f6d6671
+Template: 1db34c92-03b0-4475-9a39-da14e4d9d8fc
+Path: /sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Viewing/Debug
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 249
+- ID: d47ed548-84d5-4622-9886-5cc164727507
+  Hint: Icon
+  Value: Office/24x24/debug.png
+- ID: dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b
+  Hint: Click
+  Value: webedit:debug
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Debug
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031051Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Debug
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Skift til debug-visning
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Debug
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030804Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Debug
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: In die Debugansicht wechseln
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20080214T233613
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Debug
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Switch to Debug viewing
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: デバッグ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030932Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: デバッグ
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: デバッグ表示に切り替えます

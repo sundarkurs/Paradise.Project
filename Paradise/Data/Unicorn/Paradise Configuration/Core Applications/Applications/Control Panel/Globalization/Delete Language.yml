@@ -1,0 +1,82 @@
+﻿---
+ID: 6bf590af-e20b-454f-87d9-08f3d4279422
+Parent: e0f0ddc0-617b-4fa8-9a6c-0ef82ecd6f09
+Template: bdb6fa46-2f76-4bde-8138-52b56c2fc47e
+Path: /sitecore/content/Applications/Control Panel/Globalization/Delete Language
+DB: core
+BranchID: c5f1aa82-f831-477e-ba04-11d435d476e4
+SharedFields:
+- ID: 20f47b0c-b146-4847-ac4d-0b25983514b3
+  Hint: Click
+  Value: system:deletelanguage
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 210
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Slet sprog
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031101Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Slet et sprog
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sprache löschen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030813Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Sprache Löschen
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060308T134352
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Delete a language
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060308T134352
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: システムから言語を削除する
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030942Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: システムから言語を削除する
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

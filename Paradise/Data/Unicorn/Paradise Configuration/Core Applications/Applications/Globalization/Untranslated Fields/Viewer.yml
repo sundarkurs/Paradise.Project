@@ -1,0 +1,95 @@
+﻿---
+ID: 211b10c7-f5bd-4219-8715-15ea0cad2d80
+Parent: 406955df-17fe-4e8f-96c5-eb227bdfb9b4
+Template: eb06cec0-5e2d-4dc4-875b-01adcc577d13
+Path: /sitecore/content/Applications/Globalization/Untranslated Fields/Viewer
+DB: core
+BranchID: 1f0770ea-8b77-4110-91aa-cc00dee102dd
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Network/32x32/earth_delete.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 0
+- ID: bde5f757-a8a4-4ffd-a38b-e0dcca84f210
+  Hint: Window type
+  Value: Window
+- ID: c687aa26-a85d-4c42-b32e-11e5faecdf05
+  Hint: Chrome
+  Value: WindowChrome
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{3CF7C319-7540-4DFE-8BFA-4588C8CFAD7D}" />
+    </r>
+- ID: f9814588-762b-4d57-932d-2d6de100a59a
+  Hint: Application
+  Value: "<link url=\"\" linktype=\"internal\" id=\"{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}\" />"
+- ID: fc2b18b3-1631-4c3f-9e47-51df05030026
+  Hint: Icon
+  Value: Network/32x32/earth_delete.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Visning
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031049Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Visning af ikke oversatte felter
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Viewer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030802Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Viewer für nicht übersetzte Felder
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Untranslated Fields Viewer
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ビューアー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030929Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: 未翻訳フィールド ビューアー

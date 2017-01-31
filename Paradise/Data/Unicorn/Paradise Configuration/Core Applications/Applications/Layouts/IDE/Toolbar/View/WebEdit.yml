@@ -1,0 +1,96 @@
+﻿---
+ID: 1527a12b-6563-4da4-a141-a44ea5feb849
+Parent: 409a28b7-b61e-44c3-849a-a5847da16867
+Template: 998b965e-6ab8-4568-810f-8101d60d0cc3
+Path: /sitecore/content/Applications/Layouts/IDE/Toolbar/View/WebEdit
+DB: core
+BranchID: 09b0eb6b-b6b6-4e40-8804-137a4cc14074
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Applications/16x16/document_edit.png
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  Hint: __Masters
+  Type: tree list
+  Value: {09B0EB6B-B6B6-4E40-8804-137A4CC14074}
+- ID: 335c6760-6c0e-4c6c-814c-a53d203f553e
+  Hint: Icon
+  Value: Applications/16x16/document_edit.png
+- ID: afc50abc-3ed5-49f7-aa38-32de0034e17c
+  Hint: ID
+  Value: WebEditMenuItem
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 900
+- ID: cab694fc-e37c-44eb-9012-488b775cf638
+  Hint: Message
+  Value: ide:webedit
+Languages:
+- Language: da
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Sideredigering
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: WebEdit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031047Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Page Editor
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: WebEdit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030800Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Experience Editor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060529T154045
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051116T143516
+- Language: ja-JP
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: エクスペリエンス エディター
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: エクスペリエンス エディター
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030927Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

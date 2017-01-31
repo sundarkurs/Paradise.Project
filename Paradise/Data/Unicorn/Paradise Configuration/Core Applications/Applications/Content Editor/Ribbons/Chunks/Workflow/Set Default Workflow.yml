@@ -1,0 +1,96 @@
+﻿---
+ID: ce521a48-6657-48e4-99a2-20029a6f26fd
+Parent: 22aef88c-58bc-4bfd-8f34-299782312338
+Template: 9f62ebd5-2280-4a35-be51-a210d831d687
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Workflow/Set Default Workflow
+DB: core
+SharedFields:
+- ID: 4c2dedb4-40fb-4166-8221-c4dd3e914478
+  Hint: Click
+  Value: item:setdefaultworkflow
+- ID: 8e40ab40-8c83-4ff7-9d33-38ed9458de1e
+  Hint: Icon
+  Value: Office/16x16/set_default_worflow.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Angiv standardworkflow
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031118Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Tildel det workflow, som nyligt oprettede elementer er en del af.
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Indledende
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Standard Workflow einstellen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030829Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Den Workflow zuweisen von dem neu erstellte Items ein Teil sind.
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Initial
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060612T114940
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Assign the workflow that newly created items are part of.
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Initial
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060316T105726
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: デフォルト ワークフローを設定
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030958Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: 新しく作成したアイテムにワークフローを割り当てます
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: デフォルト ワークフローを設定

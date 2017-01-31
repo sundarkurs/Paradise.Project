@@ -1,0 +1,79 @@
+﻿---
+ID: bbccbb32-83d0-4924-bd88-8735b0dd53f0
+Parent: 2a3d89b1-7947-4d91-8cd4-0f0e4606c065
+Template: 2b421e6f-e820-4a04-9a4a-e421a0262b61
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text IDE/Font Names/Tahoma
+DB: core
+BranchID: 14d0d756-dd94-4cfa-aed6-6d2585535700
+SharedFields:
+- ID: 433e22b5-06aa-4a97-a4ac-7cb059ebbac6
+  Hint: Value
+  Value: tahoma
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Tahoma
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031115Z
+    - ID: 519cd02a-a857-4894-9c9b-ac9bdc472937
+      Hint: Header
+      Value: Tahoma
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Tahoma
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030825Z
+    - ID: 519cd02a-a857-4894-9c9b-ac9bdc472937
+      Hint: Header
+      Value: Tahoma
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060201T122024
+    - ID: 519cd02a-a857-4894-9c9b-ac9bdc472937
+      Hint: Header
+      Value: Tahoma
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060201T122024
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Tahoma
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030955Z
+    - ID: 519cd02a-a857-4894-9c9b-ac9bdc472937
+      Hint: Header
+      Value: Tahoma
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

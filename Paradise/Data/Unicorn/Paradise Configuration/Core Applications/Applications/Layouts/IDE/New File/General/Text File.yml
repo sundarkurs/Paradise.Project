@@ -1,0 +1,97 @@
+﻿---
+ID: 15fc2992-d1d2-465c-ba9e-b1f86e54cea1
+Parent: 8088e2c3-8eb8-4e3f-b060-3dadb0f2d3b1
+Template: d592084b-f776-4764-8843-604f779b6624
+Path: /sitecore/content/Applications/Layouts/IDE/New File/General/Text File
+DB: core
+BranchID: 9178605b-142f-4d38-9bbc-1d816536b2c2
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Applications/16x16/document_text.png
+- ID: 40f2647d-1876-4995-aeb1-dbc5cd946ee7
+  Hint: Click
+  Value: layout:createfile(ext=txt,name=TextFile.txt,filepath=/layouts,filetemplate=/sitecore/shell/templates/TextFile.txt)
+- ID: aa38b514-fc05-4372-be15-811d15fc8595
+  Hint: Icon
+  Value: Applications/16x16/document_text.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Tekstfil
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Tekstfil
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031047Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: En tom tekstfil.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Text Datei
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Text Datei
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030801Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: Eine leere Text Datei.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Text File
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051025T183117
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: A blank text file.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051025T183117
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: テキスト ファイル
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: テキスト ファイル
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030927Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: 空のテキスト ファイル
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

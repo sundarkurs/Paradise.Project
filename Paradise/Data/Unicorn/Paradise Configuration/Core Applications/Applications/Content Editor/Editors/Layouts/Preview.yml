@@ -1,0 +1,79 @@
+﻿---
+ID: 146a68ba-dc90-4a87-a012-c415d29e3f8d
+Parent: 102977c8-d350-4beb-abeb-5845b8d60f09
+Template: a5aaca0d-77c0-4741-ab77-211cfbdd9e5c
+Path: /sitecore/content/Applications/Content Editor/Editors/Layouts/Preview
+DB: core
+SharedFields:
+- ID: 6f371c74-5bd5-4ebd-b10a-fc54716021ae
+  Hint: Url
+  Value: /sitecore/shell/~/xaml/Sitecore.Shell.Applications.ContentEditor.Editors.Preview.aspx
+- ID: ab8d0102-91f3-43b6-90aa-5a0641dc8521
+  Hint: Icon
+  Value: Network/16x16/environment.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Preview
+  - ID: f7c42332-728e-48b7-bb3c-0d6883e45628
+    Hint: Header
+    Value: Preview
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031047Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Vorschau…
+  - ID: f7c42332-728e-48b7-bb3c-0d6883e45628
+    Hint: Header
+    Value: Vorschau…
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030800Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: f7c42332-728e-48b7-bb3c-0d6883e45628
+    Hint: Header
+    Value: Preview
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20070130T152446
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: プレビュー
+  - ID: f7c42332-728e-48b7-bb3c-0d6883e45628
+    Hint: Header
+    Value: プレビュー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030927Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

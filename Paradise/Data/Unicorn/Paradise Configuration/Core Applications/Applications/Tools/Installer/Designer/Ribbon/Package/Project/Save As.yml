@@ -1,0 +1,78 @@
+﻿---
+ID: 016777b9-33bb-4196-ade4-0b72dfbb0b4c
+Parent: 7bb7cf57-f605-4914-95be-ae6bff4a3b0c
+Template: 9f62ebd5-2280-4a35-be51-a210d831d687
+Path: /sitecore/content/Applications/Tools/Installer/Designer/Ribbon/Package/Project/Save As
+DB: core
+SharedFields:
+- ID: 4c2dedb4-40fb-4166-8221-c4dd3e914478
+  Hint: Click
+  Value: installer:saveas
+- ID: 8e40ab40-8c83-4ff7-9d33-38ed9458de1e
+  Hint: Icon
+  Value: Office/16x16/floppy_disk.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Gem som
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031044Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Gem som…
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Speichern als
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030757Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Speichern als
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060525T181156Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Save as
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 名前を付けて保存
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030924Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: 名前を付けて保存

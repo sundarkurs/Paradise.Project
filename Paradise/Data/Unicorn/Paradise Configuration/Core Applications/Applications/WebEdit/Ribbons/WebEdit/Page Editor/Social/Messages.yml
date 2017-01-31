@@ -1,0 +1,112 @@
+﻿---
+ID: eed22840-d48a-443d-95c1-5d4075f5136b
+Parent: f54919cd-9777-4249-8eec-a5563b1f3da5
+Template: 1db34c92-03b0-4475-9a39-da14e4d9d8fc
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Social/Messages
+DB: core
+SharedFields:
+- ID: 1193b1a3-0148-413f-a979-49b39aa4a2af
+  Hint: ID
+  Value: MessagesRibbonButton
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 99
+- ID: d47ed548-84d5-4622-9886-5cc164727507
+  Hint: Icon
+  Value: networkV2/48x48/newspaper.png
+- ID: dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b
+  Hint: Click
+  Value: social:dialog:show
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Users|pe|!*|ar|sitecore\Sitecore Client Social Authoring|pe|+item:read|pd|+item:read|ar|sitecore\Analytics Content Profiling|pe|+item:read|pd|+item:read|
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{28D7AA23-A9A3-4ABC-9DE6-AA717F6177CD}" par="Click=trigger%3abutton%3aclick&amp;Command=SocialCenter&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fSocial%2fSocialCenter.js" uid="{714F77BB-7698-4A39-AC19-DD26522D7343}" />
+        <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7b92A70B53-A7B0-4F0D-9D54-BB339049C5F7%7d&amp;Id=SocialCenterPipeline&amp;LoadMode=WhenRun&amp;UseBundle=1" uid="{E8AC880D-2D9D-4F15-B6BF-1DBC1B56F172}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Meddelelser
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031123Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Meddelelser
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Opret, rediger og post en meddelelse på et målnetværk.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Nachrichten
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030834Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Nachrichten
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Erstellen, bearbeiten und posten Sie eine Nachricht in einem Zielnetzwerk.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20080708T210000Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Messages
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Create, edit, and post a message on a target network.
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060226T220000Z
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: メッセージ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031004Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: メッセージ
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: ソーシャルネットワークメッセージの作成、編集、投稿

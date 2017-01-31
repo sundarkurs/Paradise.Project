@@ -1,0 +1,114 @@
+﻿---
+ID: d3da2ba9-683f-445b-b43c-045aa00372a7
+Parent: b83f76cb-23a2-4fbd-bf58-fccca5ca5ae9
+Template: 19054d88-fed7-48ad-87cd-cf458590c303
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Simulator/Select Simulator
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: applications/32x32/document.png
+- ID: 0a734af1-cbd3-4896-8615-6374d2d5dcee
+  Hint: Gallery Width
+  Value: 660
+- ID: 34e35181-9d95-4344-b5cf-ee333c37f5a7
+  Hint: ID
+  Value: SelectSimulator
+- ID: 9383f6dd-2d09-40a4-8004-4f63125dbdf6
+  Hint: Gallery
+  Value: Gallery.DeviceSimulators
+- ID: b6d7d860-0aba-49dd-85d5-4d537646ef7f
+  Hint: Command
+  Value: webedit:selectdevicesimulator
+- ID: c13fe317-1f69-42d1-b8ef-ee783d372926
+  Hint: Gallery Height
+  Value: 380
+- ID: e792e033-3264-4f34-bebf-b2bd82b0fc5a
+  Hint: Icon
+  Value: Office/32x32/tablet_computer.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{864FB743-D10D-4669-8447-DE8209AA7DEA}" par="&amp;GalleryUrl=%2fsitecore%2fclient%2fApplications%2fExperienceEditor%2fPages%2fDeviceSimulators.aspx&amp;Click=trigger%3abutton%3aclick&amp;GalleryWidth=650&amp;Command=ShowDeviceSimulators&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fShowDeviceSimulators.js&amp;GalleryHeight=550" uid="{E55BF07E-2D44-4DA3-A9B9-BF7CF3C714B3}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Vælg simulator
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031119Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: Vælg simulator
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: Vælg enhedssimulator.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Simulator auswählen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030829Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: Simulator auswählen
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: Geräte-Simulator auswählen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20110808T145800
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: Select Simulator
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: Select Device Simulator.
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: シミュレーターを選択
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030959Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: シミュレーターを選択
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: デバイス シミュレーターを選択します

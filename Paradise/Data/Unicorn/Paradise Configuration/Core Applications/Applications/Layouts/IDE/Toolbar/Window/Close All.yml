@@ -1,0 +1,87 @@
+﻿---
+ID: c1710220-e9ec-4a22-8040-3daffb252f33
+Parent: 2124916d-76ee-408f-8fb4-4a2e53f27631
+Template: 998b965e-6ab8-4568-810f-8101d60d0cc3
+Path: /sitecore/content/Applications/Layouts/IDE/Toolbar/Window/Close All
+DB: core
+BranchID: 09b0eb6b-b6b6-4e40-8804-137a4cc14074
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  Hint: __Masters
+  Type: tree list
+  Value: {09B0EB6B-B6B6-4E40-8804-137A4CC14074}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+- ID: cab694fc-e37c-44eb-9012-488b775cf638
+  Hint: Message
+  Value: CloseAll
+Languages:
+- Language: da
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Luk alle dokumenter
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Luk alle
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031116Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Alle Dokumente Schließen
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Alles schließen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030826Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Close All Documents
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051116T145340
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051116T145340
+- Language: ja-JP
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: すべて閉じる
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: すべて閉じる
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030956Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

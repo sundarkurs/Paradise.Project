@@ -1,0 +1,96 @@
+﻿---
+ID: 206dbf65-a420-496f-a885-344678fba690
+Parent: 8787e501-f2e9-434e-9f76-45259d9d8c7c
+Template: abc069d5-3627-4a20-841e-d199b0eb4957
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/View/Content Tree
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 100
+- ID: cc65212f-c5f2-437a-965e-7f0690a82f21
+  Hint: ID
+  Value: RibbonToggleFolders
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Developing|pe|+item:read|pd|+item:read|
+- ID: fa8ffab1-6269-480d-b746-f6bed5a178a2
+  Hint: Click
+  Value: contenteditor:togglefolders
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indholdstræ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031048Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Vis eller skjul indholdstræet.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Indholdstræ
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Content Tree
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030802Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Content Tree anzeigen oder verbergen.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Content Tree
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060418T121640Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Show or hide the content tree.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Content tree
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: コンテンツ ツリー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030928Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: コンテンツ ツリーを表示または非表示にします
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: コンテンツ ツリー

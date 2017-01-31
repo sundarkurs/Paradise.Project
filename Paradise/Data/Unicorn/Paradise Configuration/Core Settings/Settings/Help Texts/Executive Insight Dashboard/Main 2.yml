@@ -1,0 +1,123 @@
+﻿---
+ID: 10c9cd8f-103d-45f4-a09c-152a709b0c95
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Main 2
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: Main
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 2
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Overordnet 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Overordnet 2
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Tid – til filtrering efter dato skal du bruge tidslineskyderen nedenfor og opløsningskontrolelementerne nederst til venstre. Filterets detaljeringsgrad afhænger af de data, der er tilgængelige.
+        
+        Hjemmeside – filtrer efter hjemmeside i systemer med flere hjemmesider.
+        
+        Sprog – filtrer efter sprog for at segmentere efter geografiske regioner og sprog.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031046Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Filtre
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Haupt 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Haupt 2
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Zeitpunkt — Um nach Datum zu filtern, müssen Sie die Zeitachse ganz unten und die Resolution Controls links unten benutzen. Die Granularität der Filter hängt von den verfügbaren Daten ab. 
+        
+        Site — Filtern nach Site auf Multi-Site Systemen.
+        
+        Sprache — Filtern nach Sprache, um nach geographischen Regionen und Sprache zu segmentieren.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030800Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Filter
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Time — To filter by date, use the timeline slider at the bottom and the resolution controls at the bottom left. The granularity of the filter depends upon the data available.
+        
+        Site — Filter by site on multi-site systems.
+        
+        Language — Filter by language to segment by geographic regions and language
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T192400
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Filters 
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: メイン 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: メイン 2
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        時間：
+        日付でフィルター処理する場合は、タイムライン スライダーを分析範囲の変更や選択範囲を狭めたり広げたり移動して変更できます。フィルターの粒度は利用可能なデータに依存します。
+        
+        サイト：
+        マルチ サイト環境においてサイトでフィルター処理を行う場合に使用します。
+        
+        言語：
+        地域と言語でフィルター処理を行う場合に使用します。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030926Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: フィルター

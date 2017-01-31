@@ -1,0 +1,96 @@
+﻿---
+ID: 08372620-aafd-442c-b429-068fee123438
+Parent: 8fac0892-810c-48a8-9403-0c891b959595
+Template: 1db34c92-03b0-4475-9a39-da14e4d9d8fc
+Path: /sitecore/content/Applications/Security/Role Manager/Ribbon/Home/Security/Domain Manager
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 200
+- ID: d47ed548-84d5-4622-9886-5cc164727507
+  Hint: Icon
+  Value: Apps/24x24/routes.png
+- ID: dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b
+  Hint: Click
+  Value: shell:domainmanager
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Domæneadministrator
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031045Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Domæner
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Åbn Domæneadministrator.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Domain Manager
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030758Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Domains
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Domain Manager öffnen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20071106T134126Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Domains
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Open the Domain Manager.
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060317T102719Z
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ドメイン マネージャー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030925Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: ドメイン
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: ドメイン マネージャーを開く

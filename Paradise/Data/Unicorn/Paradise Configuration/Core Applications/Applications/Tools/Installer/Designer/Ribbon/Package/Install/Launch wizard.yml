@@ -1,0 +1,93 @@
+﻿---
+ID: b2bd14da-591e-4cd1-b6aa-43ce4a64d5ca
+Parent: be76ac95-fde8-43a2-809f-f465c789a8e8
+Template: 1db34c92-03b0-4475-9a39-da14e4d9d8fc
+Path: /sitecore/content/Applications/Tools/Installer/Designer/Ribbon/Package/Install/Launch wizard
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 0
+- ID: d47ed548-84d5-4622-9886-5cc164727507
+  Hint: Icon
+  Value: Office/24x24/install.png
+- ID: dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b
+  Hint: Click
+  Value: installer:launchinstallationwizard
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Start guide
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031113Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Start guide…
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Installer pakken
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Starte Assistenten…
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030824Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Starte Assistenten…
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Das Paket installieren
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060612T113443Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Launch wizard
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Install the package
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ウィザードを起動する
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030954Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: ウィザードを起動
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: パッケージをインストール

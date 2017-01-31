@@ -1,0 +1,100 @@
+﻿---
+ID: b3702304-16e6-4ea0-adda-5390b56a4164
+Parent: eba3991f-8d26-41b1-97e5-090d55020aa0
+Template: 72450c9c-98c4-4117-88b7-573110c7e0c0
+Path: /sitecore/content/Documents and settings/All users/Start menu/Left/Template Manager
+DB: core
+BranchID: 5e8cfcf9-cef2-4bdb-9e35-219c50184066
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Apps/48x48/Newspaper.png
+- ID: 238a40da-15f2-4412-b720-8f192ffa7491
+  Hint: Icon
+  Value: Apps/48x48/Newspaper.png
+- ID: 8a1ac797-0304-4c50-aaac-4d9dbbff435f
+  Hint: Application
+  Value: "<link linktype=\"internal\" url=\"/Applications/Templates/Template Manager\" target=\"\" id=\"{32C5C2CD-93A7-4926-A6E0-8BB50BF8B297}\" />"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 600
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Skabelonadministration
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031113Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: Opret nye skabeloner.
+    - ID: c032db76-cc34-4f8f-be2d-d2fb35237aab
+      Hint: Display name
+      Value: Skabelonsadministration
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Template Manager
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030824Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: Neue Templates erstellen.
+    - ID: c032db76-cc34-4f8f-be2d-d2fb35237aab
+      Hint: Display name
+      Value: Template Manager
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140903T070000Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: Create new templates.
+    - ID: c032db76-cc34-4f8f-be2d-d2fb35237aab
+      Hint: Display name
+      Value: Template Manager
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: テンプレート マネージャー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030954Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: テンプレートの作成と編集
+    - ID: c032db76-cc34-4f8f-be2d-d2fb35237aab
+      Hint: Display name
+      Value: テンプレート マネージャー

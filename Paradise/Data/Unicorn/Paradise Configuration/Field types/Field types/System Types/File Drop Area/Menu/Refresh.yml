@@ -1,0 +1,79 @@
+﻿---
+ID: 9577093e-2751-4c73-98cb-b8e796d762c1
+Parent: 7164c820-28dd-4c2f-a761-4842d4f25102
+Template: 998b965e-6ab8-4568-810f-8101d60d0cc3
+Path: /sitecore/system/Field types/System Types/File Drop Area/Menu/Refresh
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 600
+- ID: cab694fc-e37c-44eb-9012-488b775cf638
+  Hint: Message
+  Value: contentfiledroparea:refresh(id=$Target)
+Languages:
+- Language: da
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Opdater
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Opdater
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031108Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Aktualisieren
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Aktualisieren
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030820Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Refresh
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20090212T120209
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: 更新
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 更新
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030948Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

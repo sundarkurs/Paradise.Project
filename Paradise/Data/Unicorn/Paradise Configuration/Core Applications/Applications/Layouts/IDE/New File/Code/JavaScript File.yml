@@ -1,0 +1,97 @@
+﻿---
+ID: 794505d3-7788-4347-a9e1-3b01b021af14
+Parent: a308a3ce-89ed-41c5-93d0-48183d60711b
+Template: d592084b-f776-4764-8843-604f779b6624
+Path: /sitecore/content/Applications/Layouts/IDE/New File/Code/JavaScript File
+DB: core
+BranchID: 9178605b-142f-4d38-9bbc-1d816536b2c2
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: software/16x16/text_code_javascript.png
+- ID: 40f2647d-1876-4995-aeb1-dbc5cd946ee7
+  Hint: Click
+  Value: layout:createfile(ext=js,name=JavaScript.js,filepath=/layouts,filetemplate=/sitecore/shell/templates/JavaScript.js)
+- ID: aa38b514-fc05-4372-be15-811d15fc8595
+  Hint: Icon
+  Value: software/16x16/text_code_javascript.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: JavaScript-fil
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: JavaScript-fil
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031103Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: En scriptfil indeholdende JavaScript-kode.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: JavaScript Datei
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: JavaScript Datei
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030815Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: Eine Script Datei, die JavaScript Code enthält.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: JavaScript File
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051025T210913
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: A script file containing JavaScript code.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051025T210913
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: JavaScript ファイル
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: JavaScript ファイル
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030944Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: JavaScript コードの含まれるスクリプト ファイル
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

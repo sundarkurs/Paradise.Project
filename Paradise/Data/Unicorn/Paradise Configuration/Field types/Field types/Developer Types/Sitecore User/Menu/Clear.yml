@@ -1,0 +1,85 @@
+﻿---
+ID: 77dd48d4-e7de-4102-9af5-fc4e7a96c1dc
+Parent: 62827597-c826-46d3-a829-f1b85dbd49ac
+Template: 998b965e-6ab8-4568-810f-8101d60d0cc3
+Path: /sitecore/system/Field types/Developer Types/Sitecore User/Menu/Clear
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 200
+- ID: cab694fc-e37c-44eb-9012-488b775cf638
+  Hint: Message
+  Value: contentuser:clear(id=$Target)
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Account Managing|pd|+item:read|pe|+item:read|ar|sitecore\Sitecore Client Users|pd|!*|pe|!*|
+Languages:
+- Language: da
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Ryd
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Ryd
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120521T114349:634731974292482538
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: de-DE
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Löschen
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Löschen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120521T114750:634731976705253264
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: en
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: Clear
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Clear
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20081106T180300
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+    Hint: Display name
+    Value: クリア
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: クリア
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120521T115003:634731978035183264
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin

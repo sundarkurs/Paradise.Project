@@ -1,0 +1,91 @@
+﻿---
+ID: 5b692b53-8091-46a2-9501-c1731269017b
+Parent: 1f6a53c6-df87-4d53-a348-26d40bad4d09
+Template: 79e55cb1-fdb0-460a-ab97-b629069f15da
+Path: /sitecore/content/Applications/Media/Image item viewer/Toolbar/Zoom out
+DB: core
+BranchID: 593dca58-5a88-4464-b2c9-a63dd5ce39a4
+SharedFields:
+- ID: 0a9ec22e-c3c1-42e4-875d-c31aeaf28216
+  Hint: Icon
+  Value: Applications/24x24/zoom_out.png
+- ID: 95dce7f7-107b-4e53-be87-f16e707a5d3f
+  Hint: Click
+  Value: ZoomOut
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 30
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Zoom ud
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Zoom ud
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031058Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Zoom ud
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Verkleinern
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Verkleinern
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030811Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Verkleinern
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Zoom out
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Zoom out
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 縮小
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: 縮小
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030939Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: 縮小
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

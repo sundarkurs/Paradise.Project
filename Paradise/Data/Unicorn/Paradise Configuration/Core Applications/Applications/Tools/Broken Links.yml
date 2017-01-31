@@ -1,0 +1,100 @@
+﻿---
+ID: 68be4819-58db-448d-b2d1-fb0a34c953f2
+Parent: 96cc5932-b73d-4781-be5c-85aa3dddf45c
+Template: eb06cec0-5e2d-4dc4-875b-01adcc577d13
+Path: /sitecore/content/Applications/Tools/Broken Links
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: apps/32x32/link_broken.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 0
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{15D7D308-6DF7-4B13-AB42-AF04B4DB79A1}" />
+    </r>
+- ID: fc2b18b3-1631-4c3f-9e47-51df05030026
+  Hint: Icon
+  Value: apps/32x32/link_broken.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Brudte referencer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Scanner databasen for brudte links.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031100Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Brudte links
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Defekte Links
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Durchsucht die Datenbank nach defekten Links.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030813Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Defekte Links
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Scans the database for broken links.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140929T074814Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Scan for Broken Links
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: リンク切れレポート ツール
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: データベース内のリンク切れを検索します
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030941Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: リンク切れレポート ツール

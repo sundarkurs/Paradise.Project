@@ -1,0 +1,48 @@
+﻿---
+ID: 70c14b23-ad29-44b2-959f-4d81c9e59c5b
+Parent: 518d7ab3-8833-4d52-8834-4c3d04446ff2
+Template: 97b61451-9a75-4f59-93a5-dbd8d4f44421
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Versions/Remove
+DB: core
+SharedFields:
+- ID: 3f5bd18e-8cee-4cd5-9ee3-77863947b312
+  Hint: Menu
+  Value: /sitecore/content/Applications/WebEdit/Menus/Remove versions
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 20
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{9E57FCA0-F2B9-4780-8A14-208B339A86FF}" par="Database=core&amp;Id=LargeDropDownButton&amp;Command=RemoveVersions&amp;IconAndLabelRequest=ExperienceEditor.RemoveVersions.GetIconLabel&amp;DefaultListItemCommand=RemoveVersions&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fRemoveVersions.js&amp;ListDataSourceItemID=%7b9ABB7631-B5C0-4446-AA26-0B2F4DC059E0%7d" uid="{6B6859DD-2098-4000-BFF0-0106C3983CFF}" />
+        <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7bD0171508-41F8-41C3-A369-5DDA45A09E19%7d&amp;Id=RemoveItemVersionsPipeline&amp;LoadMode=WhenRun&amp;UseBundle=1" uid="{EB2FF9CB-F8A1-4DC0-AEBF-65269DDD85A6}" />
+        <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7b1C330FBF-72AD-4C56-A75B-1EB61DC4EAED%7d&amp;Id=RemoveLanguagePipeline&amp;LoadMode=WhenRun&amp;UseBundle=1" uid="{1CFFBD4C-4500-4667-AFE4-E65DC25FB699}" />
+      </d>
+    </r>
+- ID: f5a07916-7bca-4fba-857c-a5d166c332d4
+  Hint: Icon
+  Value: Office/24x24/remove_version.png
+- ID: fc6b80f1-406d-47f0-a2b3-fcd7a8ea9d74
+  Hint: Click
+  Value: webedit:hidecontrol
+Languages:
+- Language: en
+  Fields:
+  - ID: b11f9f5f-88fc-48c5-9501-2e827ef40ead
+    Hint: Header
+    Value: Remove
+  - ID: db8c4e34-586c-4ded-bc95-b993fc3a01a8
+    Hint: Tooltip
+    Value: Remove the item version that is currently displayed.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20150217T153142Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

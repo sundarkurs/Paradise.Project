@@ -1,0 +1,48 @@
+﻿---
+ID: ab2965c4-55c6-4948-a975-dc29b2bba390
+Parent: eea7547b-0f44-4547-8b83-b80cec6a1349
+Template: 1db34c92-03b0-4475-9a39-da14e4d9d8fc
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Layout/Edit all versions
+DB: core
+SharedFields:
+- ID: 1193b1a3-0148-413f-a979-49b39aa4a2af
+  Hint: ID
+  Value: ShowAllVersionsRibbonButton2
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 74
+- ID: d47ed548-84d5-4622-9886-5cc164727507
+  Hint: Icon
+  Value: Office/24x24/flag_generic.png
+- ID: dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b
+  Hint: Click
+  Value: webedit:hidecontrol
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Users|pe|!*|ar|sitecore\Analytics Personalization|pe|!*|+item:read|ar|sitecore\Analytics Testing|pe|!*|+item:read|
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{9E57FCA0-F2B9-4780-8A14-208B339A86FF}" par="Database=core&amp;Id=LargeDropDownButton1&amp;Command=SelectLayout&amp;IconAndLabelRequest=ExperienceEditor.Versions.IconLabel&amp;DefaultListItemCommand=SelectLayout&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fSelectLayout.js&amp;ListDataSourceItemID=%7b184DD9EA-BD48-461D-9C44-5B9865064AB0%7d" uid="{AF302532-F233-4D13-A33C-4EA83064442D}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20070629T084342Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Edit shared layout.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Select which layout you want to edit. The changes applied to the shared layout will affect all the versions of this page in all languages.

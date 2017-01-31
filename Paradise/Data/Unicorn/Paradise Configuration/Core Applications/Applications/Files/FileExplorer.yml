@@ -1,0 +1,107 @@
+﻿---
+ID: 11d2b3f4-704f-4f8e-b537-cd646c6d325b
+Parent: d0c30f0b-908b-465b-9bcc-5b9b89494be3
+Template: eb06cec0-5e2d-4dc4-875b-01adcc577d13
+Path: /sitecore/content/Applications/Files/FileExplorer
+DB: core
+BranchID: 1f0770ea-8b77-4110-91aa-cc00dee102dd
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: apps/32x32/folder%20(1).png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 99
+- ID: c687aa26-a85d-4c42-b32e-11e5faecdf05
+  Hint: Chrome
+  Value: WindowChrome
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Developing|pe|+item:write|+item:read|+item:rename|+item:delete|+item:create|pd|+item:delete|+item:write|+item:rename|+item:read|+item:create|ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Users|pe|!*|
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4DD46366-D978-40C3-90F8-1DD496C9DD76}" />
+    </r>
+- ID: fc2b18b3-1631-4c3f-9e47-51df05030026
+  Hint: Icon
+  Value: apps/32x32/folder%20(1).png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Stifinder
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Viser filer på dit system.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031046Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Stifinder
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Datei Explorer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Zeigt die Dateien in Ihrem System an
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030800Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Datei Explorer
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Displays files on your system.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20110811T123802Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: File Explorer
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ファイル エクスプローラー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: システム上のファイルを表示します
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030926Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: ファイル エクスプローラー

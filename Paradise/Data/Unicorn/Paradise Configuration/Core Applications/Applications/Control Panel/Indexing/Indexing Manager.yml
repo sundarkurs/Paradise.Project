@@ -1,0 +1,81 @@
+﻿---
+ID: a24bcef0-a54c-43b2-b7d0-c24b489386f2
+Parent: 63e13ae2-503a-49bd-8f30-25f2721c3598
+Template: bdb6fa46-2f76-4bde-8138-52b56c2fc47e
+Path: /sitecore/content/Applications/Control Panel/Indexing/Indexing Manager
+DB: core
+SharedFields:
+- ID: 20f47b0c-b146-4847-ac4d-0b25983514b3
+  Hint: Click
+  Value: indexing:runmanager
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 30
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indekseringsstyring
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031110Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Indekseringsstyring
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indexierungsmanager
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030821Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Indexierungsmanager
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20111103T101900
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Indexing manager
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: インデックス マネージャーを開く
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030950Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: インデックス マネージャーを開く
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

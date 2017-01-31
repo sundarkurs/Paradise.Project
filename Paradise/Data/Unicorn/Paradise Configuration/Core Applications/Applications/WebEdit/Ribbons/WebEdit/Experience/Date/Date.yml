@@ -1,0 +1,75 @@
+﻿---
+ID: 67aa2984-8fc2-46a9-9367-22974b4f97bf
+Parent: f617b666-7760-4924-b9eb-48502303a196
+Template: 3619f992-4177-4124-89dd-dabfc2baf6bb
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Date/Date
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 149
+- ID: c78d9b41-ffeb-402d-93e8-e1270d8bb787
+  Hint: Type
+  Value: Sitecore.ExperienceEditor.Speak.Ribbon.Panels.DefaultPreviewDatePanel,Sitecore.ExperienceEditor.Speak.Ribbon
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{9A4D53ED-8D69-457B-84B7-A9494D278D7A}" par="PanelType=Sitecore.ExperienceEditor.Speak.Ribbon.Panels.PreviewDatePanel.PreviewDatePanel%2c+Sitecore.ExperienceEditor.Speak.Ribbon" uid="{87F20369-F202-4759-8902-F785A11114B1}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Dato
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031100Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Datum
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030813Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20070312T141340
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: プレビュー日時
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030941Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

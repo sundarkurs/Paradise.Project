@@ -1,0 +1,99 @@
+﻿---
+ID: 6221025a-0d5d-41ed-bdbe-5a3bac6edc80
+Parent: 17b05e93-f1f7-44ac-9707-2f783e047e6d
+Template: 9f62ebd5-2280-4a35-be51-a210d831d687
+Path: /sitecore/content/Applications/Layouts/GridDesigner/Ribbon/Layout/Edit/Redo
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Applications/16x16/redo.png
+- ID: 4c2dedb4-40fb-4166-8221-c4dd3e914478
+  Hint: Click
+  Value: griddesigner:redo
+- ID: 8e40ab40-8c83-4ff7-9d33-38ed9458de1e
+  Hint: Icon
+  Value: Applications/16x16/redo.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 49
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Annuller fortryd
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031059Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Annullerer den sidste fortrudte handling
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Annuller fortryd
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Wiederherstellen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030812Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Die letzte Änderung wiederherstellen
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Wiederherstellen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20061205T155159
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Redos the last undone operation
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Redo
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060316T145942
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: やり直し
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030940Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: 最後に元に戻した作業をやり直します
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: やり直し

@@ -1,0 +1,85 @@
+﻿---
+ID: a8ca1898-5226-4a04-b3cf-618a72a104f7
+Parent: eba3991f-8d26-41b1-97e5-090d55020aa0
+Template: 72450c9c-98c4-4117-88b7-573110c7e0c0
+Path: /sitecore/content/Documents and settings/All users/Start menu/Left/Security Editor
+DB: core
+BranchID: 5e8cfcf9-cef2-4bdb-9e35-219c50184066
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Apps/48x48/Shield.png
+- ID: 8a1ac797-0304-4c50-aaac-4d9dbbff435f
+  Hint: Application
+  Value: "<link text=\"Security Editor\" linktype=\"internal\" url=\"/Applications/Security/Security editor\" anchor=\"\" title=\"\" class=\"\" target=\"_self\" id=\"{BCCB851C-31D2-456E-8E58-C966562A7340}\"/>"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 400
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Securing|pd|+item:read|pe|+item:read|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sikkerhedsredigering
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031111Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: Tildel og tilbagekald tilladelser.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Security Editor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030822Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: Setzen und entziehen von Benutzerrechte.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140902T071650Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: Grant and revoke permissions.
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: セキュリティ エディター
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030952Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: bb865e67-0be3-49d8-b8bd-1db4b34ab2e3
+      Hint: Tool tip
+      Value: セキュリティの設定

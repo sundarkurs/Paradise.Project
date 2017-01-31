@@ -1,0 +1,82 @@
+﻿---
+ID: b34aa850-6cb5-4044-81fb-def997a4d2ea
+Parent: 24f29147-f13d-4655-b266-b572718d0fb3
+Template: e7142fe9-4df3-48b5-86c0-2e1fb728059c
+Path: /sitecore/content/Applications/Content Editor/Editors/Media/Media Folder/Buttons/WebDAV Open
+DB: core
+SharedFields:
+- ID: 083228ad-c969-40be-a14a-0cf42f39c3b2
+  Hint: Command
+  Value: webdav:openview
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 299
+- ID: bd3d128a-a690-4d91-a553-e33b3ef8cc39
+  Hint: Icon
+  Value: Applications/32x32/selection_up.png
+Languages:
+- Language: da
+  Fields:
+  - ID: 52635e27-9e6b-4be6-a571-3a419a93102c
+    Hint: Header
+    Value: Træk og slip
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: WebDAV, åbn
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031113Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 52635e27-9e6b-4be6-a571-3a419a93102c
+    Hint: Header
+    Value: Drag & Drop
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: WebDAV Öffnen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030824Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 52635e27-9e6b-4be6-a571-3a419a93102c
+    Hint: Header
+    Value: Drag & Drop
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20090121T161107
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 52635e27-9e6b-4be6-a571-3a419a93102c
+    Hint: Header
+    Value: アップロード (ドラッグ＆ドロップ)
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: WebDAV を開く
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030954Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

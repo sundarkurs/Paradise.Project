@@ -1,0 +1,97 @@
+﻿---
+ID: 14fda7e3-f04f-4009-bcce-0233f3e0dc21
+Parent: ee1612ff-5d79-45f8-811a-042b17b85188
+Template: f58958d2-555b-4f56-946c-589e8866880c
+Path: /sitecore/content/Documents and settings/All users/Start menu/Programs/Sitecore on the Net/Sitecore home page
+DB: core
+BranchID: a28303b4-f2d5-42e6-a3c6-79f1d06f40d4
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: apps/32x32/sc.png
+- ID: 6ba1018f-9794-4798-963e-601d413b9ca3
+  Hint: Message
+  Value: "RunExternal(\\"http://www.sitecore.net\\", \\"\\", \\"Software/32x32/application.png\\", \\"Sitecore\\")"
+- ID: 9efed9bb-2ec8-498a-91b9-655091224e4d
+  Hint: Icon
+  Value: apps/32x32/sc.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 10
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sitecores startside
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031047Z
+    - ID: 326cd362-cb1c-4e81-b5f2-5efa940351f7
+      Hint: Display name
+      Value: Sitecores startside
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e7d3348b-8323-42ba-bc9c-48e1f4e994dc
+      Hint: Tool tip
+      Value: Åbn Sitecores startside
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sitecore Homepage
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030800Z
+    - ID: 326cd362-cb1c-4e81-b5f2-5efa940351f7
+      Hint: Display name
+      Value: Sitecore Homepage
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e7d3348b-8323-42ba-bc9c-48e1f4e994dc
+      Hint: Tool tip
+      Value: Sitecore Homepage öffnen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140929T075047Z
+    - ID: 326cd362-cb1c-4e81-b5f2-5efa940351f7
+      Hint: Display name
+      Value: Sitecore Home Page
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e7d3348b-8323-42ba-bc9c-48e1f4e994dc
+      Hint: Tool tip
+      Value: Open the Sitecore Home Page
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: サイトコア ホームページ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030927Z
+    - ID: 326cd362-cb1c-4e81-b5f2-5efa940351f7
+      Hint: Display name
+      Value: サイトコア ホームページ
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e7d3348b-8323-42ba-bc9c-48e1f4e994dc
+      Hint: Tool tip
+      Value: サイトコア ホームページを開きます

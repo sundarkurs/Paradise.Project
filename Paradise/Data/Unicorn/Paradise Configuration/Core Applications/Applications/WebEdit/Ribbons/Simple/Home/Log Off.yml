@@ -1,0 +1,87 @@
+﻿---
+ID: 51508d2a-1cbb-4e90-b33b-88ab7d64c869
+Parent: b783c8e3-5545-43b3-a7c2-9ab9158ce1b7
+Template: 8f3d8f9b-2d76-4ace-803f-35415d2b230a
+Path: /sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Log Off
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Log af
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031057Z
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: Afslutter preview
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Luk
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Abmelden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030810Z
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: Vorschau beenden
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Schließen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20080214T232032
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: Ends Preview
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: Close
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ログオフ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030938Z
+    - ID: 4061c1c7-dc71-4c1d-932d-22fd5a37adac
+      Hint: Tooltip
+      Value: プレビューを終了します
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c95d21bd-66c3-444b-a37f-d346cbaf2b55
+      Hint: Header
+      Value: 閉じる

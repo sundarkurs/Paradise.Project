@@ -1,0 +1,99 @@
+﻿---
+ID: 1d63fde1-4bf3-4df4-92fe-26d431d205b6
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Main 5
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: Main
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 5
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Overordnet 5
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Overordnet 5
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: Nogle dashboards har yderligere muligheder. De tilgængelige muligheder kan variere en smule, afhængigt af hvilket dashboard eller diagram du ser på. Knapperne for disse muligheder vises i nederste venstre hjørne på hvert dashboard.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031048Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Ekstra indstillinger
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Haupt 5
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Haupt 5
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: Einige Dashboards haben zusätzliche Optionen. Die verfügbaren Optionen variieren leicht, je nachdem welches Dashboard oder welches Diagramm Sie ansehen. Die Optionsbuttons erscheinen in der linken unteren Ecke des jeweiligen Dashboards.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030802Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Zusätzliche Optionen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: Some dashboards have additional options. The options available vary slightly depending on which dashboard or chart you are viewing. These option buttons appear at the lower left corner of each dashboard. 
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T192400
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Additional Options
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: メイン 5
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: メイン 5
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: いくつかのダッシュボードの追加オプションがあります。使用可能なオプションはダッシュボードまたはグラフに応じて異なります。これらのオプション ボタンは、各ダッシュボードの左下隅に表示されます。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030928Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: 追加オプション

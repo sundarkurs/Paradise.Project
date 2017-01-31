@@ -1,0 +1,100 @@
+﻿---
+ID: beb6f1a9-fe85-4580-b85b-efa468b085e8
+Parent: 727c7c08-fa01-4dd6-bc60-78cb6bd8d1b5
+Template: 79e55cb1-fdb0-460a-ab97-b629069f15da
+Path: /sitecore/content/Applications/Debugger/Viewers/Save Trace
+DB: core
+BranchID: 593dca58-5a88-4464-b2c9-a63dd5ce39a4
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Software/24x24/debug_view.png
+- ID: 0a9ec22e-c3c1-42e4-875d-c31aeaf28216
+  Hint: Icon
+  Value: Software/24x24/debug_view.png
+- ID: 95dce7f7-107b-4e53-be87-f16e707a5d3f
+  Hint: Click
+  Value: debugger:savetrace
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: -70
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Gem sporing
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Gem sporing
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031116Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Gem det aktuelle spor til en fil.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Trace speichern
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Trace speichern
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030826Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Aktuellen Trace in Datei speichern
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Save Trace
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060118T134601
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Save the current trace to a file.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060118T134601
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: トレースを保存
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: トレースを保存
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030956Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: 現在のトレースをファイルに保存します
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

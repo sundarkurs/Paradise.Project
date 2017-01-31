@@ -1,0 +1,113 @@
+﻿---
+ID: afbd1ed4-3322-46c8-a444-5b1f16e0ec12
+Parent: 727c7c08-fa01-4dd6-bc60-78cb6bd8d1b5
+Template: 79e55cb1-fdb0-460a-ab97-b629069f15da
+Path: /sitecore/content/Applications/Debugger/Viewers/Stop Debugging
+DB: core
+BranchID: 593dca58-5a88-4464-b2c9-a63dd5ce39a4
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Software/24x24/debug_stop.png
+- ID: 0a9ec22e-c3c1-42e4-875d-c31aeaf28216
+  Hint: Icon
+  Value: Software/24x24/debug_stop.png
+- ID: 95dce7f7-107b-4e53-be87-f16e707a5d3f
+  Hint: Click
+  Value: StopDebugging
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 230
+Languages:
+- Language: da
+  Fields:
+  - ID: a2ac79d5-0bc3-458f-8e24-486ab54a90c0
+    Hint: KeyCode
+    Value: c116
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Stop debugging
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Stop debugging
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031112Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Stop debugging af siden
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: a2ac79d5-0bc3-458f-8e24-486ab54a90c0
+    Hint: KeyCode
+    Value: c116
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Debugging stoppen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Debugging stoppen
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030823Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Debugging der Seite stoppen
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: a2ac79d5-0bc3-458f-8e24-486ab54a90c0
+    Hint: KeyCode
+    Value: c116
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Stop Debugging
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060118T134049
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Stop debugging the page
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060118T134049
+- Language: ja-JP
+  Fields:
+  - ID: a2ac79d5-0bc3-458f-8e24-486ab54a90c0
+    Hint: KeyCode
+    Value: c116
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: デバッグを停止
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: デバッグを停止
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030953Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: ページのデバッグを停止します
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

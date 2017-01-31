@@ -1,0 +1,93 @@
+﻿---
+ID: 09bdecc8-bb92-4d9f-9adb-aee8ec835a56
+Parent: dbb07802-dcce-48a5-8317-fa382804d1cc
+Template: 9f62ebd5-2280-4a35-be51-a210d831d687
+Path: /sitecore/content/Applications/Security/Domain Manager/Ribbon/Home/Serialization/Serialize Roles
+DB: core
+SharedFields:
+- ID: 4c2dedb4-40fb-4166-8221-c4dd3e914478
+  Hint: Click
+  Value: domainmanager:dumproles
+- ID: 8e40ab40-8c83-4ff7-9d33-38ed9458de1e
+  Hint: Icon
+  Value: Office/16x16/serialize_roles.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 175
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Serialiser roller
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031045Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Serialiser rollerne på domænet til filsystemet
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Serialiser domæneroller
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Rollen serialisieren
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030759Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Alle  Rollen der Domain in das Dateisystem serialisieren
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Rollen serialisieren
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20081229T150314Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Serialize the roles in the selected domain to the file system.
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Serialize roles
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ロールのシリアル化
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030925Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: ドメインのロールをファイル システムへシリアル化します
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: ドメイン ロールをシリアル化

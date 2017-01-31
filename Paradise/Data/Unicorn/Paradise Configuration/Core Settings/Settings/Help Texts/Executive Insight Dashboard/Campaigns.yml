@@ -1,0 +1,123 @@
+﻿---
+ID: bca36471-6035-4f56-80fc-df1ec533f93a
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Campaigns
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: List
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Kampagner
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Kampagner
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Et vandret søjlediagram, der viser de mest vellykkede kampagner på din hjemmeside. 
+        
+        Brug dette dashboard til at identificere både vellykkede og fejlslagne kampagner.
+        
+        Standardvisningen viser, hvilke kampagner der førte til besøg af den højeste værdi arrangeret efter værdi. Dette diagram er ikke tilgængeligt ved visning af trafik.
+        
+        Tip
+        Hvis du vil have vist et mere detaljeret pop op-diagram for en enkelt kampagne, skal du bevæge musen hen over en af de farvede søjler i kampagnediagrammet. Klik på søjlerne for at få vist diagrammet for startsider for den valgte kampagne.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031115Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Kampagnen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Kampagnen
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Ein horizontales Balkendiagramm, das die erfolgreichsten Kampagnen auf Ihrer Website anzeigt. 
+        
+        Benutzen Sie dieses Dashboard, um sowohl erfolgreiche als auch nicht erfolgreiche Kampagnen zu identifizieren. 
+        
+        Die Standardansicht zeigt, welche Kampagnen zu den Besuchen mit dem meisten Wert geführt haben, aufgeführt nach Wert. Dieses Diagramm ist nicht verfügbar, wenn man den Traffic betrachtet. 
+        
+        Tipp
+        Um ein detaillierteres Pop-up Diagramm zu einer einzelnen Kampagne anzusehen, bewegen Sie die Maus über eine der drei farbigen Balken im Kampagnediagramm. Klicken Sie auf die Balken, um das Diagramm der Einstiegsseiten für die ausgewählte Kampagne zu sehen.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030825Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Campaigns
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        A horizontal bar chart that shows the most successful campaigns on your website. 
+        
+        Use this dashboard to identify both successful and unsuccessful campaigns.
+        
+        The default view shows which campaigns led to the highest value visits ranked by value. This chart is not available when viewing traffic.
+        
+        Tip
+        To see a more detailed pop-up chart for an individual campaign, move the mouse over one of the three colored bars in the campaign chart. Click on the bars to see the Entry Pages chart for the selected campaign.
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T193100
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: キャンペーン
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: キャンペーン
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Web サイトで最も大きな成功を収めたキャンペーンを、水平棒グラフで示します。
+        
+        このダッシュボードを使用すると、成功したキャンペーン、または失敗したキャンペーンを識別することができます。
+        
+        デフォルトのビューには、最もバリューの高い訪問をもたらしたキャンペーンが、バリュー順にランク付けされます。このグラフは、トラフィックを表示するときには使用できません。
+        
+        キャンペーン チャートのバーにマウス オーバーすることでキャンペーン個別の詳細なポップアップ チャートが表示されます。
+        バーをクリックすると選択したキャンペーンのエントリー ページが表示されます。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030955Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

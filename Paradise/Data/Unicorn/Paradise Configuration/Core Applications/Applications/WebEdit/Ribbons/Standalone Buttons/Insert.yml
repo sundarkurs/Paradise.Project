@@ -1,0 +1,104 @@
+﻿---
+ID: 3fec6709-85b2-46d7-938b-696d45826cc2
+Parent: 0caf9b0e-cfeb-4861-aa5e-09883bc3f692
+Template: 02404208-46d4-49bf-988b-eb363a52a1c9
+Path: /sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Insert
+DB: core
+SharedFields:
+- ID: 1bb289d6-44d7-4fcc-af15-db32b841f957
+  Hint: Click
+  Value: webedit:new
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 150
+- ID: e8cc41c7-c304-4282-b782-e21ca32d324c
+  Hint: Icon
+  Value: Office/16x16/insert_from_template.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{4448646E-510C-4D35-B3B1-220029823620}" par="Id=LargeButton&amp;Click=trigger%3abutton%3aclick&amp;Command=InsertPage&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fInsertPage.js" uid="{8BA4F594-3859-4F82-BEA4-74A8242CEA32}" />
+        <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7bDF6345DC-ACC8-43B4-BC08-DFBF29906505%7d&amp;Id=InsertItemPipeline&amp;LoadMode=Immediately&amp;UseBundle=1" uid="{FD5995E1-0BA3-4130-924D-635EA892BD29}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Indsæt et nyt indholdsstykke.
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indsæt
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Indsæt side
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031054Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Fügen Sie neuen Inhalt ein.
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Einfügen
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Einfügen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030807Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Insert a new piece of content.
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Insert Page
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20110217T160300Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: 新しいコンテンツを挿入します。
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 挿入
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: ページを挿入
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030935Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

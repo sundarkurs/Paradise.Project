@@ -1,0 +1,114 @@
+﻿---
+ID: aa0a8c5b-2b47-46b2-9a82-ccccd6f7cd7e
+Parent: e8ff112b-0ed9-450d-aacc-619d22d3f4d0
+Template: 6b84bd97-60e8-4e18-b1fc-9f92ae0659c5
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Appearance/Set Icon
+DB: core
+SharedFields:
+- ID: 1ba953ee-84ad-4753-870e-abe82af900c4
+  Hint: Command
+  Value: contenteditor:seticon
+- ID: 47ab3889-0da4-418c-b4a0-ca58f0ae4c1f
+  Hint: Gallery Width
+  Value: 400
+- ID: 601ebec8-1d78-4d06-8228-45c28d9fabd8
+  Hint: Icon
+  Value: Office/16x16/Not relevant
+- ID: 71219cb2-bd4f-4bcb-8891-a821870e6197
+  Hint: KeyCode
+  Value: sca73
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Configuring|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Angiv ikon
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031111Z
+    - ID: 29d3164d-de97-4ace-bcb4-83cb6954bee3
+      Hint: Gallery
+      Value: Gallery.Icons
+    - ID: 37103048-b73c-4621-88eb-77912caca135
+      Hint: Tooltip
+      Value: Tildel et ikon.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: cf5bb092-1a85-4c78-b486-a79fd6d84771
+      Hint: Header
+      Value: Ikon
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Icon einstellen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030822Z
+    - ID: 29d3164d-de97-4ace-bcb4-83cb6954bee3
+      Hint: Gallery
+      Value: Gallery.Icons
+    - ID: 37103048-b73c-4621-88eb-77912caca135
+      Hint: Tooltip
+      Value: Ein Icon zuweisen
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: cf5bb092-1a85-4c78-b486-a79fd6d84771
+      Hint: Header
+      Value: Icon
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 212b99df-c246-46ce-9e51-86db77e3bc97
+      Hint: Gallery Height
+      Value: 250
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060412T123554
+    - ID: 29d3164d-de97-4ace-bcb4-83cb6954bee3
+      Hint: Gallery
+      Value: Gallery.Icons
+    - ID: 37103048-b73c-4621-88eb-77912caca135
+      Hint: Tooltip
+      Value: Assign an icon.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: cf5bb092-1a85-4c78-b486-a79fd6d84771
+      Hint: Header
+      Value: Icon
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: アイコンを設定
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030952Z
+    - ID: 29d3164d-de97-4ace-bcb4-83cb6954bee3
+      Hint: Gallery
+      Value: Gallery.Icons
+    - ID: 37103048-b73c-4621-88eb-77912caca135
+      Hint: Tooltip
+      Value: アイコンを設定します
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: cf5bb092-1a85-4c78-b486-a79fd6d84771
+      Hint: Header
+      Value: アイコン

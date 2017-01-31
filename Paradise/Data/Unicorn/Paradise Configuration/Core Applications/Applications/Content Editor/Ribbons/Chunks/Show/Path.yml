@@ -1,0 +1,96 @@
+﻿---
+ID: 25d1e457-fe41-4161-830a-a24c19da56ea
+Parent: 88b83608-2e93-4f9f-8f60-47533a3c53e3
+Template: 9f62ebd5-2280-4a35-be51-a210d831d687
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Show/Path
+DB: core
+SharedFields:
+- ID: 4c2dedb4-40fb-4166-8221-c4dd3e914478
+  Hint: Click
+  Value: clipboard:copypathtoclipboard
+- ID: 56776edf-261c-4abc-9fe7-70c618795239
+  Hint: __Help link
+  Value: <link/>
+- ID: 8e40ab40-8c83-4ff7-9d33-38ed9458de1e
+  Hint: Icon
+  Value: Office/16x16/Graph_connection.png
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sti
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031049Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Kopier stien for det aktuelle element til udklipsholderen
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Sti
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Pfad
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030803Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Den Pfad des aktuellen Items in die Zwischenablage kopieren
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Pfad
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20061123T161712
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: Copy the path of the current item to the clipboard
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: Path
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: アイテム Path
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030929Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a47cd065-c361-4332-b22b-7e2148de06f4
+      Hint: Tooltip
+      Value: 現在の Path をクリップボードにコピーします
+    - ID: c184f18b-b452-44d6-8376-facd6cef8a42
+      Hint: Header
+      Value: アイテム Path

@@ -1,0 +1,104 @@
+﻿---
+ID: e9ca68d1-7700-4b5d-8878-31932938fb07
+Parent: d1ec1a0c-ca39-44a3-a593-d941c49c4d57
+Template: 1db34c92-03b0-4475-9a39-da14e4d9d8fc
+Path: /sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Advanced/Capture Click Action
+DB: core
+SharedFields:
+- ID: 1193b1a3-0148-413f-a979-49b39aa4a2af
+  Hint: ID
+  Value: NewClientActionButton
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 50
+- ID: d47ed548-84d5-4622-9886-5cc164727507
+  Hint: Icon
+  Value: /sitecore/shell/themes/standard/Custom/32x32/fxm_capture_click_action.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7bA91C8553-C42E-41C9-920F-6BC294C748E4%7d&amp;Id=AttributesPipeline&amp;LoadMode=Immediately&amp;UseBundle=1" uid="{F3BF3301-7C1D-439D-ABAD-599897D58F3C}" />
+        <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7b7D17BF95-CDCC-4280-A592-B5F755237872%7d&amp;Id=GoalsPipeline&amp;LoadMode=Immediately&amp;UseBundle=1" uid="{F3BF3301-7C1D-439D-ABAD-599897D58F3C}" />
+        <r id="{28D7AA23-A9A3-4ABC-9DE6-AA717F6177CD}" par="Click=trigger%3abutton%3aclick&amp;Command=EnableFxmClientActions&amp;PageCodeScriptFileName=%2f-%2fspeak%2fv1%2fFXM%2fExperienceEditorExtension%2fCommands%2fEnableFxmClientActions.js" uid="{7FB3D015-E8C7-4D28-918E-8D6A0200D33C}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Registrer klik-handling
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031123Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Registrer klik-handling
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Opret en ny regel for at registrere brugerhandlinger
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Erfassung Klicken Aktion
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20141022T014748:635495392682435950Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Erfassung Klicken Aktion
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Erstellen Sie eine neue Regel, um Benutzeraktionen zu erfassen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140721T142857Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: Capture Click Action
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: Create a new rule to capture user actions
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: クリック アクションをキャプチャ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031003Z
+    - ID: 4df6da21-e745-444c-956e-1d4a96ab8821
+      Hint: Header
+      Value: クリック アクションをキャプチャ
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: a1a31a93-c4a0-4396-b629-67c33001a3cf
+      Hint: Tooltip
+      Value: 新しいルールを作成してユーザー アクションをキャプチャします

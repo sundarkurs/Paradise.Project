@@ -1,0 +1,36 @@
+﻿---
+ID: 425235da-e589-48bd-b305-9ab439553946
+Parent: a34d45f0-27c8-4fae-ac26-189f9d99dc05
+Template: abc069d5-3627-4a20-841e-d199b0eb4957
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Capabilities/Field validation
+DB: core
+SharedFields:
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{BDE651C9-7988-4950-8E01-EA80106563A2}" par="Click=trigger%3abutton%3acheck&amp;Command=EnableFieldsValidation&amp;RegistryKey=%2fCurrent_User%2fPage+Editor%2fCapability%2fFieldsValidation&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fEnableFieldsValidation.js" uid="{B94AB737-B0D0-43C5-BDEB-79B28731ABAF}" />
+      </d>
+    </r>
+- ID: fa8ffab1-6269-480d-b746-f6bed5a178a2
+  Hint: Click
+  Value: webedit:hidecontrol
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 00010101T000000
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Enable or disable continuous field validation.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Field validation

@@ -1,0 +1,85 @@
+﻿---
+ID: 4754013d-1843-49b1-be45-f0d798993f89
+Parent: b5b44327-05b7-4c58-bfae-4087207cdb4f
+Template: bdb6fa46-2f76-4bde-8138-52b56c2fc47e
+Path: /sitecore/content/Applications/Control Panel/Preferences/User Options
+DB: core
+BranchID: c5f1aa82-f831-477e-ba04-11d435d476e4
+SharedFields:
+- ID: 20f47b0c-b146-4847-ac4d-0b25983514b3
+  Hint: Click
+  Value: shell:useroptions
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 10
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pd|+item:read|pe|+item:read|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Brugerindstillinger
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031055Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Skift dine applikationsindstillinger
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Benutzeroptionen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030808Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Anwendungsoptionen ändern
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060331T135000
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: Change Application options
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060331T135000
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ユーザー オプション
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030936Z
+    - ID: 48323b75-9f6a-4779-ac8b-a01da56b35b3
+      Hint: Header
+      Value: アプリケーション オプションを変更する
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

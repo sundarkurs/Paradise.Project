@@ -1,0 +1,72 @@
+﻿---
+ID: 7cea90b1-6dfc-4c1c-998a-b7de41f1dae3
+Parent: b5afbc61-a75e-4332-9654-5189959c7dcc
+Template: beebc988-14ce-441a-b9e2-2a38d6e4a87d
+Path: /sitecore/content/Applications/Debugger/Portal/Settings
+DB: core
+SharedFields:
+- ID: 0bde2986-e19d-4e02-b998-d4dce9d8ffa5
+  Hint: ID
+  Value: DebuggerSettingsPortlet
+- ID: 732f96ac-2796-472a-917a-efb209cf535b
+  Hint: Order
+  Value: 10
+- ID: 93e0c773-2747-4391-ab8e-70ec95025419
+  Hint: Zone
+  Value: DefaultZone
+- ID: aed5e3e1-570b-436a-8d8d-4f688e7444ef
+  Hint: Control name
+  Value: DebuggerSettingsPortlet
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 5
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indstillinger
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031104Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Einstellungen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030816Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 設定
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030945Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

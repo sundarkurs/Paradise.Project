@@ -1,0 +1,88 @@
+﻿---
+ID: 183c7aca-6922-48d2-b532-fc71ace5dace
+Parent: 350bb5c6-9d0f-4a33-8b22-5e3e0648c9ab
+Template: 2beb0e4f-f9aa-4fac-ba9f-81a331c03522
+Path: /sitecore/content/Applications/Debugger/Reports/Performance counters
+DB: core
+BranchID: b126d93b-5bb2-4e8b-81dc-5dbfb7f648d2
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Business/24x24/line-chart.png
+- ID: 20856335-8ec3-4ef9-bf40-e1e4ca578f12
+  Hint: Formatter type
+  Value: Sitecore.Web.UI.HtmlControls.ReportXslFormatter,Sitecore.Kernel
+- ID: 607401a9-e8ba-4a14-9be6-fde7f076d021
+  Hint: Source type
+  Value: Sitecore.Web.UI.HtmlControls.ReportFileSource,Sitecore.Kernel
+- ID: bfde627b-8859-4a89-a4e3-236c421bee98
+  Hint: Icon
+  Value: Business/24x24/line-chart.png
+- ID: e5c086fd-be03-45a4-9b0f-142d2e1da7f5
+  Hint: Formatter parameters
+  Value: xsl=/sitecore/shell/applications/Debugger/Counter.xslt
+- ID: e96c1313-2d1f-4022-be9d-f3576fe44fc6
+  Hint: Source parameters
+  Value: file=$COUNTER
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Performancetællere
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1595bdf2-1007-4f6a-80f5-f45dbe79e0f3
+      Hint: Title
+      Value: Performancetællere
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031047Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Leistung Zähler
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1595bdf2-1007-4f6a-80f5-f45dbe79e0f3
+      Hint: Title
+      Value: Leistung Zähler
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030801Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1595bdf2-1007-4f6a-80f5-f45dbe79e0f3
+      Hint: Title
+      Value: Performance Counters
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: パフォーマンス カウンター
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1595bdf2-1007-4f6a-80f5-f45dbe79e0f3
+      Hint: Title
+      Value: パフォーマンス カウンター
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030927Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

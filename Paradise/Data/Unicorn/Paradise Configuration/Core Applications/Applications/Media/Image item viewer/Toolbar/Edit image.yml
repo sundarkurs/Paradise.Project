@@ -1,0 +1,91 @@
+﻿---
+ID: 342c5dd0-d311-4e1c-8f9a-d5d4bbbf9fe1
+Parent: 1f6a53c6-df87-4d53-a348-26d40bad4d09
+Template: 79e55cb1-fdb0-460a-ab97-b629069f15da
+Path: /sitecore/content/Applications/Media/Image item viewer/Toolbar/Edit image
+DB: core
+BranchID: 593dca58-5a88-4464-b2c9-a63dd5ce39a4
+SharedFields:
+- ID: 0a9ec22e-c3c1-42e4-875d-c31aeaf28216
+  Hint: Icon
+  Value: People/24x24/palette.png
+- ID: 95dce7f7-107b-4e53-be87-f16e707a5d3f
+  Hint: Click
+  Value: EditImage
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 35
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Rediger billede
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Rediger billede
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031052Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Rediger billede.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Bild bearbeiten
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Bild bearbeiten
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030805Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Bild bearbeiten.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Edit image
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Edit image.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 画像を編集
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: 画像を編集
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030932Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: 画像を編集します
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,93 @@
+﻿---
+ID: cd4c8a03-bdd5-497a-9530-791e8ee07a3c
+Parent: 14887e60-b65e-4760-b106-782ad15192f5
+Template: ec6d62a5-5d00-4329-8958-8ac1ad100ebb
+Path: /sitecore/content/Applications/Templates/Template Builder/Ribbon/Options
+DB: core
+SharedFields:
+- ID: 12c1ceb4-f549-472a-97ed-99bff70eb84e
+  Hint: ID
+  Value: CreateStrip
+- ID: 56776edf-261c-4abc-9fe7-70c618795239
+  Hint: __Help link
+  Value: <link/>
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indstillinger
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031118Z
+    - ID: 4c9dc598-b43a-4b65-8425-bf2c4a9d132e
+      Hint: Contextual Header
+      Value: Generator
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: Indstillinger
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Optionen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030829Z
+    - ID: 4c9dc598-b43a-4b65-8425-bf2c4a9d132e
+      Hint: Contextual Header
+      Value: Builder
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: Optionen
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060725T150832
+    - ID: 4c9dc598-b43a-4b65-8425-bf2c4a9d132e
+      Hint: Contextual Header
+      Value: Builder
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: Options
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: オプション
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030958Z
+    - ID: 4c9dc598-b43a-4b65-8425-bf2c4a9d132e
+      Hint: Contextual Header
+      Value: ビルダー
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: オプション
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,111 @@
+﻿---
+ID: ccfdf7aa-5969-40ad-86bb-cca108fe3d18
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Visits
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: Visits
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Besøg
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Besøg
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Kombinationsdiagrammet viser antallet af besøg, værdien genereret og relevansen (værdi pr. besøg) for alle trafiktyper og kampagner. Kombinationsdiagrammet indeholder både linje- og søjlediagrammer.
+        
+        Brug dette dashboard til at få overblik over besøg og markedsføringseffektivitet. Sammenlign antallet af besøg med værdi og relevans (værdi pr. besøg) genereret for at fastslå markedsføringens rækkevidde og effektivitet. Hvis f.eks. linjen Besøg øges med større hastighed end linjen Værdi, forøger din markedsføring antallet af besøgende, men din markedsføringseffektivitet er faldende. Dette vises af et fald i højden på søjlen Relevans.
+        
+        Dette dashboard indeholder også et lagkagediagram, der viser det procentuelle bidrag, som hver kampagne eller trafiktype har resulteret i.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031118Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Besuche
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Besuche
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Das Kombinationsdiagramm zeigt die Anzahl der Besuche, den generierten Wert und die Relevanz (Wert pro Besuch) für alle Traffic-Typen und Kampagnen. Kombinationsdiagramme enthalten sowohl Linien- als auch Balkendiagramme. 
+        
+        Benutzen Sie dieses Dashboard, um sich einen Überblick über die Besuche und die Effektivität des Marketing zu verschaffen. Vergleichen Sie die Anzahl der Besuche mit dem generierten Wert und der Relevanz  (wert pro Besuch), um die Marketingreichweite und die -effektivität zu bestimmen.   Zum Beispiel: wenn die Besuchslinie schneller steigt als die Wertlinie, dann steigert Ihr Marketing zwar die Anzahl der Besucher, die Effektivität des Marketing nimmt jedoch ab. Dies wird durch einen Rückgang in der Höhe des Relevanz-Balkens angezeigt.  
+        
+        Dieses Dashboard enthält auch ein Kreisdiagramm, welches den prozentualen Beitrag der einzelnen Kampagnen bzw. Traffic-Typs anzeigt.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030828Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Visits
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        The combination chart displays the number of visits, the value generated and the relevance (value per visits) for all traffic types and campaigns. Combination charts contain both line and bar charts.
+        
+        Use this dashboard to get an overview of the visits and marketing effectiveness. Compare the number of visits to the value and relevance (value per visits) generated to determine the marketing reach and effectiveness. For example, if the Visits line is increasing at a faster rate than the Value line, your marketing is increasing the number of visitors, but your marketing effectiveness is decreasing. This is shown by a decrease in the height of the Relevance bar.
+        
+        This dashboard also contains a pie chart showing the percentage contribution made by each campaign or traffic type.
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T192500
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 訪問数
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: 訪問数
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        すべてのトラフィックおよびキャンペーンの訪問数、もたらされたバリューと関連度 (訪問毎のバリュー) を示す複合グラフ。複合グラフには、線グラフと棒グラフの両方が含まれます。
+        
+        このダッシュボードを使用し、訪問数とマーケティング効果の概要を知ることができます。訪問数と、もたらされたバリューと関連度 (訪問毎のバリュー) を比較し、マーケティング リーチとマーケティング効果を判断します。たとえば、訪問数を表す線がバリューを表す線よりも速いペースで増加している場合は、マーケティングによって訪問者数は増えていますが、マーケティングの効果は減少していることを意味しています。これは、関連度を表す棒が減少していることから分かります。
+        
+        このダッシュボードには、各キャンペーンまたはトラフィックが寄与する割合を表す円グラフも含まれます。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030958Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,112 @@
+﻿---
+ID: 94840e23-8df9-4737-8a93-f3fd44942b20
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Main 6
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: Main
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 6
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Overordnet 6
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Overordnet 6
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Henvisende hjemmesider som f.eks. søgemaskiner eller sociale medier bliver tildelt en bestemt trafiktype. Henvisende hjemmesider, der ikke er blevet klassificeret, forbliver i gruppen Henviste – andet. Du kan få flere oplysninger om klassificering af hjemmesider, der endnu ikke er registreret, i Executive Dashboard Cookbook.
+        
+        Søgeord kan være organiske eller brandede. Organiske søgeord er generiske termer. Brandede søgeord omfatter navnet på din virksomhed, dit produkt eller din service. Du kan få flere oplysninger om tildeling af brandede termer, der endnu ikke er registreret, i Executive Dashboard Cookbook.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031108Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Tilpas Ledelses indsigts-dashboard
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Haupt 6
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Haupt 6
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Verweisende Sites, wie z.B. Suchmaschinen oder Social Media, sind spezifischen Traffic-Typen zugeordnet. Verweisende Sites, die nicht klassifiziert wurden, bleiben in der Gruppe 'Verwiesen - Andere'. Für weitergehende Informationen über die Klassifizierung von Sites, die noch nicht erkannt wurden, sehen Sie bitte im Executive Dashboard Cookbook nach. 
+        
+        Keywords können organisch oder branded sein. Organische Keywords sind Oberbegriffe. Branded Keywords umfassen Ihre spezifische Firma, Ihr Produkt oder Servicenamen. Für weiterführende Informationen darüber, wie man Markenbegriffe, die noch nicht erkannt wurden, zuweisen kann, sehen Sie bitte im  Executive Dashboard Cookbook nach.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030819Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Das Executive Insight Dashboard individuell anpassen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Referring sites, such as search engines or social media, are assigned to specific traffic types. Referring sites that have not been classified remain in the Referred – Other group. For more information about classify sites that are not yet recognized, see the Executive Dashboard Cookbook.
+        
+        Keywords can be organic or branded. Organic keywords are generic terms. Branded keywords include your specific company, product or service name. For more information about how to assign brand terms that are not yet recognized, see the Executive Dashboard Cookbook.
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T192400
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Customizing the Executive Insight Dashboard
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: メイン 6
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: メイン 6
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        参照元サイト、たとえば検索エンジンやソーシャル メディアなどは特定のトラフィックの種類に分類されます。参照元サイトのトラフィックの種類が不明な場合は [参照元 - その他] として分類されます。トラフィックの種類の分類方法の詳細は「エグゼクティブ ダッシュボード クックブック」をご覧ください。
+        
+        検索キーワードを使用して、検索エンジンでの検索が一般的な用語だけが含まれるオーガニック検索か、製品や会社の固有名称が含まれるブランド指定検索かを特定します。ブランド指定検索の対象となるキーワードを設定する方法の詳細は「エグゼクティブ ダッシュボード クックブック」をご覧ください。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030948Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: エグゼクティブ ダッシュボードのカスタマイズ

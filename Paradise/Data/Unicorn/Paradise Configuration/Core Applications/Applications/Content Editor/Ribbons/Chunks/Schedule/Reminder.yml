@@ -1,0 +1,99 @@
+﻿---
+ID: 4c0fcb25-71cf-4642-b7a9-bd8a849e2bbb
+Parent: e42470d6-c6fc-4f61-8bf7-d87cc7a95659
+Template: 19054d88-fed7-48ad-87cd-cf458590c303
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Schedule/Reminder
+DB: core
+SharedFields:
+- ID: 9383f6dd-2d09-40a4-8004-4f63125dbdf6
+  Hint: Gallery
+  Value: Gallery.Reminder
+- ID: b6d7d860-0aba-49dd-85d5-4d537646ef7f
+  Hint: Command
+  Value: contenteditor:reminder
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 50
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+- ID: e792e033-3264-4f34-bebf-b2bd82b0fc5a
+  Hint: Icon
+  Value: Office/16x16/calendar_clock.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Påmindelse
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031056Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: Påmindelse
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: Administrer påmindelsen.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Erinnerung
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030809Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: Erinnerung
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: Erinnerungen verwalten.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140722T115553Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: Reminder
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: Set an email reminder.
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: リマインダー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030937Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: リマインダー
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: リマインダーを管理します

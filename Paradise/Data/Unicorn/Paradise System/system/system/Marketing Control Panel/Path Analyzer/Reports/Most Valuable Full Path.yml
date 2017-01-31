@@ -1,0 +1,97 @@
+﻿---
+ID: e610018e-15eb-48ca-a6a0-6e04cd5a3167
+Parent: cd987a31-a2ef-4309-b3fc-2060451694b3
+Template: 3c7c63ee-f6b5-4c41-85d4-840ef9d875a8
+Path: /sitecore/system/Marketing Control Panel/Path Analyzer/Reports/Most Valuable Full Path
+DB: master
+SharedFields:
+- ID: 19a7925f-49d4-438b-8173-8abca9e13767
+  Hint: Category
+  Value: TopPaths
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 75
+- ID: ed42832f-c994-4ed7-8ed3-5408a89c6c52
+  Hint: Type
+  Value: Sitecore.PathAnalyzer.Reports.MostValuableFullPaths,Sitecore.PathAnalyzer
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Fuld sti til den mest værdifulde
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031151Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      Hint: Name
+      Value: Fuld sti til den mest værdifulde
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      Hint: Description
+      Value: Dette element beregnes for en enkelt node, men gælder for den sti, der er angivet af den identificerede node og alle noderne før den: den største værdi af nodeudgangsværdi.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Wertvollster vollständiger Pfad
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030905Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      Hint: Name
+      Value: Wertvollster vollständiger Pfad
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      Hint: Description
+      Value: Dies ist für einen einzelnen Knoten berechnet, gilt jedoch für den Pfad, der durch identifizierten den Knoten bzw. alle vorherigen Knoten definiert wird: der größte Wert des Knotens Ausstiegswert.
+- Language: en
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Most Valuable Paths
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140924T210839Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      Hint: Name
+      Value: Most Valuable Paths
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      Hint: Description
+      Value: "Shows the paths that generate the most engagement value. Based on the \"Exit Value\" metric."
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 最も価値のある完全な Path
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031029Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      Hint: Name
+      Value: 最も価値のある完全な Path
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      Hint: Description
+      Value: これは単一モード用に計算されますが、ノードによって定義された Path と、その先行のノードに適用されます。ノードの最大バリュー

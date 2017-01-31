@@ -1,0 +1,100 @@
+﻿---
+ID: ffc2ee5a-079e-4f0f-8ed6-89696ee936b6
+Parent: ee001a64-3e18-4c50-8602-3c3367f6afe3
+Template: d592084b-f776-4764-8843-604f779b6624
+Path: /sitecore/content/Applications/Layouts/IDE/New File/Renderings/XML Control
+DB: core
+BranchID: 9178605b-142f-4d38-9bbc-1d816536b2c2
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Applications/16x16/text_marked.png
+- ID: 40f2647d-1876-4995-aeb1-dbc5cd946ee7
+  Hint: Click
+  Value: layout:createfile(path=/sitecore/layout/renderings,name=XML Control,filepath=/layouts,filetemplate=/sitecore/shell/templates/xmlcontrol.xml,ext=xml)
+- ID: aa38b514-fc05-4372-be15-811d15fc8595
+  Hint: Icon
+  Value: Applications/16x16/text_marked.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: XML-kontrol
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: XML-kontrol
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031126Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: En ny XML-kontrol.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: XML Control
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: XML Control
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030837Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: Eine neue XML Control.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: XML Control
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051026T103207
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: A new XML Control.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051026T103207
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: XML コントロール
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: XML コントロール
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031006Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: 新しい XML コントロール
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

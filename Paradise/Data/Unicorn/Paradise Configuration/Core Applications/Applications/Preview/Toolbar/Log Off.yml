@@ -1,0 +1,90 @@
+﻿---
+ID: b48adbcc-735e-445f-8ce4-a67ba847483b
+Parent: 954be5c1-879c-4468-abce-06201033fc8e
+Template: 79e55cb1-fdb0-460a-ab97-b629069f15da
+Path: /sitecore/content/Applications/Preview/Toolbar/Log Off
+DB: core
+SharedFields:
+- ID: 0a9ec22e-c3c1-42e4-875d-c31aeaf28216
+  Hint: Icon
+  Value: Network/24x24/keys.png
+- ID: 95dce7f7-107b-4e53-be87-f16e707a5d3f
+  Hint: Click
+  Value: Logout
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 60
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Log af
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Log af
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031113Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Log af Sitecore
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Abmelden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Abmelden
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030824Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Sitecore abmelden
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: Log Off
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: Log off Sitecore
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ログオフ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0243b5ca-1a92-4093-9ead-b4f7b8ad2594
+      Hint: Header
+      Value: ログオフ
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030954Z
+    - ID: 49b67f65-b00e-47e4-ae41-04ed250bd614
+      Hint: Tool tip
+      Value: サイトコアからログオフします
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

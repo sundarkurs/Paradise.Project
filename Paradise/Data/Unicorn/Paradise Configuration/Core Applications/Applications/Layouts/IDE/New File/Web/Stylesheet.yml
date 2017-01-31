@@ -1,0 +1,97 @@
+﻿---
+ID: 802bc3e5-a8f5-45fc-b660-16ec27513a7c
+Parent: 37c038b9-8cfa-452c-a99c-8217e1277e04
+Template: d592084b-f776-4764-8843-604f779b6624
+Path: /sitecore/content/Applications/Layouts/IDE/New File/Web/Stylesheet
+DB: core
+BranchID: 9178605b-142f-4d38-9bbc-1d816536b2c2
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Software/16x16/text_code_colored.png
+- ID: 40f2647d-1876-4995-aeb1-dbc5cd946ee7
+  Hint: Click
+  Value: layout:createfile(ext=css,name=Stylesheet.css,filepath=/layouts,filetemplate=/sitecore/shell/templates/Stylesheet.css)
+- ID: aa38b514-fc05-4372-be15-811d15fc8595
+  Hint: Icon
+  Value: Software/16x16/text_code_colored.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Stylesheet
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Stylesheet
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031105Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: Et cascading style sheet brugt til rich HTML style-definitioner.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Stylesheet
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Stylesheet
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030817Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: Ein Cascading Stylesheet, das für rich HTML Style Definitionen benutzt wird.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Stylesheet
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051025T210046
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: A cascading style sheet used for rich HTML style definitions.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051025T210046
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: スタイルシート
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: スタイルシート
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030945Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: リッチな HTML スタイルの定義に使用されるカスケード スタイル シート（CSS）
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

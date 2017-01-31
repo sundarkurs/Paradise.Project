@@ -1,0 +1,105 @@
+﻿---
+ID: b709b1c6-1875-409a-abac-dc9f71adc862
+Parent: 2ce1c92e-2338-4c6a-ae86-a742a32a0a6f
+Template: 8a63abcf-1ca6-4fd2-abee-5dfc2d7b0c75
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Navigate/Open
+DB: core
+SharedFields:
+- ID: 35e17d86-ca92-4903-aa4f-951b4b4795b9
+  Hint: Gallery Height
+  Value: 250
+- ID: 3b269bc4-fe34-4fb6-97a2-2bb02a346bf5
+  Hint: Gallery
+  Value: Gallery.Open
+- ID: 4cc38d95-0c13-48a1-820b-904c9966c0f1
+  Hint: Icon
+  Value: Office/24x24/folder_open.png
+- ID: 65b60c8c-d114-49e0-a897-1f64daa7409e
+  Hint: Click
+  Value: item:open
+- ID: b79a37ff-1255-4fcc-9cec-423df792b0de
+  Hint: Gallery Width
+  Value: 400
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Åbn
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031114Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: Åbn et element.
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Åbn
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Öffnen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030824Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: Item öffnen
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Öffnen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060206T114247
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060206T114247
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: Open an item.
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Open
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 開く
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030954Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: アイテムを開きます
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: 開く

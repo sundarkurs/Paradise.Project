@@ -1,0 +1,93 @@
+﻿---
+ID: a55b020a-b75b-4da6-8cf5-856bf10286ee
+Parent: 8787e501-f2e9-434e-9f76-45259d9d8c7c
+Template: abc069d5-3627-4a20-841e-d199b0eb4957
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/View/Entire Tree
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 100
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Developing|pe|+item:read|pd|+item:read|
+- ID: fa8ffab1-6269-480d-b746-f6bed5a178a2
+  Hint: Click
+  Value: contenteditor:toggleentiretree
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Hele træet
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031111Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Vis eller skjul alle sektionerne i indholdstræet.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Hele træet
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Gesamter Tree
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030822Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Alle Bereiche im Content Tree anzeigen oder verbergen.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Gesamter Tree
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060629T113906Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Show or hide all the sections in the content tree.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Entire tree
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ツリー全体
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030951Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: ツリー全体を表示または非表示にします
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: ツリー全体

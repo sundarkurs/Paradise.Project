@@ -1,0 +1,84 @@
+﻿---
+ID: aed95e7e-874a-4cf0-924b-8dd90fc8d730
+Parent: cda16873-6b24-4755-aa6e-23bf419f34eb
+Template: ec6d62a5-5d00-4329-8958-8ac1ad100ebb
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Strips/Security
+DB: core
+SharedFields:
+- ID: 12c1ceb4-f549-472a-97ed-99bff70eb84e
+  Hint: ID
+  Value: SecurityStrip
+- ID: 59de8e82-a9bc-4862-bbee-f5567dd63b65
+  Hint: Access Key
+  Value: S
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sikkerhed
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031112Z
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: Sikkerhed
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sicherheit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030823Z
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: Sicherheit
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060213T153259
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: Security
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060213T153259
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: セキュリティ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030953Z
+    - ID: 5453dc07-6a17-48ba-8d05-17db90a2e795
+      Hint: Header
+      Value: セキュリティ
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

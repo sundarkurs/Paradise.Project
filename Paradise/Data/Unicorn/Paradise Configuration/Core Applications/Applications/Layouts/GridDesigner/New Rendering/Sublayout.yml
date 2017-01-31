@@ -1,0 +1,103 @@
+﻿---
+ID: 85ba99cf-611e-413d-97c2-c71aa8a4063c
+Parent: 5b3beb49-7857-4ffc-9e53-dd12de91a272
+Template: d592084b-f776-4764-8843-604f779b6624
+Path: /sitecore/content/Applications/Layouts/GridDesigner/New Rendering/Sublayout
+DB: core
+BranchID: 9178605b-142f-4d38-9bbc-1d816536b2c2
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Software/16x16/elements_selection.png
+- ID: 40f2647d-1876-4995-aeb1-dbc5cd946ee7
+  Hint: Click
+  Value: ide:startwizard(itemid=$TargetID)
+- ID: 92b9a727-3590-4d26-a77c-1d286dd85fec
+  Hint: Custom Data
+  Value: path=/sitecore/layout/sublayouts&master={0A98E368-CDB9-4E1E-927C-8E0C24A003FB}&name=Sublayout&filepath=/layouts&filetemplate=/sitecore/shell/templates/sublayout.ascx&ext=ascx&icon=Software/16x16/elements_selection.png&welcome=Welcome to the Create Sublayout wizard.&tagprefix=sc&tagname=Sublayout&codebehind=1
+- ID: aa38b514-fc05-4372-be15-811d15fc8595
+  Hint: Icon
+  Value: Software/16x16/elements_selection.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: -1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sublayout
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Sublayout
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031106Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: Et nyt subelement (Brugerkontrol).
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sublayout
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Sublayout
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030817Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: Ein neues Sublayout (Benutzer Control)
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: Sublayout
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051026T111141
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: A new sublayout (User Control).
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051026T111141
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: サブレイアウト
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14bb9de9-dcb8-47ae-ba9e-0a5e2b2db301
+      Hint: Header
+      Value: サブレイアウト
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030946Z
+    - ID: 2e3f0081-5743-41f3-b618-f3bc8b899650
+      Hint: Tool Tip
+      Value: 新しいサブレイアウト （ユーザー コントロール）
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

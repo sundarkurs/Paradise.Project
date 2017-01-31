@@ -1,0 +1,111 @@
+﻿---
+ID: 2ad816af-1e26-4de1-bba2-a42b5163a065
+Parent: cc085075-eebc-4638-85ee-205be411f0a9
+Template: bf349a5e-c6c3-4baf-bd58-de98727c5233
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Versions/Remove
+DB: core
+SharedFields:
+- ID: 3fc2b182-a6ca-425d-8333-9f47a2aacd8f
+  Hint: Command
+  Value: item:deleteversion
+- ID: 8b7f2c0a-3afe-4213-b517-82af53125acc
+  Hint: Icon
+  Value: Office/16x16/remove_version.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 200
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Fjern
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031050Z
+    - ID: 393e6b6b-b6ba-4b3c-b0ae-57fe2ef3ad8b
+      Hint: Menu
+      Value: sitecore/indhold/Applikationer/Indholdsredigering/Menuer/Fjern version
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: ccb68adb-5889-4480-8788-55e643a32100
+      Hint: Header
+      Value: Fjern
+    - ID: fb3205fe-81fb-42da-8a0b-f0b6028b14c9
+      Hint: Tooltip
+      Value: Fjern den aktuelle version.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Entfernen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030804Z
+    - ID: 393e6b6b-b6ba-4b3c-b0ae-57fe2ef3ad8b
+      Hint: Menu
+      Value: /sitecore/content/Applications/Content Editor/Menues/Remove version
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: ccb68adb-5889-4480-8788-55e643a32100
+      Hint: Header
+      Value: Entfernen
+    - ID: fb3205fe-81fb-42da-8a0b-f0b6028b14c9
+      Hint: Tooltip
+      Value: Aktuelle Version entfernen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060419T081406Z
+    - ID: 393e6b6b-b6ba-4b3c-b0ae-57fe2ef3ad8b
+      Hint: Menu
+      Value: /sitecore/content/Applications/Content Editor/Menues/Remove version
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060210T080421Z
+    - ID: ccb68adb-5889-4480-8788-55e643a32100
+      Hint: Header
+      Value: Remove
+    - ID: fb3205fe-81fb-42da-8a0b-f0b6028b14c9
+      Hint: Tooltip
+      Value: Remove the item version that is currently displayed.
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 削除
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030931Z
+    - ID: 393e6b6b-b6ba-4b3c-b0ae-57fe2ef3ad8b
+      Hint: Menu
+      Value: /sitecore/content/Applications/Content Editor/Menues/Remove version
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: ccb68adb-5889-4480-8788-55e643a32100
+      Hint: Header
+      Value: 削除
+    - ID: fb3205fe-81fb-42da-8a0b-f0b6028b14c9
+      Hint: Tooltip
+      Value: 現在のバージョンを削除します

@@ -1,0 +1,75 @@
+﻿---
+ID: 30b9829f-4f3b-4013-83f2-7bc2c3b90190
+Parent: 434da143-5f47-4da1-9fd1-4604f8a5371e
+Template: 25b77d8b-a43d-4890-95f7-3d17fad72ce1
+Path: /sitecore/content/Applications/Syndication/Feeds/Workflow
+DB: core
+SharedFields:
+- ID: 516cbc73-a35a-4342-8b40-de55a5b4cc3a
+  Hint: Type
+  Value: Sitecore.Shell.Feeds.FeedTypes.Workflow, Sitecore.Kernel
+- ID: dcea8297-404e-447a-bee2-a892a3da7e04
+  Hint: Sections
+  Type: Treelist
+  Value: |
+    {593D74E3-0BC5-4747-870C-D882E6D7D0C3}
+    {E894B71C-029C-46AC-A0FE-97ED4663ECFB}
+    {AF08650C-A246-4CBC-B215-096E706B218A}
+    {74F8157D-45D6-4C7D-B5B7-649672FCF80C}
+    {67963A52-4329-4950-AFFF-44035DFBCABF}
+    {07D03995-C7B0-43D9-ADDA-D7AA8338C9C4}
+    {9BE831C0-FC19-4641-9B4E-41294726119F}
+    {334CA7D2-9463-451C-9EA8-2CE94BFE8CF9}
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Workflow
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031051Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Workflow
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030804Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20080703T182133
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ワークフロー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030932Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

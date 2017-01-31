@@ -1,0 +1,90 @@
+﻿---
+ID: 730bd1d0-5e73-46e6-91cc-b869b2f792f1
+Parent: 7bb7cf57-f605-4914-95be-ae6bff4a3b0c
+Template: 8a63abcf-1ca6-4fd2-abee-5dfc2d7b0c75
+Path: /sitecore/content/Applications/Tools/Installer/Designer/Ribbon/Package/Project/New
+DB: core
+SharedFields:
+- ID: 35e17d86-ca92-4903-aa4f-951b4b4795b9
+  Hint: Gallery Height
+  Value: 100
+- ID: 3b269bc4-fe34-4fb6-97a2-2bb02a346bf5
+  Hint: Gallery
+  Value: Installer.Gallery.NewProject
+- ID: 4cc38d95-0c13-48a1-820b-904c9966c0f1
+  Hint: Icon
+  Value: Office/24x24/new_package.png
+- ID: 65b60c8c-d114-49e0-a897-1f64daa7409e
+  Hint: Click
+  Value: installer:newproject
+- ID: 7b390cd3-0e7f-4279-97b3-f2a05b5a3bb1
+  Hint: ID
+  Value: NewButton
+- ID: b79a37ff-1255-4fcc-9cec-423df792b0de
+  Hint: Gallery Width
+  Value: 210
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Ny
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031102Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Ny
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Neu
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030814Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Neu
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060517T160449Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: New
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 新規作成
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030943Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: 新規作成

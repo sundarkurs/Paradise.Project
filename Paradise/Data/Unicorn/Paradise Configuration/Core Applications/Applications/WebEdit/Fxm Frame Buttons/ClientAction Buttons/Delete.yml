@@ -1,0 +1,100 @@
+﻿---
+ID: 4759e124-73e7-45a8-ad08-0edadf361026
+Parent: f4cee492-8079-4d2e-aa10-205e1fccbac9
+Template: 02404208-46d4-49bf-988b-eb363a52a1c9
+Path: /sitecore/content/Applications/WebEdit/Fxm Frame Buttons/ClientAction Buttons/Delete
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: ApplicationsV2/16x16/delete.png
+- ID: 1bb289d6-44d7-4fcc-af15-db32b841f957
+  Hint: Click
+  Value: chrome:placeholder:removeFxmClientAction
+- ID: b6cecdef-740c-406f-bce4-06ab367e623a
+  Hint: Type
+  Value: Sticky
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 2100
+- ID: e8cc41c7-c304-4282-b782-e21ca32d324c
+  Hint: Icon
+  Value: ApplicationsV2/16x16/selection_delete.png
+Languages:
+- Language: da
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Slet klienthandlingen.
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Slet
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Slet
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140820T130444:635441366843928165Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Clientaktion löschen
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Löschen
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Löschen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140820T131850:635441375305935972Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Delete the client action
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Delete
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20100226T154000
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: クライアント アクションを削除
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 削除
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: 削除
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140820T133147:635441383076261502Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

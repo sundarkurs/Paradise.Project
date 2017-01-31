@@ -1,0 +1,93 @@
+﻿---
+ID: f8003d37-80a0-4ea9-a5a0-18f124bb87bd
+Parent: 8787e501-f2e9-434e-9f76-45259d9d8c7c
+Template: abc069d5-3627-4a20-841e-d199b0eb4957
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/View/Hidden Items
+DB: core
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 200
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Developing|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+- ID: fa8ffab1-6269-480d-b746-f6bed5a178a2
+  Hint: Click
+  Value: contenteditor:togglehiddenitems
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Skjulte Elementer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031125Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Vis eller skjul elementer markeret med Skjul-attributten.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Skjulte Elementer
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Verborgene Items
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030836Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Zeige oder verberge Items, die mit dem 'verborgen' Attribute markiert sind.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Verborgene Items
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060418T121613Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: Show or hide items marked with the Hidden attribute.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: Hidden items
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 非表示アイテム
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031005Z
+    - ID: 455d570d-77b9-4aa6-b84e-d7dcab7079c0
+      Hint: Tooltip
+      Value: 非表示アイテムを表示または非表示にします
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1
+      Hint: Header
+      Value: 非表示アイテム

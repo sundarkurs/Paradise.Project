@@ -1,0 +1,76 @@
+﻿---
+ID: 1558427e-3c09-4f23-b4ca-af0cb01a8e8b
+Parent: 5aef3cf5-bcba-45ce-8a62-75a94bf74446
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Applications/WebEdit/Settings/Button Types/Sticky
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: applications/32x32/document.png
+Languages:
+- Language: da
+  Fields:
+  - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+    Hint: __Short description
+    Value: "Knapper af denne type kan ikke flyttes til sektionen \"Mere\"."
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Til/fra
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031047Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+    Hint: __Short description
+    Value: Buttons diesen Typs können nicht in den Bereich 'Mehr' verschoben werden.
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sticky
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030800Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+    Hint: __Short description
+    Value: "Buttons of this type cannot be moved to \"More\" section."
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20110106T175208
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+    Hint: __Short description
+    Value: "この種類のボタンを \"More\" セクションに移動することはできません。"
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 定着性
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030927Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

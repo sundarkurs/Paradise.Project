@@ -1,0 +1,105 @@
+﻿---
+ID: 1ddbc2b7-69b4-44a0-aaf9-895ab51b1f00
+Parent: 4630340e-5fce-4a78-a678-4f8479015ad6
+Template: 8a63abcf-1ca6-4fd2-abee-5dfc2d7b0c75
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Workflow Edit/Edit
+DB: core
+SharedFields:
+- ID: 279a36e4-db2d-4dcd-911f-2942f192ea96
+  Hint: KeyCode
+  Value: 119
+- ID: 3b269bc4-fe34-4fb6-97a2-2bb02a346bf5
+  Hint: Gallery
+  Value: Gallery.WorkflowEdit
+- ID: 4cc38d95-0c13-48a1-820b-904c9966c0f1
+  Hint: Icon
+  Value: Office/24x24/edit_in_workflow.png
+- ID: 56776edf-261c-4abc-9fe7-70c618795239
+  Hint: __Help link
+  Value: <link/>
+- ID: 65b60c8c-d114-49e0-a897-1f64daa7409e
+  Hint: Click
+  Value: contenteditor:edit
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 300
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pe|+item:read|pd|+item:read|a?|Everyone|p*|!*|
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Rediger
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031048Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: Lås eller lås op for redigering af elementet.
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Rediger
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Bearbeiten
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030802Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: Das Item zur Bearbeitung sperren oder entsperren.
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Bearbeiten
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060524T115823
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: Lock or unlock the item for editing.
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: Edit
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 編集する
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030928Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: e9f2581a-fbfc-4ac6-90cb-04ca5c02b70d
+      Hint: Tooltip
+      Value: 編集のためにロックもしくはロック解除します
+    - ID: facecac8-c923-4847-834c-c917268f8f6b
+      Hint: Header
+      Value: 編集

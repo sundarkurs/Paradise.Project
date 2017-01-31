@@ -1,0 +1,48 @@
+﻿---
+ID: 89166b7d-077e-4e8d-ac0b-109562862307
+Parent: 518d7ab3-8833-4d52-8834-4c3d04446ff2
+Template: 19054d88-fed7-48ad-87cd-cf458590c303
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Versions/Version
+DB: core
+SharedFields:
+- ID: 0a734af1-cbd3-4896-8615-6374d2d5dcee
+  Hint: Gallery Width
+  Value: 430
+- ID: b6d7d860-0aba-49dd-85d5-4d537646ef7f
+  Hint: Command
+  Value: webedit:hidecontrol
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 10
+- ID: c13fe317-1f69-42d1-b8ef-ee783d372926
+  Hint: Gallery Height
+  Value: 250
+- ID: e792e033-3264-4f34-bebf-b2bd82b0fc5a
+  Hint: Icon
+  Value: Office/16x16/note_block.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{6123547E-4C8A-4630-9CF4-996DE3648A47}" par="GalleryUrl=%2fsitecore%2fclient%2fApplications%2fExperienceEditor%2fPages%2fGalleries%2fSelectVersionGallery.aspx&amp;Id=SelectVersionButton1&amp;Click=trigger%3abutton%3aclick&amp;GalleryWidth=500&amp;Command=OpenSelectVersionGallery&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fOpenSelectVersionGallery.js&amp;GalleryHeight=250" uid="{8B04450C-2F46-4DF5-8D03-B222449E560A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20150223T161617Z
+    - ID: 2ac65c2f-127b-43bc-8687-5689e1fb3d78
+      Hint: Header
+      Value: Version
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 81b23074-63af-4a28-9b45-ab27b3b2f619
+      Hint: Tooltip
+      Value: View another version of the item.

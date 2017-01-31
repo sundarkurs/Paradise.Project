@@ -1,0 +1,97 @@
+﻿---
+ID: 28e37fe8-6561-4854-8b11-468e64df5374
+Parent: db662edf-5965-4848-ad14-ba6bf0d55d1e
+Template: 02404208-46d4-49bf-988b-eb363a52a1c9
+Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Move Down
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Office/16x16/navigate_down.png
+- ID: 1bb289d6-44d7-4fcc-af15-db32b841f957
+  Hint: Click
+  Value: item:movedown
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 250
+- ID: e8cc41c7-c304-4282-b782-e21ca32d324c
+  Hint: Icon
+  Value: Office/16x16/navigate_down.png
+Languages:
+- Language: da
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Flyt elementet ned
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Flyt ned
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Flyt ned
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031050Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Item nach unten verschieben
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Nach unten
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Nach unten
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030803Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Move the item down
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Move Down
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20071015T064903Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: アイテムを下へ移動します
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 下へ移動
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: 下へ移動
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030930Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,94 @@
+﻿---
+ID: af176694-3818-400a-8976-9075a40ca95e
+Parent: ff3a53ee-195c-40b5-a3e4-ae0d2b8de203
+Template: 3effa15a-c432-493e-a3e4-c6dd5f79cc16
+Path: /sitecore/content/Applications/WebEdit/Edit Frame Buttons/Default/Insert
+DB: core
+SharedFields:
+- ID: 064bfd82-19bb-4c90-b2fc-8882d38eee76
+  Hint: Icon
+  Value: Office/16x16/insert_from_template.png
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Office/16x16/insert_from_template.png
+- ID: 8cb881a0-545f-4121-bb8e-78eae18e1848
+  Hint: Click
+  Value: webedit:new
+Languages:
+- Language: da
+  Fields:
+  - ID: 987da0bf-aedb-48aa-8d5a-252a3da4d8d4
+    Hint: Header
+    Value: Indsæt nyt
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Indsæt
+  - ID: ec7256e4-7b46-4e51-9266-7df0a07c1537
+    Hint: Tooltip
+    Value: Indsæt et nyt element.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031112Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 987da0bf-aedb-48aa-8d5a-252a3da4d8d4
+    Hint: Header
+    Value: Neu einfügen
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Einfügen
+  - ID: ec7256e4-7b46-4e51-9266-7df0a07c1537
+    Hint: Tooltip
+    Value: Neues Item einfügen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030823Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 987da0bf-aedb-48aa-8d5a-252a3da4d8d4
+    Hint: Header
+    Value: Insert New
+  - ID: ec7256e4-7b46-4e51-9266-7df0a07c1537
+    Hint: Tooltip
+    Value: Insert a new item
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20081224T113450Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 987da0bf-aedb-48aa-8d5a-252a3da4d8d4
+    Hint: Header
+    Value: 挿入
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 挿入
+  - ID: ec7256e4-7b46-4e51-9266-7df0a07c1537
+    Hint: Tooltip
+    Value: 新しいアイテムを挿入します
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030953Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

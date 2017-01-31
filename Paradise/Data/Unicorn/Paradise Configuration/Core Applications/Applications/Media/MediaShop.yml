@@ -1,0 +1,106 @@
+﻿---
+ID: 7b2ea99d-ba9d-45b8-83b3-b38adad50bb8
+Parent: 22f17462-9683-401e-8849-303d97f57090
+Template: eb06cec0-5e2d-4dc4-875b-01adcc577d13
+Path: /sitecore/content/Applications/Media/MediaShop
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Apps/48x48/Pictures.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 0
+- ID: c687aa26-a85d-4c42-b32e-11e5faecdf05
+  Hint: Chrome
+  Value: BorderlessChrome
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{170F6627-58E8-4F7E-8E1E-300AD5383925}" />
+    </r>
+- ID: fc2b18b3-1631-4c3f-9e47-51df05030026
+  Hint: Icon
+  Value: Apps/48x48/Pictures.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: MediaShop
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Administrer dine mediefiler.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031104Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Mediebibliotek
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: MediaShop
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Verwalten Sie Ihre Mediendateien.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030816Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Media Library
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Manage your media files.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051129T145049Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Media Library
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051129T145049Z
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: メディア ショップ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: メディア ファイルの管理
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030944Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: メディア ライブラリ

@@ -1,0 +1,93 @@
+﻿---
+ID: 8c5a7876-c8ac-4197-884d-0fc11c0d0ea6
+Parent: 3da42c2a-218b-4898-8f43-d5a39e860f68
+Template: beebc988-14ce-441a-b9e2-2a38d6e4a87d
+Path: /sitecore/content/Applications/Media/MediaShop/Commands Portal/Preview
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Applications/16x16/help2.png
+- ID: 0bde2986-e19d-4e02-b998-d4dce9d8ffa5
+  Hint: ID
+  Value: MediaShopPreviewPortlet
+- ID: 3070b56f-9b3c-48b7-8fbd-de8ca6e61179
+  Hint: Default
+  Value: 1
+- ID: 732f96ac-2796-472a-917a-efb209cf535b
+  Hint: Order
+  Value: 10
+- ID: 93e0c773-2747-4391-ab8e-70ec95025419
+  Hint: Zone
+  Value: Preview
+- ID: aed5e3e1-570b-436a-8d8d-4f688e7444ef
+  Hint: Control name
+  Value: MediaShopPreviewPortlet
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Preview
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031107Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Viser et preview af det nuværende medie-element.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Vorschau…
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030818Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Zeigt eine Vorschau des aktuellen Medienitems.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20051129T165153
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20051129T165153
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Shows a preview of the current media item.
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: プレビュー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030947Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: 現在のメディア アイテムのプレビューを表示します

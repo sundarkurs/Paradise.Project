@@ -1,0 +1,78 @@
+﻿---
+ID: 442b7099-5cd3-449a-9ac7-32524599549d
+Parent: 0de2e8ab-1dc3-4bbc-8cf3-b422c883d498
+Template: 4efe99e4-a41b-4eec-9fbf-9cf82a4b1350
+Path: /sitecore/content/Applications/Content Editor/Applications/ContentEditorForm
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: apps/32x32/pencil.png
+- ID: 6d91e6fb-7277-4563-abe0-33a2045bd77f
+  Hint: Source
+  Value: /sitecore/shell/Applications/Content Manager/Default.aspx?he=Content Editor&ic=apps/32x32/pencil.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ContentEditorForm
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031055Z
+    - ID: 438471bb-1514-4637-b50a-de6abaf999de
+      Hint: Header
+      Value: Indholdsredigering
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ContentEditorFormular
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030808Z
+    - ID: 438471bb-1514-4637-b50a-de6abaf999de
+      Hint: Header
+      Value: Content Editor
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060517T082321Z
+    - ID: 438471bb-1514-4637-b50a-de6abaf999de
+      Hint: Header
+      Value: Content Editor
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: コンテンツ エディター フォーム
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030936Z
+    - ID: 438471bb-1514-4637-b50a-de6abaf999de
+      Hint: Header
+      Value: コンテンツ エディター
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

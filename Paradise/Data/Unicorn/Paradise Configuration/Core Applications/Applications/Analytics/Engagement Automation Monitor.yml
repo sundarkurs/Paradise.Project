@@ -1,0 +1,85 @@
+﻿---
+ID: e4b83a5f-355a-45f2-a4fb-2c478559ed81
+Parent: ea255685-5bb6-4ef8-89c9-e88ab5a6d2a7
+Template: eb06cec0-5e2d-4dc4-875b-01adcc577d13
+Path: /sitecore/content/Applications/Analytics/Engagement Automation Monitor
+DB: core
+BranchID: 1f0770ea-8b77-4110-91aa-cc00dee102dd
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: /sitecore/shell/themes/standard/Software/16x16/application.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 0
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|Everyone|pe|!*|pd|!*|ar|sitecore\Analytics Reporting|pe|+item:read|
+- ID: fc2b18b3-1631-4c3f-9e47-51df05030026
+  Hint: Icon
+  Value: Software/32x32/application.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Engagementsautomatiseringsmonitor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031122Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Engagementsautomatiseringsmonitor
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Engagement Automation Monitor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030832Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Engagement Automation Monitor
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20110503T131800
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Engagement Automation Monitor
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: エンゲージメント オートメーション モニター
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031002Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: エンゲージメント オートメーション モニター

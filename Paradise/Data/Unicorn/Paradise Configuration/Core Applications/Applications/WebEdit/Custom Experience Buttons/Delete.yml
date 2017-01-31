@@ -1,0 +1,97 @@
+﻿---
+ID: 028dfe18-f0fe-431b-b5d2-9d944fd8b3c6
+Parent: db662edf-5965-4848-ad14-ba6bf0d55d1e
+Template: 02404208-46d4-49bf-988b-eb363a52a1c9
+Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Delete
+DB: core
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Office/16x16/delete.png
+- ID: 1bb289d6-44d7-4fcc-af15-db32b841f957
+  Hint: Click
+  Value: webedit:delete
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 100
+- ID: e8cc41c7-c304-4282-b782-e21ca32d324c
+  Hint: Icon
+  Value: Office/16x16/delete.png
+Languages:
+- Language: da
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Slet elementet.
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Slet
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Slet link
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031044Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Item löschen
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Löschen
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Link löschen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030757Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Delete the item
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Delete Link
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20071015T064903Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: アイテムを削除します
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: 削除
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: リンクを削除
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030924Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

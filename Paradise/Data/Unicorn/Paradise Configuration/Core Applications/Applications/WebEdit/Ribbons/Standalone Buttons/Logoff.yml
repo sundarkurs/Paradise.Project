@@ -1,0 +1,98 @@
+﻿---
+ID: 084ea9ee-9938-44f8-bef5-76cd4aad7903
+Parent: 0caf9b0e-cfeb-4861-aa5e-09883bc3f692
+Template: 02404208-46d4-49bf-988b-eb363a52a1c9
+Path: /sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Logoff
+DB: core
+SharedFields:
+- ID: 1bb289d6-44d7-4fcc-af15-db32b841f957
+  Hint: Click
+  Value: webedit:logout
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 300
+- ID: e8cc41c7-c304-4282-b782-e21ca32d324c
+  Hint: Icon
+  Value: Office/16x16/keys.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: <r />
+Languages:
+- Language: da
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Log af.
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Log af
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Log af
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031045Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Abmelden.
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Abmeldung
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Abmelden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030758Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: Log off.
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: Log Off
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20100809T173700
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: ja-JP
+  Fields:
+  - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+    Hint: Tooltip
+    Value: ログオフ
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ログオフ
+  - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+    Hint: Header
+    Value: ログオフ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030925Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

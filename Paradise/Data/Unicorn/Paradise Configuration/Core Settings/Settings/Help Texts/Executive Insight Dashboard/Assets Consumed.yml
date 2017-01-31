@@ -1,0 +1,113 @@
+﻿---
+ID: e6f2ff48-2d1b-45ce-808f-253fde668855
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Assets Consumed
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: Assets
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Forbrugte aktiver
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Forbrugte aktiver
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Et vandret søjlediagram, der viser, hvilke aktiver der blev downloadet og deres værdi.
+        
+        Termen ‘aktiver forbrugt’ henviser til besøgendes download af brochurer, white papers og andre aktiver fra hjemmesiden under et besøg. Når en besøgende downloader en brochure, viser det en højere grad af engagement, end når den besøgende blot kigger på siderne. De aktiver, der downloades hyppigere, kan angive emner af større interesse.
+        
+        Standardvisningen viser, hvilke aktiver de besøgende forbrugte mest under besøg af høj værdi arrangeret efter værdi.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031122Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Vermögen verbraucht
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Vermögen verbraucht
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Ein horizontales Balkendiagramm, welches heruntergeladene Assets und deren Werte anzeigt. 
+        
+        Der Begriff 'benutzte Assets (assets consumed)’ bezieht sich auf Besucher, die Broschüren, Whitepaper und andere Assets von der Website während ihres Aufenthalts dort herunterladen. Wenn ein Besucher eine Broschüre herunterlädt, dann wird ein höherer Interaktionslevel auf der Website angezeigt, als wenn z.B. nur Seiten angesehen werden. Die Assets, die häufiger heruntergeladen werden, können auf relevantere Themen hinweisen.
+        
+        Die Standardansicht zeigt, welche Assets Besucher am meisten im Zuge von High Value Besuchen genutzt haben, geordnet nach ihrem Wert.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030832Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Assets Consumed
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        A horizontal bar chart that shows which assets were downloaded and their values.
+        
+        The term ‘assets consumed’ refers to visitors downloading brochures, white papers, and other assets from the website during a visit. When a visitor downloads a brochure it shows a higher level of commitment on the website than just viewing pages. The assets that are downloaded more frequently may indicate topics of higher interest.
+        
+        The default view shows which assets visitors consumed the most during high value visits ranked by value.
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T192900
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ダウンロードされた資料
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: ダウンロードされた資料
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        ダウンロード数が最も多いアセットと、最もバリューの高い訪問をもたらしたアセットを示す水平棒グラフ。
+        
+        このダッシュボードを使用し、エンゲージメント分析において追跡するアセットを評価することができます。たとえば、ホワイト ペーパーのダウンロードをゴールとし、それに対してポイントを割り当てるのが適切である場合があります。
+        
+        "ダウンロードされた資料" とは、訪問者が、訪問中に Web サイトからダウンロードしたカタログ、ホワイト ペーパー、およびその他のアセットを指します。訪問者がカタログをダウンロードすると、単にページを閲覧しただけの場合よりも、Web サイトへのコミットメントのレベルが高いことを意味します。頻繁にダウンロードされるアセットは、関心の高いトピックであることもあります。
+        
+        デフォルトのビューには、訪問者が訪問中に最も多く消費したアセットが、バリュー順にランク付けされます。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031002Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

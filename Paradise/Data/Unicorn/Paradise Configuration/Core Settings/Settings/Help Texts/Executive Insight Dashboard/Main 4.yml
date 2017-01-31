@@ -1,0 +1,267 @@
+﻿---
+ID: 6025bd52-a86c-4c0d-8728-9834240c9e20
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Main 4
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: Main
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 4
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Overordnet 4
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Overordnet 4
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Trafiktyper er markedsføringskanaler. Større trafiktyper bliver defineret automatisk. Undertyper som f.eks. små sociale kanaler kan tilknyttes en eksisterende trafiktype. 
+        
+        
+        Direkte	
+         Et besøg på din hjemmeside, der skyldes, at en besøgende indtaster en bestemt url-adresse i adressebjælken i en webbrowser. 
+        
+        E-mail	
+         Et besøg på din hjemmeside, der skyldes et link i en e-mailkampagne.  
+        
+        Søgemaskine – organisk	
+        Et besøg på din hjemmeside, der skyldes, at en besøgende indtaster et ikke-mærkespecifikt søgeord i en søgemaskine. 
+        
+        Søgemaskine – branded
+        Et besøg på din hjemmeside, der skyldes, at en besøgende indtaster et ikke-mærkespecifikt søgeord i en søgemaskine. 
+        Du kan konfigurere lige så mange søgeord med brandnavnet, som du ønsker. 
+        
+        Betalt
+        Et besøg på din hjemmeside, der skyldes, at en besøgende klikker på et sponseret link som f.eks. en online Google reklamekampagne.
+        
+        Henvist – analytiker
+        Et besøg på din hjemmeside, der skyldes et link på en analytikerhjemmeside som f.eks. Forrester eller Gartner.
+        
+        Henvist – blog	
+         Et besøg på din hjemmeside, der skyldes et link på en bloghjemmeside.
+        
+        Henvist – community
+         Et besøg på din hjemmeside, der skyldes en social netværkshjemmeside som f.eks. Facebook eller Twitter.
+        
+        Henvist – samtaler
+         Et besøg på din hjemmeside, der skyldes et link i et chatprogram, f.eks. MSN Messenger.
+        
+        Henvist – nyheder	
+        Et besøg på din hjemmeside, der skyldes et link på en nyheds- eller mediehjemmeside.
+        
+        Henvist – andet
+         Alle henviste besøg på din hjemmeside placeres i denne kategori, indtil en marketingmedarbejder kategoriserer dem i en af de andre kategorier.
+        
+        Henvist – Wiki	
+        Et besøg på din hjemmeside, der skyldes et link på en nyheds- eller mediehjemmeside.
+        
+        RSS	
+        Et besøg, der stammer fra en RSS-kampagne, du har oprettet.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031059Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Trafiktyper
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Haupt 4
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Haupt 4
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Traffic-Typen sind Marketingkanäle. Bedeutende Traffic-Typen werden automatisch definiert. Untertypen, wie kleine Social Channels, können an einen existierenden Traffic-Typen angehängt werden. 
+        
+        
+        Direkt 
+        Ein Besuch auf Ihrer Website,  der dadurch zustande kommt, dass ein Besucher eine spezifische URL in die Adresszeile eines Web-Browsers eingibt.  
+        
+        E-Mail 
+        Ein Besuch auf Ihrer Website, der durch einen in einer E-Mail-Kampagne enthaltenen Link zustande kommt. 
+        
+        Suchmaschine - Organisch  
+        Ein Besuch auf Ihrer Website, der dadurch zustande kommt, dass ein Besucher einen nicht-markenspezifischen Suchbegriff in eine Suchmaschine eingibt. 
+        
+        Suchmaschine - Branded
+        Ein Besuch auf Ihrer Website, der dadurch zustande kommt, dass ein Besucher einen spezifischen Markennamen in eine Suchmaschine eingibt. 
+        Sie können so viele Markennamen-Keywords konfigurieren wie Sie möchten. 
+        
+        Bezahlt
+        Ein Besuch auf Ihrer Website, der dadurch zustande kommt, dass ein Besucher auf einen gesponserten Link klickt, wie z.B. eine Online Google Ad Kampagne.
+        
+        Verwiesen – Analyse
+        Ein Besuch auf Ihrer Website, der durch einen Link auf einer  Analyse-Website zustande kommt, wie z.B. Forrester der Gartner.
+        
+        Verwiesen – Blog 
+        Ein Besuch auf Ihrer Website, der durch einen Link auf einer Blog-Website zustande kommt. 
+        
+        Verwiesen – Community
+        Ein Besuch auf Ihrer Website, der auf eine Social Networking Site, wie z.B.  Facebook oder Twitter, zurück geht. 
+        
+        Verwiesen – Konversionen
+        Ein Besuch auf Ihrer Website, der aus einem Link in einem Chat oder Instant Messaging Programm hervorgeht, wie z.B. MSN Messenger.
+        
+        Verwiesen – News 
+        Ein Besuch auf Ihrer Website, der das Resultat eines Links auf einer News- oder Medien Website ist. 
+        
+        Verwiesen – Other
+        Alle verwiesenen Besuche auf Ihrer Website werden in dieser Kategorie eingestellt, bis ein Marketer diese in eine der anderen Kategorien einordnet.
+        
+        Verwiesen – Wiki 
+        Ein Besuch auf Ihrer Website, der das Resultat eines Links auf einer News- oder Medien Website ist. 
+        
+        
+        RSS 
+        Ein Besuch, der auf eine RSS-Kampagne, die Sie erstellt haben, zurückzuführen ist.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030812Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Traffic-Typen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Traffic types are marketing channels. Major traffic types are automatically defined. Sub-types, such as small social channel, can be attached to an existing traffic type. 
+        
+        
+        Direct	
+        A visit to your website that originates from a visitor entering a specific URL in the address bar of a web browser. 
+        
+        Email	
+        A visit to your website that originates from a link contained in an email campaign.  
+        
+        Search Engine - Organic	
+        A visit to your website that originates from a visitor entering a non-brand specific search term in a search engine. 
+        
+        Search Engine - Branded
+        A visit to your website that originates from a visitor entering a specific brand name in a search engine. 
+        You may configure as many brand name key words as you like. 
+        
+        Paid
+        A visit to your website that originates from a visitor clicking on a sponsored link, such as a online Google Ad campaign.
+        
+        Referred – Analyst
+        A visit to your website that originates from a link on an analyst website, such as Forrester or Gartner.
+        
+        Referred – Blog	
+        A visit to your website that originates from a link on a blog website.
+        
+        Referred – Community
+        A visit to your website that originates from a social networking site, such as Facebook or Twitter.
+        
+        Referred – Conversations
+        A visit to your website that originates from a link in a chat or instant messaging program, such as MSN Messenger.
+        
+        Referred – News	
+        A visit to your website that originates from a link on a news or media website.
+        
+        Referred – Other
+        All the referred visits to your website are placed in this category until a marketer categorizes them in one of the other categories..
+        
+        Referred – Wiki	
+        A visit to your website that originates from a link on a news or media website.
+        
+        RSS	
+        A visit that originates from an RSS campaign that you have created.
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T192400
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: Traffic Types
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: メイン 4
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: メイン 4
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        トラフィックの種類はマーケティング チャネルです。分類することにより、Web サイトを訪問するトラフィックを効果的に分析し、将来のマーケティングに関して正しい意思決定を行うために必要な情報が得られます。たとえば、SEOマーケティング担当者は、検索キーワードを最適化するときに、この情報が役立つことが分かります。
+        
+        直接訪問：
+        訪問者が Web ブラウザーのアドレス バーに URL を入力することで開始される Web サイトの訪問。たとえば、「http://www.sitecore.net」 を入力して Sitecore のホーム ページを直接訪問するものです。
+        
+        電子メール：
+        自社の 電子メール キャンペーンに含まれるリンクから開始される Web サイトの訪問。
+        
+        検索エンジン – オーガニック検索：
+        訪問者が検索エンジンにブランド名を含まない特定の検索語を入力することから開始される Web サイトの訪問。たとえば、「Best CMS」または「Top CMS software」と入力し、検索結果ページに表示されたいずれかの無報酬リンクをクリックすることで、www.sitecore.net を訪問するものです。
+        
+        検索エンジン – ブランド指定検索：
+        訪問者が検索エンジンに特定のブランド名を入力することから開始される Web サイトの訪問。たとえば、「Sitecore」または「Sitecore CMS」と入力し、検索結果ページに表示されたいずれかの無報酬リンクをクリックすることで、www.sitecore.net を訪問するものです。ブランド名のキーワードは、必要な数だけ設定できます。
+        
+        有料：
+        訪問者がスポンサー リンクをクリックすることで開始される Web サイトの訪問。たとえば、オンラインの Google Ad キャンペーンやバナー広告など、自社キャンペーンの有料リンクがあります。
+        
+        参照元 – アナリスト：
+        Forrester や Gartner など、アナリストの Web サイトにあるリンクから開始されるWeb サイトの訪問。
+        
+        参照元 – ブログ：
+        ブログの Web サイトにあるリンクから開始される Web サイトの訪問。
+        
+        参照元 – ソーシャル：
+        Facebook や Twitter など、ソーシャル ネットワーキング サイトから開始される Web サイトの訪問。
+        
+        参照元 – IM/チャット：
+        MSN Messenger のようなチャットやインスタント メッセージング プログラムで示されたリンクから開始される Web サイトの訪問。
+        
+        参照元 – ニュース：
+        ニュースやメディアの Web サイトにあるリンクから開始される Web サイトの訪問。
+        
+        参照元 – その他：
+        他のサイトから参照して Web サイトに訪問したものは、マーケティング担当者が他のカテゴリに分類するまでこのカテゴリに入れられます。
+        
+        参照元 – Wiki：
+        Wiki の Web サイトにあるリンクから開始される Web サイトの訪問。
+        
+        RSS：
+        自社で作成した RSS キャンペーンから開始される訪問。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030940Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: fff72fe1-626a-4d01-aab6-f157bc97b4af
+      Hint: Header
+      Value: トラフィックの種類

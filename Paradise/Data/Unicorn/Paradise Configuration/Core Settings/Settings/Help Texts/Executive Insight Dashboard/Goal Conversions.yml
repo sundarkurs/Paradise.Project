@@ -1,0 +1,107 @@
+﻿---
+ID: f8e7c331-e507-4799-879e-40daa64812e8
+Parent: ea20c44a-ac61-44cd-9fe7-7b7ae132151a
+Template: 11a111ff-4343-4af8-91dc-3c49dbedd9c6
+Path: /sitecore/system/Settings/Help Texts/Executive Insight Dashboard/Goal Conversions
+DB: core
+SharedFields:
+- ID: 86238e01-03fa-4ac2-84aa-dd106281e85b
+  Hint: Key
+  Value: GoalConversions
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Målkonverteringer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Målkonverteringer
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Et vandret søjlediagram, der viser, hvilke sider der havde de fleste konverteringer og genererede besøg af den højeste værdi på hjemmesiden. Målkonvertering betyder, at et mål, der er opsat af den markedsførende blev opfyldt af den besøgende. Standardvisningen viser, hvilke mål der blev konverteret, og som førte til besøg af den højeste værdi.
+         
+        Benyt dig af høj værdi og populære mål ved at oprette kampagner med tilknyttede mål og aktiver.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031125Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Zielumsetzungen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Zielumsetzungen
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        Ein horizontales Balkendiagramm, das anzeigt, welche Ziele die meisten Konversionen hatten und die Besuche mit dem größten Wert auf der Website generiert haben.  'Zielumsetzungen' (Goal conversion) bedeutet, das ein vom Marketer  gesetztes Ziel vom Besucher erreicht wurde. Die Standardansicht zeigt welche Ziele umgewandelt wurden und welche zu den Besuchen mit dem größten Wert geführt haben. 
+         
+        Unterstützen Sie hohe Werte und beliebte Ziele indem Sie Kampagnen mit ähnlichen Zielen und Assets erstellen.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030836Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: Goal Conversions
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        A horizontal bar chart that shows which goals had the most conversions and generated the highest value visits on the website. Goal conversion means that a goal set by the marketer was accomplished by the visitor. The default view shows which goals converted and which led to the highest value visits.
+         
+        Leverage high value and popular goals by creating campaigns with related goals and assets. 
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20120513T193100
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: ゴール コンバージョン
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 18d518f5-4b35-4bc8-9700-741c26ae76b7
+      Hint: Title
+      Value: ゴール コンバージョン
+    - ID: 2411011d-885f-4561-ba09-c08e467b7996
+      Hint: Body
+      Value: |
+        最も多くのコンバージョンを実現し、Web サイトで最もバリューの高い訪問をもたらしたゴールを示す水平棒グラフ。ゴール コンバージョンとは、マーケティング担当者によって設定されたゴールが、訪問者によって達成されたことを意味します。
+        
+        このダッシュボードを使用し、ゴールの達成を最適化します。たとえば、Web サイトにおいて最も高いバリューをもたらすコンバージョンを把握しておくと、適切なゴールを定めたかどうか、各ゴールに対して適切なポイント数を設定したかどうかを評価することができます。
+        
+        デフォルトのビューには、達成されたゴールと、最もバリューの高い訪問をもたらしたゴールが、バリュー順にランク付けされます。
+        
+        また、訪問数、関連度の高い訪問 (訪問毎のバリュー)、および最もポテンシャルの高いゴールを確認することもできます。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031005Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

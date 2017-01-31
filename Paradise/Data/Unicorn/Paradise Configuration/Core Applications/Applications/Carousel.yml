@@ -1,0 +1,107 @@
+﻿---
+ID: 72e110bf-3e5c-4927-a80a-7efd634081c0
+Parent: c74ac643-53c8-4f1e-9508-840cdc72aaca
+Template: eb06cec0-5e2d-4dc4-875b-01adcc577d13
+Path: /sitecore/content/Applications/Carousel
+DB: core
+BranchID: 1f0770ea-8b77-4110-91aa-cc00dee102dd
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Apps/48x48/Carousel.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 100
+- ID: bde5f757-a8a4-4ffd-a38b-e0dcca84f210
+  Hint: Window type
+  Value: Window
+- ID: c687aa26-a85d-4c42-b32e-11e5faecdf05
+  Hint: Chrome
+  Value: WindowChrome
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{73881CA9-1E74-4F01-9CB4-6EF418AE99E3}" />
+    </r>
+- ID: fc2b18b3-1631-4c3f-9e47-51df05030026
+  Hint: Icon
+  Value: Apps/48x48/Carousel.png
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Karrusel
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Gennemse dit indhold.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031102Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Karrusel
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Carousel
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Surfen Sie durch Ihren Inhalt.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030814Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Carousel
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: Surf your content.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20140902T080536Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: Carousel
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: カルーセル
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 14dca483-aac7-4d87-ae27-3163d21798b7
+      Hint: Tool tip
+      Value: コンテンツの閲覧
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030943Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 67b6378b-c9f1-47c7-9cac-bfa79b0727d9
+      Hint: Display name
+      Value: カルーセル

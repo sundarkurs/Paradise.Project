@@ -1,0 +1,93 @@
+﻿---
+ID: 44f5c269-d8a6-426b-a6e3-dfc5cfbf0d18
+Parent: b5afbc61-a75e-4332-9654-5189959c7dcc
+Template: beebc988-14ce-441a-b9e2-2a38d6e4a87d
+Path: /sitecore/content/Applications/Debugger/Portal/Tracing
+DB: core
+SharedFields:
+- ID: 0bde2986-e19d-4e02-b998-d4dce9d8ffa5
+  Hint: ID
+  Value: DebuggerTracingPortlet
+- ID: 3070b56f-9b3c-48b7-8fbd-de8ca6e61179
+  Hint: Default
+  Value: 1
+- ID: 732f96ac-2796-472a-917a-efb209cf535b
+  Hint: Order
+  Value: 10
+- ID: 93e0c773-2747-4391-ab8e-70ec95025419
+  Hint: Zone
+  Value: DefaultZone
+- ID: aed5e3e1-570b-436a-8d8d-4f688e7444ef
+  Hint: Control name
+  Value: Debugger.Tracing.Portlet
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Sporing
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031055Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Viser sporingsopgaver.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Tracing
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030808Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Zeigt Tracing Aufgaben an.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060118T141422
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060118T141422
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Shows tracing tasks.
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: トレーシング
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030936Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: トレーシング タスクを表示する

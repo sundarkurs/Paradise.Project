@@ -1,0 +1,93 @@
+﻿---
+ID: ea077476-5b8a-47cc-8295-4ef89f19c5e3
+Parent: b5afbc61-a75e-4332-9654-5189959c7dcc
+Template: beebc988-14ce-441a-b9e2-2a38d6e4a87d
+Path: /sitecore/content/Applications/Debugger/Portal/Profiling
+DB: core
+SharedFields:
+- ID: 0bde2986-e19d-4e02-b998-d4dce9d8ffa5
+  Hint: ID
+  Value: DebuggerProfilingPortlet
+- ID: 3070b56f-9b3c-48b7-8fbd-de8ca6e61179
+  Hint: Default
+  Value: 1
+- ID: 732f96ac-2796-472a-917a-efb209cf535b
+  Hint: Order
+  Value: 20
+- ID: 93e0c773-2747-4391-ab8e-70ec95025419
+  Hint: Zone
+  Value: DefaultZone
+- ID: aed5e3e1-570b-436a-8d8d-4f688e7444ef
+  Hint: Control name
+  Value: Debugger.Profiling.Portlet
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Profilering
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031123Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Viser profileringsopgaver.
+- Language: de-DE
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Profiling
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T030833Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Zeigt Profiling Aufgaben an.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20060118T140320
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20060118T140320
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: Shows profiling tasks.
+- Language: ja-JP
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: プロファイリング
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151003T031003Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: d28bee28-9c28-4efa-b649-0a071e0c541c
+      Hint: Description
+      Value: プロファイリング タスクを表示する
