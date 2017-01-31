@@ -19,7 +19,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/31/2017 15:34:22</publishTime>
     </File>
     <File Include="App_Config/Include/Unicorn/Unicorn.config">
-      <publishTime>01/31/2017 16:07:06</publishTime>
+      <publishTime>01/31/2017 18:33:56</publishTime>
     </File>
     <File Include="App_Config/Include/Unicorn/Unicorn.Configs.Dependency.config.example">
       <publishTime>01/31/2017 15:34:22</publishTime>
@@ -79,7 +79,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
     <File Include="bin/Paradise.CMS.dll">
-      <publishTime>01/31/2017 17:09:19</publishTime>
+      <publishTime>01/31/2017 18:33:56</publishTime>
     </File>
     <File Include="bin/Rainbow.dll">
       <publishTime>01/26/2016 20:35:38</publishTime>
@@ -163,10 +163,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/30/2017 18:52:10</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>01/31/2017 15:34:22</publishTime>
+      <publishTime>01/31/2017 18:24:04</publishTime>
+    </File>
+    <File Include="Paradise.CMS.csproj.sitecore">
+      <publishTime>01/31/2017 18:24:17</publishTime>
     </File>
     <File Include="Paradise.CMS.csproj.sitecore.foldersync">
       <publishTime>01/31/2017 15:02:51</publishTime>
+    </File>
+    <File Include="Properties/SlowCheetah/SlowCheetah.Transforms.targets">
+      <publishTime>01/31/2017 18:24:04</publishTime>
     </File>
     <File Include="scripts/ai.0.22.9-build00167.js">
       <publishTime>01/30/2017 18:34:21</publishTime>
