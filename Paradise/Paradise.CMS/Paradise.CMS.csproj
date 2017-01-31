@@ -155,14 +155,41 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Dependency.config.example" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
-    <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.config">
+      <TransformOnBuild>true</TransformOnBuild>
+    </Content>
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
+    <Content Include="Paradise.CMS.csproj.sitecore" />
+    <None Include="App_Config\Include\Unicorn\Unicorn.Debug.config">
+      <DependentUpon>Unicorn.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\Unicorn\Unicorn.Dev.config">
+      <DependentUpon>Unicorn.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\Unicorn\Unicorn.QA.config">
+      <DependentUpon>Unicorn.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\Unicorn\Unicorn.Release.config">
+      <DependentUpon>Unicorn.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
     <None Include="Properties\PublishProfiles\Dev.pubxml" />
     <Content Include="Views\Layouts\Sample.cshtml" />
+    <None Include="Properties\PublishProfiles\QA.pubxml" />
+    <Content Include="Properties\SlowCheetah\SlowCheetah.Transforms.targets" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Label="SlowCheetah">
+    <SlowCheetahToolsPath>$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\packages\SlowCheetah.2.5.15\tools\))</SlowCheetahToolsPath>
+    <SlowCheetah_EnableImportFromNuGet Condition=" '$(SlowCheetah_EnableImportFromNuGet)'=='' ">true</SlowCheetah_EnableImportFromNuGet>
+    <SlowCheetah_NuGetImportPath Condition=" '$(SlowCheetah_NuGetImportPath)'=='' ">$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\Properties\SlowCheetah\SlowCheetah.Transforms.targets ))</SlowCheetah_NuGetImportPath>
+    <SlowCheetahTargets Condition=" '$(SlowCheetah_EnableImportFromNuGet)'=='true' and Exists('$(SlowCheetah_NuGetImportPath)') ">$(SlowCheetah_NuGetImportPath)</SlowCheetahTargets>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
@@ -192,6 +219,7 @@
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
+  <Import Project="$(SlowCheetahTargets)" Condition="Exists('$(SlowCheetahTargets)')" Label="SlowCheetah" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
