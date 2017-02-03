@@ -2,8 +2,10 @@
 using System.Security.Cryptography.X509Certificates;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Models;
+using Microsoft.Owin;
 using Owin;
 
+[assembly: OwinStartup(typeof(IdentityServer.Web.Configuration.Startup))]
 namespace IdentityServer.Web.Configuration
 {
     public class Startup
