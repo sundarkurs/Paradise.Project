@@ -25,6 +25,7 @@ namespace IdentityServer.Web.Configuration
                                 .UseInMemoryScopes(StandardScopes.All)
                 });
             });
+
         }
 
         X509Certificate2 LoadCertificate()
