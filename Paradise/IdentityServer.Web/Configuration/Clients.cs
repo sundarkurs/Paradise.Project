@@ -18,7 +18,7 @@ namespace IdentityServer.Web.Configuration
 
                 RedirectUris = new List<string>
                 {
-                    "https://localhost:44319/"
+                    "https://localhost:44329/"
                 },
 
                 AllowAccessToAllScopes = true
