@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Web.Helpers;
+using IdentityServer.Web.Configuration.Authorization;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Models;
@@ -94,7 +95,8 @@ namespace IdentityServer.Web.Configuration
 
             });
 
-
+            // Authorization
+            app.UseResourceAuthorization(new AuthorizationManager());
         }
 
         X509Certificate2 LoadCertificate()

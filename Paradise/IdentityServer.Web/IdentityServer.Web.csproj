@@ -198,6 +198,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Configuration\Authorization\AuthAttribute.cs" />
+    <Compile Include="Configuration\Authorization\AuthorizationManager.cs" />
     <Compile Include="Configuration\Clients.cs" />
     <Compile Include="Configuration\Scopes.cs" />
     <Compile Include="Configuration\Startup.cs" />
@@ -249,6 +251,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\UpdateContact.cshtml" />
+    <Content Include="Views\Home\Forbidden.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
