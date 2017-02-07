@@ -18,11 +18,11 @@ namespace IdentityServer.Web.Configuration
 
                 RedirectUris = new List<string>
                 {
-                    "https://localhost:44329/"
+                    "https://local.paradise.security.com/" 
                 },
                 PostLogoutRedirectUris = new List<string>
                 {
-                    "https://localhost:44329/"
+                    "https://local.paradise.security.com/" 
                 },
                 AllowAccessToAllScopes = true
             }

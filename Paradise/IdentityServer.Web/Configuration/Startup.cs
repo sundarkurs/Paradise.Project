@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens;
+using System.Net;
+using System.Net.Security;
 using System.Security.Claims;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
@@ -36,7 +38,7 @@ namespace IdentityServer.Web.Configuration
                                 .UseInMemoryUsers(Users.Get())
                                 .UseInMemoryClients(Clients.Get())
                                 .UseInMemoryScopes(Scopes.Get()), //.UseInMemoryScopes(StandardScopes.All)
-                    
+
                     AuthenticationOptions = new IdentityServer3.Core.Configuration.AuthenticationOptions
                     {
                         IdentityProviders = ConfigureIdentityProviders,
@@ -49,6 +51,7 @@ namespace IdentityServer.Web.Configuration
             AntiForgeryConfig.UniqueClaimTypeIdentifier = Constants.ClaimTypes.Subject;
             JwtSecurityTokenHandler.InboundClaimTypeMap = new Dictionary<string, string>();
 
+
             // Middleware settings
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
@@ -57,10 +60,10 @@ namespace IdentityServer.Web.Configuration
 
             app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             {
-                Authority = "https://localhost:44329/identity",
+                Authority = "https://local.paradise.security.com/identity",
                 ClientId = "mvc",
                 Scope = "openid profile roles",
-                RedirectUri = "https://localhost:44329/",
+                RedirectUri = "https://local.paradise.security.com/",
                 ResponseType = "id_token",
 
                 SignInAsAuthenticationType = "Cookies",
@@ -122,12 +125,20 @@ namespace IdentityServer.Web.Configuration
 
             });
 
+
+
             // Authorization
             app.UseResourceAuthorization(new AuthorizationManager());
         }
 
         X509Certificate2 LoadCertificate()
         {
+            ServicePointManager.ServerCertificateValidationCallback =
+                delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+                {
+                    return true;
+                };
+
             return new X509Certificate2(
                 string.Format(@"{0}\bin\identityServer\idsrv3test.pfx", AppDomain.CurrentDomain.BaseDirectory), "idsrv3test");
         }

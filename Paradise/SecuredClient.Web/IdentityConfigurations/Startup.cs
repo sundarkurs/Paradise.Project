@@ -34,7 +34,7 @@ namespace SecuredClient.Web.IdentityConfigurations
                 Authority = "https://localhost:44329/identity",
                 ClientId = "mvc",
                 Scope = "openid profile roles",
-                RedirectUri = "https://localhost:44329/",
+                RedirectUri = "http://paradise.securedclient.com:8088/",
                 ResponseType = "id_token",
 
                 SignInAsAuthenticationType = "Cookies",
