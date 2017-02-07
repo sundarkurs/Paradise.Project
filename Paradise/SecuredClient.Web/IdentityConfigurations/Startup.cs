@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -31,10 +32,10 @@ namespace SecuredClient.Web.IdentityConfigurations
 
             app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             {
-                Authority = "https://localhost:44329/identity",
+                Authority = ConfigurationManager.AppSettings["IdentityProviderHostedUrl"],
                 ClientId = "mvc",
                 Scope = "openid profile roles",
-                RedirectUri = "http://paradise.securedclient.com:8088/",
+                RedirectUri = ConfigurationManager.AppSettings["MvcClientUrl"],
                 ResponseType = "id_token",
 
                 SignInAsAuthenticationType = "Cookies",
