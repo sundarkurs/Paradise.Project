@@ -20,7 +20,10 @@ namespace IdentityServer.Web.Configuration
                 {
                     "https://localhost:44329/"
                 },
-
+                PostLogoutRedirectUris = new List<string>
+                {
+                    "https://localhost:44329/"
+                },
                 AllowAccessToAllScopes = true
             }
         };

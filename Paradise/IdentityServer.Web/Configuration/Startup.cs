@@ -9,6 +9,7 @@ using IdentityServer.Web.Configuration.Authorization;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Models;
+using Microsoft.IdentityModel.Protocols;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
@@ -33,8 +34,14 @@ namespace IdentityServer.Web.Configuration
                     Factory = new IdentityServerServiceFactory()
                                 .UseInMemoryUsers(Users.Get())
                                 .UseInMemoryClients(Clients.Get())
-                                .UseInMemoryScopes(Scopes.Get())
-                                //.UseInMemoryScopes(StandardScopes.All)
+                                .UseInMemoryScopes(Scopes.Get()), //.UseInMemoryScopes(StandardScopes.All)
+
+                    AuthenticationOptions = new IdentityServer3.Core.Configuration.AuthenticationOptions
+                    {
+                        EnablePostSignOutAutoRedirect = true
+                    },
+
+
                 });
             });
 
@@ -85,9 +92,28 @@ namespace IdentityServer.Web.Configuration
                         // add some other app specific claim
                         nid.AddClaim(new Claim("app_specific", "some data"));
 
+                        // Logout redirect
+                        nid.AddClaim(new Claim("id_token", n.ProtocolMessage.IdToken));
+
                         n.AuthenticationTicket = new AuthenticationTicket(
                             nid,
                             n.AuthenticationTicket.Properties);
+
+                        return Task.FromResult(0);
+                    },
+
+                    // Logout redirect
+                    RedirectToIdentityProvider = n =>
+                    {
+                        if (n.ProtocolMessage.RequestType == OpenIdConnectRequestType.LogoutRequest)
+                        {
+                            var idTokenHint = n.OwinContext.Authentication.User.FindFirst("id_token");
+
+                            if (idTokenHint != null)
+                            {
+                                n.ProtocolMessage.IdTokenHint = idTokenHint.Value;
+                            }
+                        }
 
                         return Task.FromResult(0);
                     }
