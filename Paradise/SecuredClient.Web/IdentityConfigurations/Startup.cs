@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IdentityModel.Tokens;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -27,8 +28,12 @@ namespace SecuredClient.Web.IdentityConfigurations
             // Middleware settings
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
-                AuthenticationType = "Cookies"
+                AuthenticationType = "Cookies",
+                ExpireTimeSpan = TimeSpan.FromMinutes(10),
+                SlidingExpiration = true
             });
+
+            JwtSecurityTokenHandler.InboundClaimTypeMap.Clear();
 
             app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             {
