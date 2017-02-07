@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Configuration;
 using IdentityServer3.Core.Models;
 
 namespace IdentityServer.Web.Configuration
@@ -18,11 +19,11 @@ namespace IdentityServer.Web.Configuration
 
                 RedirectUris = new List<string>
                 {
-                    "https://local.paradise.security.com/" 
+                    ConfigurationManager.AppSettings["MvcClientUrl"]
                 },
                 PostLogoutRedirectUris = new List<string>
                 {
-                    "https://local.paradise.security.com/" 
+                    ConfigurationManager.AppSettings["MvcClientUrl"]
                 },
                 AllowAccessToAllScopes = true
             }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IdentityModel.Tokens;
 using System.Net;
 using System.Net.Security;
@@ -60,10 +61,10 @@ namespace IdentityServer.Web.Configuration
 
             app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             {
-                Authority = "https://local.paradise.security.com/identity",
+                Authority = ConfigurationManager.AppSettings["IdentityProviderHostedUrl"],
                 ClientId = "mvc",
                 Scope = "openid profile roles",
-                RedirectUri = "https://local.paradise.security.com/",
+                RedirectUri = ConfigurationManager.AppSettings["MvcClientUrl"],
                 ResponseType = "id_token",
 
                 SignInAsAuthenticationType = "Cookies",
@@ -133,6 +134,7 @@ namespace IdentityServer.Web.Configuration
 
         X509Certificate2 LoadCertificate()
         {
+            // It's a hack
             ServicePointManager.ServerCertificateValidationCallback =
                 delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
                 {
