@@ -204,6 +204,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Configuration\Authorization\AuthAttribute.cs" />
     <Compile Include="Configuration\Authorization\AuthorizationManager.cs" />
+    <Compile Include="Configuration\Certificate\Cert.cs" />
     <Compile Include="Configuration\Clients.cs" />
     <Compile Include="Configuration\Scopes.cs" />
     <Compile Include="Configuration\Startup.cs" />
@@ -228,7 +229,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Configuration\Certificate\idsrv3test.pfx" />
+    <EmbeddedResource Include="Configuration\Certificate\idsrv3test.pfx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

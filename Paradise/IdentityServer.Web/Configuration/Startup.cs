@@ -9,6 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Web.Helpers;
 using IdentityServer.Web.Configuration.Authorization;
+using IdentityServer.Web.Configuration.Certificate;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Models;
@@ -33,7 +34,7 @@ namespace IdentityServer.Web.Configuration
                 idsrvApp.UseIdentityServer(new IdentityServerOptions
                 {
                     SiteName = "Paradise Security Provider",
-                    SigningCertificate = LoadCertificate(),
+                    SigningCertificate = Cert.Load(),//LoadCertificate(),
 
                     Factory = new IdentityServerServiceFactory()
                                 .UseInMemoryUsers(Users.Get())
