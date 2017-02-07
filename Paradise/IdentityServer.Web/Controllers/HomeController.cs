@@ -14,7 +14,7 @@ namespace IdentityServer.Web.Controllers
             return View();
         }
 
-        [Auth(Roles = "Geek")]
+        [Authorize]
         public ActionResult About()
         {
             return View((User as ClaimsPrincipal).Claims);

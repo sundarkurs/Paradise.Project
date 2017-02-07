@@ -13,6 +13,7 @@ using Microsoft.IdentityModel.Protocols;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OpenIdConnect;
 using Owin;
 
@@ -28,19 +29,19 @@ namespace IdentityServer.Web.Configuration
             {
                 idsrvApp.UseIdentityServer(new IdentityServerOptions
                 {
-                    SiteName = "Embedded IdentityServer",
+                    SiteName = "Paradise Security Provider",
                     SigningCertificate = LoadCertificate(),
 
                     Factory = new IdentityServerServiceFactory()
                                 .UseInMemoryUsers(Users.Get())
                                 .UseInMemoryClients(Clients.Get())
                                 .UseInMemoryScopes(Scopes.Get()), //.UseInMemoryScopes(StandardScopes.All)
-
+                    
                     AuthenticationOptions = new IdentityServer3.Core.Configuration.AuthenticationOptions
                     {
-                        EnablePostSignOutAutoRedirect = true
+                        IdentityProviders = ConfigureIdentityProviders,
+                        EnablePostSignOutAutoRedirect = false // Logout auto redirect
                     },
-
 
                 });
             });
@@ -129,6 +130,19 @@ namespace IdentityServer.Web.Configuration
         {
             return new X509Certificate2(
                 string.Format(@"{0}\bin\identityServer\idsrv3test.pfx", AppDomain.CurrentDomain.BaseDirectory), "idsrv3test");
+        }
+
+        private void ConfigureIdentityProviders(IAppBuilder app, string signInAsType)
+        {
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions
+            {
+                AuthenticationType = "Google",
+                Caption = "Sign-in with Google",
+                SignInAsAuthenticationType = signInAsType,
+
+                ClientId = "1076925854289-vstdac8ln4pbr3pj3snm0osam83snp46.apps.googleusercontent.com",
+                ClientSecret = "PE7a3yi3OrvqWqbPqURQbEse"
+            });
         }
     }
 }
