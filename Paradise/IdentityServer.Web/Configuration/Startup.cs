@@ -8,6 +8,7 @@ using System.Security.Claims;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Web.Helpers;
+using IdentityAdmin.Configuration;
 using IdentityServer.Web.Configuration.Authorization;
 using IdentityServer.Web.Configuration.Certificate;
 using IdentityServer3.Core;
@@ -30,15 +31,15 @@ namespace IdentityServer.Web.Configuration
         public void Configuration(IAppBuilder app)
         {
 
-            //app.Map("/configadmin", adminApp =>
-            //{
-            //    var factory = new IdentityAdminServiceFactory();
-            //    factory.Configure();
-            //    adminApp.UseIdentityAdmin(new IdentityAdminOptions
-            //    {
-            //        Factory = factory
-            //    });
-            //});
+            app.Map("/configadmin", adminApp =>
+            {
+                var factory = new IdentityAdminServiceFactory();
+                //factory.Configure();
+                adminApp.UseIdentityAdmin(new IdentityAdminOptions
+                {
+                    Factory = factory
+                });
+            });
 
             // Server settings
             app.Map("/identity", idsrvApp =>
