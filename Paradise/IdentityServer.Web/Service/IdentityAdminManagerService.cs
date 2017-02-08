@@ -1,10 +1,12 @@
-﻿
+﻿using IdentityServer3.EntityFramework;
+using IdentityServer3.EntityFramework.Entities;
+
 namespace IdentityServer.Web.Service
 {
-    public class IdentityAdminManagerService 
-    {
+    //public class IdentityAdminManagerService : IdentityAdminCoreManager<IdentityClient, int, IdentityScope, int>
+    //{
        
-    }
+    //}
 
     //public class IdentityAdminManagerService : IdentityAdminCoreManager<IdentityClient, int, IdentityScope, int>
     //{
