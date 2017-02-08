@@ -155,7 +155,7 @@ namespace IdentityServer.Web.Configuration
                 SignInAsAuthenticationType = signInAsType,
 
                 ClientId = "1076925854289-vstdac8ln4pbr3pj3snm0osam83snp46.apps.googleusercontent.com",
-                ClientSecret = "PE7a3yi3OrvqWqbPqURQbEse"
+                ClientSecret = "RoRLUHqwpBPBiywEp_VDc73u"
             });
         }
     }
