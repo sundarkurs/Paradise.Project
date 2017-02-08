@@ -26,8 +26,20 @@ namespace IdentityServer.Web.Configuration
 {
     public class Startup
     {
+
         public void Configuration(IAppBuilder app)
         {
+
+            //app.Map("/configadmin", adminApp =>
+            //{
+            //    var factory = new IdentityAdminServiceFactory();
+            //    factory.Configure();
+            //    adminApp.UseIdentityAdmin(new IdentityAdminOptions
+            //    {
+            //        Factory = factory
+            //    });
+            //});
+
             // Server settings
             app.Map("/identity", idsrvApp =>
             {
