@@ -50,7 +50,7 @@ namespace IdentityServer.Web.Configuration
                 });
             });
 
-            SelfClient(app);
+            //SelfClient(app);
 
         }
 
