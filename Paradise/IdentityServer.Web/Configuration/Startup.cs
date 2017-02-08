@@ -11,6 +11,7 @@ using System.Web.Helpers;
 using IdentityAdmin.Configuration;
 using IdentityServer.Web.Configuration.Authorization;
 using IdentityServer.Web.Configuration.Certificate;
+using IdentityServer.Web.Service;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Models;
@@ -22,19 +23,31 @@ using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OpenIdConnect;
 using Owin;
 
+
+
 [assembly: OwinStartup(typeof(IdentityServer.Web.Configuration.Startup))]
 namespace IdentityServer.Web.Configuration
 {
     public class Startup
     {
-
         public void Configuration(IAppBuilder app)
         {
+
+            //app.Map("/useradmin", adminApp =>
+            //{
+            //    var factory = new IdentityManagerServiceFactory();
+            //    factory.ConfigureSimpleIdentityManagerService(Constants.IdentityUserAdminConfig);
+
+            //    adminApp.UseIdentityManager(new IdentityManagerOptions
+            //    {
+            //        Factory = factory
+            //    });
+            //});
 
             app.Map("/configadmin", adminApp =>
             {
                 var factory = new IdentityAdminServiceFactory();
-                //factory.Configure();
+                factory.Configure();
                 adminApp.UseIdentityAdmin(new IdentityAdminOptions
                 {
                     Factory = factory
@@ -66,7 +79,6 @@ namespace IdentityServer.Web.Configuration
             //SelfClient(app);
 
         }
-
         void SelfClient(IAppBuilder app)
         {
 
@@ -146,7 +158,7 @@ namespace IdentityServer.Web.Configuration
                 }
 
             });
-            
+
         }
 
         X509Certificate2 LoadCertificate()
