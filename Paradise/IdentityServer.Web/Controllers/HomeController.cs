@@ -1,9 +1,6 @@
-﻿
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
-using IdentityServer.Web.Configuration.Authorization;
-using Thinktecture.IdentityModel.Mvc;
 
 namespace IdentityServer.Web.Controllers
 {
@@ -19,25 +16,16 @@ namespace IdentityServer.Web.Controllers
         {
             return View((User as ClaimsPrincipal).Claims);
         }
-
-        [ResourceAuthorize("Read", "ContactDetails")]
+        
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
-
-        [ResourceAuthorize("Write", "ContactDetails")]
-        [HandleForbidden]
+       
         public ActionResult UpdateContact()
         {
-            if (!HttpContext.CheckAccess("Write", "ContactDetails", "some more data"))
-            {
-                // either 401 or 403 based on authentication state
-                return this.AccessDenied();
-            }
-
             ViewBag.Message = "Your contact page.";
 
             return View();

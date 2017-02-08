@@ -1,16 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using IdentityAdmin.Configuration;
-using IdentityAdmin.Core;
-
+﻿
 namespace IdentityServer.Web.Service
 {
+    public class IdentityAdminManagerService 
+    {
+       
+    }
+
     //public class IdentityAdminManagerService : IdentityAdminCoreManager<IdentityClient, int, IdentityScope, int>
     //{
+    //    /// <summary>
+    //    ///     Initializes a new instance of the <see cref="IdentityAdminManagerService" /> class.
+    //    /// </summary>
     //    public IdentityAdminManagerService()
-    //        : base("IdServer3")
+    //        : base(Constants.IdentityAdminConfig)
     //    {
     //    }
     //}

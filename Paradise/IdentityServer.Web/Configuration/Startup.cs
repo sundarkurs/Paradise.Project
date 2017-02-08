@@ -146,9 +146,7 @@ namespace IdentityServer.Web.Configuration
                 }
 
             });
-
-            // Authorization
-            app.UseResourceAuthorization(new AuthorizationManager());
+            
         }
 
         X509Certificate2 LoadCertificate()
