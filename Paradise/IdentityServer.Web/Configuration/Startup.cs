@@ -34,7 +34,7 @@ namespace IdentityServer.Web.Configuration
     {
         public void Configuration(IAppBuilder app)
         {
-
+            // Users and Roles manager
             app.Map("/useradmin", adminApp =>
             {
                 var factory = new IdentityManagerServiceFactory();
@@ -46,6 +46,7 @@ namespace IdentityServer.Web.Configuration
                 });
             });
 
+            // Clients and Scopes manager
             app.Map("/configadmin", adminApp =>
             {
                 var factory = new IdentityAdminServiceFactory();
@@ -56,7 +57,7 @@ namespace IdentityServer.Web.Configuration
                 });
             });
 
-            // Server settings
+            // Identity Server
             app.Map("/identity", idsrvApp =>
             {
                 idsrvApp.UseIdentityServer(new IdentityServerOptions
