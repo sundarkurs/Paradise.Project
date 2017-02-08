@@ -243,7 +243,7 @@
     <Compile Include="IdentityManage\LocalConstants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\IdentityAdminManagerService.cs" />
-    <Compile Include="Service\IdentityUserManagerService.cs" />
+    <Compile Include="Service\SimpleIdentityManagerService.cs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />

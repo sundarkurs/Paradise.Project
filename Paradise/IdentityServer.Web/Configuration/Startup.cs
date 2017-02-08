@@ -38,7 +38,7 @@ namespace IdentityServer.Web.Configuration
             app.Map("/useradmin", adminApp =>
             {
                 var factory = new IdentityManagerServiceFactory();
-                //factory.ConfigureSimpleIdentityManagerService(LocalConstants.UserAdminConfig);
+                factory.ConfigureSimpleIdentityManagerService(LocalConstants.UserAdminConfig);
 
                 adminApp.UseIdentityManager(new IdentityManagerOptions
                 {
