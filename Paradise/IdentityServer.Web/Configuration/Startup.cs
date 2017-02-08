@@ -9,8 +9,10 @@ using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Web.Helpers;
 using IdentityAdmin.Configuration;
+using IdentityManager.Configuration;
 using IdentityServer.Web.Configuration.Authorization;
 using IdentityServer.Web.Configuration.Certificate;
+using IdentityServer.Web.IdentityManage;
 using IdentityServer.Web.Service;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
@@ -33,16 +35,16 @@ namespace IdentityServer.Web.Configuration
         public void Configuration(IAppBuilder app)
         {
 
-            //app.Map("/useradmin", adminApp =>
-            //{
-            //    var factory = new IdentityManagerServiceFactory();
-            //    factory.ConfigureSimpleIdentityManagerService(Constants.IdentityUserAdminConfig);
+            app.Map("/useradmin", adminApp =>
+            {
+                var factory = new IdentityManagerServiceFactory();
+                //factory.ConfigureSimpleIdentityManagerService(LocalConstants.UserAdminConfig);
 
-            //    adminApp.UseIdentityManager(new IdentityManagerOptions
-            //    {
-            //        Factory = factory
-            //    });
-            //});
+                adminApp.UseIdentityManager(new IdentityManagerOptions
+                {
+                    Factory = factory
+                });
+            });
 
             app.Map("/configadmin", adminApp =>
             {
