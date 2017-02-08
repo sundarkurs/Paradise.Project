@@ -50,6 +50,13 @@ namespace IdentityServer.Web.Configuration
                 });
             });
 
+            SelfClient(app);
+
+        }
+
+        void SelfClient(IAppBuilder app)
+        {
+
             AntiForgeryConfig.UniqueClaimTypeIdentifier = Constants.ClaimTypes.Subject;
             JwtSecurityTokenHandler.InboundClaimTypeMap = new Dictionary<string, string>();
 
@@ -126,8 +133,6 @@ namespace IdentityServer.Web.Configuration
                 }
 
             });
-
-
 
             // Authorization
             app.UseResourceAuthorization(new AuthorizationManager());

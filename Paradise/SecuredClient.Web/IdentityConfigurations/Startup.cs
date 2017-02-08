@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.Helpers;
 using Microsoft.IdentityModel.Protocols;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
@@ -22,8 +23,8 @@ namespace SecuredClient.Web.IdentityConfigurations
         public void Configuration(IAppBuilder app)
         {
 
-            //AntiForgeryConfig.UniqueClaimTypeIdentifier = Constants.ClaimTypes.Subject;
-            //JwtSecurityTokenHandler.InboundClaimTypeMap = new Dictionary<string, string>();
+            AntiForgeryConfig.UniqueClaimTypeIdentifier = Constants.ClaimTypes.Subject;
+            JwtSecurityTokenHandler.InboundClaimTypeMap = new Dictionary<string, string>();
 
             // Middleware settings
             app.UseCookieAuthentication(new CookieAuthenticationOptions
