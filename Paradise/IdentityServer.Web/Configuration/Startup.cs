@@ -30,6 +30,15 @@ namespace IdentityServer.Web.Configuration
     {
         public void Configuration(IAppBuilder app)
         {
+            InitializeUserAdmin(app);
+            InitializeConfigAdmin(app);
+            InitializeInMemoryIdentityServer(app);
+
+            //SelfClient(app);
+        }
+        
+        void InitializeUserAdmin(IAppBuilder app)
+        {
             // Users and Roles manager
             app.Map("/useradmin", adminApp =>
             {
@@ -41,7 +50,10 @@ namespace IdentityServer.Web.Configuration
                     Factory = factory
                 });
             });
+        }
 
+        void InitializeConfigAdmin(IAppBuilder app)
+        {
             // Clients and Scopes manager
             app.Map("/configadmin", adminApp =>
             {
@@ -52,8 +64,10 @@ namespace IdentityServer.Web.Configuration
                     Factory = factory
                 });
             });
+        }
 
-            // Identity Server
+        void InitializeInMemoryIdentityServer(IAppBuilder app)
+        {
             app.Map("/identity", idsrvApp =>
             {
                 idsrvApp.UseIdentityServer(new IdentityServerOptions
@@ -74,10 +88,8 @@ namespace IdentityServer.Web.Configuration
 
                 });
             });
-
-            //SelfClient(app);
-
         }
+
         void SelfClient(IAppBuilder app)
         {
 
