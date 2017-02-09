@@ -1,13 +1,10 @@
 ﻿using IdentityManager;
 using IdentityManager.AspNetIdentity;
 using IdentityManager.Configuration;
-using IdentityServer.Web.AspNetIdentity;
+using IdentityServer.Web.Configuration.AspNetIdentity;
 
-namespace IdentityServer.Web.Service
+namespace IdentityServer.Web.Configuration.Services
 {
-    /// <summary>
-    ///     SimpleIdentity ManagerServiceExtensions
-    /// </summary>
     public static class SimpleIdentityManagerServiceExtensions
     {
         /// <summary>

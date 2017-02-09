@@ -11,7 +11,7 @@ using IdentityServer.Web.IdentityManage;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace IdentityServer.Web.AspNetIdentity
+namespace IdentityServer.Web.Configuration.AspNetIdentity
 {
     /// <summary>
     ///     Extent the User Table, with custom columns

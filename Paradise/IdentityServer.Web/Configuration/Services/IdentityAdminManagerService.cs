@@ -1,10 +1,14 @@
-﻿using IdentityAdmin.Configuration;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using IdentityAdmin.Configuration;
 using IdentityAdmin.Core;
 using IdentityServer.Web.IdentityManage;
 using IdentityServer3.Admin.EntityFramework;
 using IdentityServer3.Admin.EntityFramework.Entities;
 
-namespace IdentityServer.Web.Service
+namespace IdentityServer.Web.Configuration.Services
 {
     public class IdentityAdminManagerService : IdentityAdminCoreManager<IdentityClient, int, IdentityScope, int>
     {

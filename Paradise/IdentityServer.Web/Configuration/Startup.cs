@@ -10,13 +10,11 @@ using System.Threading.Tasks;
 using System.Web.Helpers;
 using IdentityAdmin.Configuration;
 using IdentityManager.Configuration;
-using IdentityServer.Web.Configuration.Authorization;
 using IdentityServer.Web.Configuration.Certificate;
+using IdentityServer.Web.Configuration.Services;
 using IdentityServer.Web.IdentityManage;
-using IdentityServer.Web.Service;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
-using IdentityServer3.Core.Models;
 using Microsoft.IdentityModel.Protocols;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
@@ -24,8 +22,6 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OpenIdConnect;
 using Owin;
-
-
 
 [assembly: OwinStartup(typeof(IdentityServer.Web.Configuration.Startup))]
 namespace IdentityServer.Web.Configuration
