@@ -59,17 +59,17 @@ namespace IdentityServer.Web.Configuration
                 idsrvApp.UseIdentityServer(new IdentityServerOptions
                 {
                     SiteName = "Paradise Security Provider",
-                    SigningCertificate = Cert.Load(),//LoadCertificate(),
+                    SigningCertificate = Cert.Load(),
 
                     Factory = new IdentityServerServiceFactory()
                                 .UseInMemoryUsers(Users.Get())
                                 .UseInMemoryClients(Clients.Get())
-                                .UseInMemoryScopes(Scopes.Get()), //.UseInMemoryScopes(StandardScopes.All)
+                                .UseInMemoryScopes(Scopes.Get()),
 
                     AuthenticationOptions = new IdentityServer3.Core.Configuration.AuthenticationOptions
                     {
                         IdentityProviders = ConfigureIdentityProviders,
-                        EnablePostSignOutAutoRedirect = false // Logout auto redirect
+                        EnablePostSignOutAutoRedirect = false
                     },
 
                 });
