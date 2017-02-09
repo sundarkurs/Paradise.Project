@@ -68,25 +68,32 @@ namespace IdentityServer.Web.Configuration
 
         void InitializeInMemoryIdentityServer(IAppBuilder app)
         {
-            app.Map("/identity", idsrvApp =>
+            app.Map("/identity", identityServerApp =>
             {
-                idsrvApp.UseIdentityServer(new IdentityServerOptions
+                var factory = new IdentityServerServiceFactory()
+                    .UseInMemoryUsers(Users.Get())
+                    .UseInMemoryClients(Clients.Get())
+                    .UseInMemoryScopes(Scopes.Get());
+
+                factory.ConfigureClientStoreCache();
+                factory.ConfigureScopeStoreCache();
+                factory.ConfigureUserServiceCache();
+
+                var identityServerOptions = new IdentityServerOptions
                 {
                     SiteName = "Paradise Security Provider",
+                    Factory = factory,
                     SigningCertificate = Cert.Load(),
-
-                    Factory = new IdentityServerServiceFactory()
-                                .UseInMemoryUsers(Users.Get())
-                                .UseInMemoryClients(Clients.Get())
-                                .UseInMemoryScopes(Scopes.Get()),
 
                     AuthenticationOptions = new IdentityServer3.Core.Configuration.AuthenticationOptions
                     {
                         IdentityProviders = ConfigureIdentityProviders,
-                        EnablePostSignOutAutoRedirect = false
+                        EnableAutoCallbackForFederatedSignout = false
                     },
+                };
 
-                });
+                identityServerApp.UseIdentityServer(identityServerOptions);
+                
             });
         }
 
