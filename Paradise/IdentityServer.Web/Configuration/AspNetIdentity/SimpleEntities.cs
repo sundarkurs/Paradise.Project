@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.Validation;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web;
-using IdentityServer.Web.IdentityManage;
+using IdentityServer.Web.Configuration.Helper;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -112,7 +109,7 @@ namespace IdentityServer.Web.Configuration.AspNetIdentity
         /// <summary>
         ///     Initializes a new instance of the <see cref="Context" /> class.
         /// </summary>
-        public Context() : this(LocalConstants.UserAdminConfig)
+        public Context() : this(MyConstants.UserAdminConfig)
         {
         }
 

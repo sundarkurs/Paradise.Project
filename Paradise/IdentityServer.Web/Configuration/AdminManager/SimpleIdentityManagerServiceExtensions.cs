@@ -3,7 +3,7 @@ using IdentityManager.AspNetIdentity;
 using IdentityManager.Configuration;
 using IdentityServer.Web.Configuration.AspNetIdentity;
 
-namespace IdentityServer.Web.Configuration.Services
+namespace IdentityServer.Web.Configuration.AdminManager
 {
     public static class SimpleIdentityManagerServiceExtensions
     {
@@ -18,7 +18,7 @@ namespace IdentityServer.Web.Configuration.Services
             factory.Register(new Registration<Context>(resolver => new Context(connectionString)));
             factory.Register(new Registration<UserStore>());
             factory.Register(new Registration<RoleStore>());
-            factory.Register(new Registration<UserManager>());
+            factory.Register(new Registration<AspNetIdentity.UserManager>());
             factory.Register(new Registration<RoleManager>());
             factory.IdentityManagerService = new Registration<IIdentityManagerService, SimpleIdentityManagerService>();
         }
@@ -35,7 +35,7 @@ namespace IdentityServer.Web.Configuration.Services
         /// </summary>
         /// <param name="userManager">The user manager.</param>
         /// <param name="roleManager">The role manager.</param>
-        public SimpleIdentityManagerService(UserManager userManager, RoleManager roleManager)
+        public SimpleIdentityManagerService(AspNetIdentity.UserManager userManager, RoleManager roleManager)
             : base(userManager, roleManager)
         {
         }

@@ -10,11 +10,13 @@ using System.Threading.Tasks;
 using System.Web.Helpers;
 using IdentityAdmin.Configuration;
 using IdentityManager.Configuration;
+using IdentityServer.Web.Configuration.AdminManager;
 using IdentityServer.Web.Configuration.Certificate;
-using IdentityServer.Web.Configuration.Services;
-using IdentityServer.Web.IdentityManage;
+using IdentityServer.Web.Configuration.Helper;
+using IdentityServer.Web.Configuration.UserManager;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
+using IdentityServer3.EntityFramework;
 using Microsoft.IdentityModel.Protocols;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
@@ -43,7 +45,7 @@ namespace IdentityServer.Web.Configuration
             app.Map("/useradmin", adminApp =>
             {
                 var factory = new IdentityManagerServiceFactory();
-                factory.ConfigureSimpleIdentityManagerService(LocalConstants.UserAdminConfig);
+                factory.ConfigureSimpleIdentityManagerService(MyConstants.UserAdminConfig);
 
                 adminApp.UseIdentityManager(new IdentityManagerOptions
                 {
@@ -94,6 +96,42 @@ namespace IdentityServer.Web.Configuration
 
                 identityServerApp.UseIdentityServer(identityServerOptions);
                 
+            });
+        }
+
+        void InitializeDataStoreIdentityServer(IAppBuilder app)
+        {
+            app.Map("/identity", identityServerApp =>
+            {
+                var factory = new IdentityServerServiceFactory();
+
+                var adminConfiguration = new EntityFrameworkServiceOptions
+                {
+                    ConnectionString = MyConstants.AdminConfig
+                };
+
+                factory.RegisterConfigurationServices(adminConfiguration);
+                factory.RegisterOperationalServices(adminConfiguration);
+
+                factory.ConfigureClientStoreCache();
+                factory.ConfigureScopeStoreCache();
+                factory.ConfigureUserServiceCache();
+
+                var identityServerOptions = new IdentityServerOptions
+                {
+                    SiteName = "Paradise Security Provider",
+                    Factory = factory,
+                    SigningCertificate = Cert.Load(),
+
+                    AuthenticationOptions = new IdentityServer3.Core.Configuration.AuthenticationOptions
+                    {
+                        IdentityProviders = ConfigureIdentityProviders,
+                        EnableAutoCallbackForFederatedSignout = false
+                    },
+                };
+
+                identityServerApp.UseIdentityServer(identityServerOptions);
+
             });
         }
 

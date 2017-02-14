@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace IdentityServer.Web.IdentityManage
+namespace IdentityServer.Web.Configuration.Helper
 {
-    public class LocalConstants
+    public class MyConstants
     {
         public const string UserAdminConfig = "Paradise.Users";
 
