@@ -36,8 +36,8 @@ namespace IdentityServer.Web.Configuration
         {
             InitializeUserAdmin(app);
             InitializeConfigAdmin(app);
-            InitializeInMemoryIdentityServer(app);
-
+            //InitializeInMemoryIdentityServer(app);
+            InitializeDataStoreIdentityServer(app);
             //SelfClient(app);
         }
 
