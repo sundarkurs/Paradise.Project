@@ -4,7 +4,7 @@ using IdentityServer.Web.Configuration.Helper;
 using IdentityServer3.Admin.EntityFramework;
 using IdentityServer3.Admin.EntityFramework.Entities;
 
-namespace IdentityServer.Web.Configuration.UserManager
+namespace IdentityServer.Web.Configuration.Admin.IdentityManager
 {
     public class IdentityAdminManagerService : IdentityAdminCoreManager<IdentityClient, int, IdentityScope, int>
     {

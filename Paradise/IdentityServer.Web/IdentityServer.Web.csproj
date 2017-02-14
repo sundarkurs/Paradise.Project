@@ -229,14 +229,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Configuration\AdminManager\SimpleIdentityManagerServiceExtensions.cs" />
+    <Compile Include="Configuration\Admin\IdentityManager\IdentityAdminManagerService.cs" />
+    <Compile Include="Configuration\Admin\UserManager\SimpleIdentityManagerService.cs" />
     <Compile Include="Configuration\AspNetIdentity\SimpleEntities.cs" />
     <Compile Include="Configuration\Certificate\Cert.cs" />
     <Compile Include="Configuration\Clients.cs" />
     <Compile Include="Configuration\Helper\MyConstants.cs" />
     <Compile Include="Configuration\Scopes.cs" />
     <Compile Include="Configuration\Startup.cs" />
-    <Compile Include="Configuration\UserManager\IdentityAdminManagerService.cs" />
     <Compile Include="Configuration\Users.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">

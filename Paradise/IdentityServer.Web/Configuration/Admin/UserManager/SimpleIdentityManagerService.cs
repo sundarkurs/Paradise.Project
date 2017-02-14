@@ -3,7 +3,7 @@ using IdentityManager.AspNetIdentity;
 using IdentityManager.Configuration;
 using IdentityServer.Web.Configuration.AspNetIdentity;
 
-namespace IdentityServer.Web.Configuration.AdminManager
+namespace IdentityServer.Web.Configuration.Admin.UserManager
 {
     public static class SimpleIdentityManagerServiceExtensions
     {
