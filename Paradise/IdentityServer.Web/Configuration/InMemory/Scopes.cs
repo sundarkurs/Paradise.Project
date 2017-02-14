@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using IdentityServer3.Core.Models;
 
-namespace IdentityServer.Web.Configuration
+namespace IdentityServer.Web.Configuration.InMemory
 {
     public static class Scopes
     {

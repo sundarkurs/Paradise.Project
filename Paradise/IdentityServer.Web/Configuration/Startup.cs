@@ -14,6 +14,7 @@ using IdentityServer.Web.Configuration.Admin.IdentityManager;
 using IdentityServer.Web.Configuration.Admin.UserManager;
 using IdentityServer.Web.Configuration.Certificate;
 using IdentityServer.Web.Configuration.Helper;
+using IdentityServer.Web.Configuration.InMemory;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.EntityFramework;

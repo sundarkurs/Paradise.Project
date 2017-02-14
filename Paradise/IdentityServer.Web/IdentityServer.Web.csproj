@@ -233,11 +233,11 @@
     <Compile Include="Configuration\Admin\UserManager\SimpleIdentityManagerService.cs" />
     <Compile Include="Configuration\AspNetIdentity\SimpleEntities.cs" />
     <Compile Include="Configuration\Certificate\Cert.cs" />
-    <Compile Include="Configuration\Clients.cs" />
     <Compile Include="Configuration\Helper\MyConstants.cs" />
-    <Compile Include="Configuration\Scopes.cs" />
+    <Compile Include="Configuration\InMemory\Clients.cs" />
+    <Compile Include="Configuration\InMemory\Scopes.cs" />
+    <Compile Include="Configuration\InMemory\Users.cs" />
     <Compile Include="Configuration\Startup.cs" />
-    <Compile Include="Configuration\Users.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

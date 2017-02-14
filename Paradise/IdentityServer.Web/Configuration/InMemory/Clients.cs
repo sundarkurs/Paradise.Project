@@ -2,7 +2,7 @@
 using System.Configuration;
 using IdentityServer3.Core.Models;
 
-namespace IdentityServer.Web.Configuration
+namespace IdentityServer.Web.Configuration.InMemory
 {
     public static class Clients
     {
