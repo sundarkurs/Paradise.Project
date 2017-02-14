@@ -157,8 +157,6 @@ namespace IdentityServer.Web.Configuration.Admin.UserService
                 throw new ArgumentException("Invalid subject identifier");
             }
 
-            //Logger.Info("ProfileDataRequestContext : " + JsonSerializer.Serialize(ctx.Client), GetType().FullName + "/" + MethodBase.GetCurrentMethod().Name);
-
             var claims = await GetClaimsFromAccount(acct);
             var claimTypes = requestedClaimTypes as string[] ?? requestedClaimTypes.ToArray();
 
