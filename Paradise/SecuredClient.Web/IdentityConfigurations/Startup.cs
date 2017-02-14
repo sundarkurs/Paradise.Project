@@ -57,8 +57,8 @@ namespace SecuredClient.Web.IdentityConfigurations
                         // we want to keep first name, last name, subject and roles
                         var givenName = id.FindFirst(Constants.ClaimTypes.GivenName);
                         var familyName = id.FindFirst(Constants.ClaimTypes.FamilyName);
-                        var sub = id.FindFirst(Constants.ClaimTypes.Subject);
-                        var roles = id.FindAll(Constants.ClaimTypes.Role);
+                        //var sub = id.FindFirst(Constants.ClaimTypes.Subject);
+                        //var roles = id.FindAll(Constants.ClaimTypes.Role);
 
                         // create new identity and set name and role claim type
                         var nid = new ClaimsIdentity(
@@ -68,8 +68,8 @@ namespace SecuredClient.Web.IdentityConfigurations
 
                         nid.AddClaim(givenName);
                         nid.AddClaim(familyName);
-                        nid.AddClaim(sub);
-                        nid.AddClaims(roles);
+                        //nid.AddClaim(sub);
+                        //nid.AddClaims(roles);
 
                         // add some other app specific claim
                         nid.AddClaim(new Claim("app_specific", "some data"));
