@@ -64,6 +64,10 @@
       <HintPath>..\packages\IdentityManager.AspNetIdentity.1.0.0-beta5-1\lib\net45\IdentityManager.AspNetIdentity.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="IdentityModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IdentityModel.1.12.0\lib\net45\IdentityModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="IdentityServer3, Version=2.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\IdentityServer3.2.6.0\lib\net45\IdentityServer3.dll</HintPath>
       <Private>True</Private>
@@ -238,6 +242,7 @@
     <Compile Include="Configuration\Certificate\Cert.cs" />
     <Compile Include="Configuration\Helper\ClaimTypeConstants.cs" />
     <Compile Include="Configuration\Helper\MyConstants.cs" />
+    <Compile Include="Configuration\Helper\MyMessages.cs" />
     <Compile Include="Configuration\InMemory\Clients.cs" />
     <Compile Include="Configuration\InMemory\Scopes.cs" />
     <Compile Include="Configuration\InMemory\Users.cs" />
