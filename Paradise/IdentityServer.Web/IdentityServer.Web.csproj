@@ -231,8 +231,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Configuration\Admin\IdentityManager\IdentityAdminManagerService.cs" />
     <Compile Include="Configuration\Admin\UserManager\SimpleIdentityManagerService.cs" />
+    <Compile Include="Configuration\Admin\UserService\AspNetIdentityUserService.cs" />
+    <Compile Include="Configuration\Admin\UserService\UserService.cs" />
+    <Compile Include="Configuration\Admin\UserService\UserServiceExtensions.cs" />
     <Compile Include="Configuration\AspNetIdentity\SimpleEntities.cs" />
     <Compile Include="Configuration\Certificate\Cert.cs" />
+    <Compile Include="Configuration\Helper\ClaimTypeConstants.cs" />
     <Compile Include="Configuration\Helper\MyConstants.cs" />
     <Compile Include="Configuration\InMemory\Clients.cs" />
     <Compile Include="Configuration\InMemory\Scopes.cs" />

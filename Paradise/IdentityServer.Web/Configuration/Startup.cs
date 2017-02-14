@@ -12,6 +12,7 @@ using IdentityAdmin.Configuration;
 using IdentityManager.Configuration;
 using IdentityServer.Web.Configuration.Admin.IdentityManager;
 using IdentityServer.Web.Configuration.Admin.UserManager;
+using IdentityServer.Web.Configuration.Admin.UserService;
 using IdentityServer.Web.Configuration.Certificate;
 using IdentityServer.Web.Configuration.Helper;
 using IdentityServer.Web.Configuration.InMemory;
@@ -39,7 +40,7 @@ namespace IdentityServer.Web.Configuration
 
             //SelfClient(app);
         }
-        
+
         void InitializeUserAdmin(IAppBuilder app)
         {
             // Users and Roles manager
@@ -73,10 +74,11 @@ namespace IdentityServer.Web.Configuration
         {
             app.Map("/identity", identityServerApp =>
             {
-                var factory = new IdentityServerServiceFactory()
-                    .UseInMemoryUsers(Users.Get())
-                    .UseInMemoryClients(Clients.Get())
-                    .UseInMemoryScopes(Scopes.Get());
+                var factory = new IdentityServerServiceFactory();
+
+                factory.UseInMemoryUsers(Users.Get());
+                factory.UseInMemoryClients(Clients.Get());
+                factory.UseInMemoryScopes(Scopes.Get());
 
                 factory.ConfigureClientStoreCache();
                 factory.ConfigureScopeStoreCache();
@@ -96,7 +98,7 @@ namespace IdentityServer.Web.Configuration
                 };
 
                 identityServerApp.UseIdentityServer(identityServerOptions);
-                
+
             });
         }
 
@@ -113,6 +115,8 @@ namespace IdentityServer.Web.Configuration
 
                 factory.RegisterConfigurationServices(adminConfiguration);
                 factory.RegisterOperationalServices(adminConfiguration);
+
+                factory.ConfigureUserService(MyConstants.UserAdminConfig);
 
                 factory.ConfigureClientStoreCache();
                 factory.ConfigureScopeStoreCache();
