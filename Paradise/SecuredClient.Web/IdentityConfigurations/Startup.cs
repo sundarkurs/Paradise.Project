@@ -40,7 +40,7 @@ namespace SecuredClient.Web.IdentityConfigurations
             {
                 Authority = ConfigurationManager.AppSettings["IdentityProviderHostedUrl"],
                 ClientId = "mvc",
-                Scope = "openid profile roles",
+                Scope = "openid profile", // roles
                 RedirectUri = ConfigurationManager.AppSettings["MvcClientUrl"],
                 ResponseType = "id_token",
 
@@ -54,22 +54,22 @@ namespace SecuredClient.Web.IdentityConfigurations
                     {
                         var id = n.AuthenticationTicket.Identity;
 
-                        // we want to keep first name, last name, subject and roles
-                        var givenName = id.FindFirst(Constants.ClaimTypes.GivenName);
-                        var familyName = id.FindFirst(Constants.ClaimTypes.FamilyName);
-                        //var sub = id.FindFirst(Constants.ClaimTypes.Subject);
-                        //var roles = id.FindAll(Constants.ClaimTypes.Role);
-
                         // create new identity and set name and role claim type
                         var nid = new ClaimsIdentity(
                             id.AuthenticationType,
                             Constants.ClaimTypes.GivenName,
                             Constants.ClaimTypes.Role);
 
-                        nid.AddClaim(givenName);
-                        nid.AddClaim(familyName);
-                        //nid.AddClaim(sub);
-                        //nid.AddClaims(roles);
+                        foreach (var i in id.Claims)
+                        {
+                            if (i.Type != "iss" && i.Type != "aud" && i.Type != "exp" && i.Type != "nbf" && i.Type != "nonce"
+                            && i.Type != "iat" && i.Type != "sid" && i.Type != "auth_time" && i.Type != "idp" && i.Type != "amr"
+                            && i.Type != "id_token")
+                            {
+                                nid.AddClaim(i);
+                            }
+
+                        }
 
                         // add some other app specific claim
                         nid.AddClaim(new Claim("app_specific", "some data"));
