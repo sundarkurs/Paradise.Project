@@ -235,6 +235,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Configuration\Admin\IdentityManager\IdentityAdminManagerService.cs" />
     <Compile Include="Configuration\Admin\UserManager\SimpleIdentityManagerService.cs" />
+    <Compile Include="Configuration\Admin\UserService\AspNetIdentityUserService-backup.cs" />
     <Compile Include="Configuration\Admin\UserService\AspNetIdentityUserService.cs" />
     <Compile Include="Configuration\Admin\UserService\UserService.cs" />
     <Compile Include="Configuration\Admin\UserService\UserServiceExtensions.cs" />
@@ -256,6 +257,8 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Data\ParadiseSecurity.Config.sql" />
+    <Content Include="Data\ParadiseSecurity.Users.sql" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
