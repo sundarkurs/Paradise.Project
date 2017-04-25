@@ -18,8 +18,9 @@ namespace RedisClient.Caching
 
         public QuickRedisCacheProvider()
         {
-            var connectionString = "HydraQA.redis.cache.windows.net,ssl=true,password=HNGDwMtA02f8aeO52rdOcx8ZRYbvfM/nvAjS1V9V15s=";  //"localhost";
-            _connectionMultiplexer = ConnectionMultiplexer.Connect(connectionString);
+            var localhost = "localhost";
+            var azure = "HydraQA.redis.cache.windows.net,ssl=true,password=HNGDwMtA02f8aeO52rdOcx8ZRYbvfM/nvAjS1V9V15s=";
+            _connectionMultiplexer = ConnectionMultiplexer.Connect(azure);
         }
 
         public string Set(string key, string value)
