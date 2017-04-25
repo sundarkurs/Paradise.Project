@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RedisClient.Caching
+namespace RedisClient.Helpers
 {
     public static class Gzip
     {

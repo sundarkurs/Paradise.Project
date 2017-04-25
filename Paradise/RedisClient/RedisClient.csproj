@@ -85,11 +85,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Caching\Gzip.cs" />
     <Compile Include="Caching\ICacheProvider.cs" />
-    <Compile Include="Caching\JsonSerializer.cs" />
     <Compile Include="Caching\RedisCacheProvider.cs" />
-    <Compile Include="ConfigurationHelper.cs" />
+    <Compile Include="Helpers\ConfigurationHelper.cs" />
+    <Compile Include="Helpers\Gzip.cs" />
+    <Compile Include="Helpers\JsonSerializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace RedisClient.Caching
+namespace RedisClient.Helpers
 {
     public static class JsonSerializer
     {
