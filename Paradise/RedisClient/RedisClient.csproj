@@ -86,10 +86,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caching\ICacheProvider.cs" />
+    <Compile Include="Caching\QuickRedisCacheProvider.cs" />
     <Compile Include="Caching\RedisCacheProvider.cs" />
     <Compile Include="Helpers\ConfigurationHelper.cs" />
     <Compile Include="Helpers\Gzip.cs" />
     <Compile Include="Helpers\JsonSerializer.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

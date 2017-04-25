@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RedisClient.Caching;
+using RedisClient.Models;
 using StackExchange.Redis;
 
 namespace RedisClient
@@ -13,36 +15,25 @@ namespace RedisClient
         {
             Console.WriteLine("Hello Redis");
 
-            Set("s-name", "Sundar");
-            Console.WriteLine(Get("s-name"));
 
-            Delete("s-name");
-            Console.WriteLine(Get("s-name"));
+            var redisProvider = new QuickRedisCacheProvider();
+
+            redisProvider.GetAllKeys();
+
+            redisProvider.Set("s-name", "Sundar");
+
+            redisProvider.SetEmployees(new Employee(1, "Sundar"));
+            var emp = redisProvider.GetEmployee(1);
+
+            redisProvider.GetAllKeys();
+
+            Console.WriteLine(redisProvider.Get("s-name"));
+
+            redisProvider.Delete("s-name");
+            Console.WriteLine(redisProvider.Get("s-name"));
 
             Console.Read();
         }
 
-        public static string Set(string key, string value)
-        {
-            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost");
-            IDatabase db = redis.GetDatabase();
-            db.StringSet(key, value);
-            return value;
-        }
-
-        public static string Get(string key)
-        {
-            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost");
-            IDatabase db = redis.GetDatabase();
-            string value = db.StringGet(key);
-            return value;
-        }
-
-        public static void Delete(string key)
-        {
-            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost");
-            IDatabase db = redis.GetDatabase();
-            db.KeyDelete(key);
-        }
     }
 }
