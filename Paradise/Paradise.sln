@@ -19,6 +19,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{54F18646
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisClient", "RedisClient\RedisClient.csproj", "{B9FFA064-4997-46AE-BD41-FF549195FAF1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{F717BFB3-5B87-49E6-9237-5567ECBD32AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paradise.Api", "Paradise.Api\Paradise.Api.csproj", "{FA54CEDB-D486-4D09-8EB5-801C6232F9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paradise.Api.Tests", "Paradise.Api.Tests\Paradise.Api.Tests.csproj", "{BD2B17C6-DA17-4242-9153-F3B10C6C93F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +51,14 @@ Global
 		{B9FFA064-4997-46AE-BD41-FF549195FAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9FFA064-4997-46AE-BD41-FF549195FAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9FFA064-4997-46AE-BD41-FF549195FAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA54CEDB-D486-4D09-8EB5-801C6232F9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA54CEDB-D486-4D09-8EB5-801C6232F9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA54CEDB-D486-4D09-8EB5-801C6232F9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA54CEDB-D486-4D09-8EB5-801C6232F9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2B17C6-DA17-4242-9153-F3B10C6C93F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2B17C6-DA17-4242-9153-F3B10C6C93F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2B17C6-DA17-4242-9153-F3B10C6C93F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2B17C6-DA17-4242-9153-F3B10C6C93F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +69,8 @@ Global
 		{AA4A0D97-AC0D-4393-9DBF-AA3953BE63A5} = {6A7DEDEA-ACE7-4CD2-9313-DCF08CE85B6E}
 		{B81AD652-19AD-40EF-8FDB-AF5D7FDD5156} = {6A7DEDEA-ACE7-4CD2-9313-DCF08CE85B6E}
 		{B9FFA064-4997-46AE-BD41-FF549195FAF1} = {54F18646-555E-492A-AFE1-368D246B8075}
+		{FA54CEDB-D486-4D09-8EB5-801C6232F9EF} = {F717BFB3-5B87-49E6-9237-5567ECBD32AE}
+		{BD2B17C6-DA17-4242-9153-F3B10C6C93F7} = {F717BFB3-5B87-49E6-9237-5567ECBD32AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\DesignTime

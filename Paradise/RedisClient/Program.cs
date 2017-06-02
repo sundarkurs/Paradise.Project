@@ -16,7 +16,9 @@ namespace RedisClient
             Console.WriteLine("Hello Redis");
 
 
-            UseQuickProvider();
+            GetAllKeys();
+
+            //UseRedisProvider();
 
             Console.Read();
         }
@@ -44,6 +46,12 @@ namespace RedisClient
 
             redisProvider.Delete("s-name");
             Console.WriteLine(redisProvider.Get("s-name"));
+        }
+
+        public static void GetAllKeys()
+        {
+            var redisProvider = new QuickRedisCacheProvider();
+            redisProvider.GetAllKeys();
         }
 
     }
