@@ -1,39 +1,39 @@
-	// create the module and name it scotchApp
-	var scotchApp = angular.module('scotchApp', ['ngRoute']);
+// create the module and name it appleApp
+var appleApp = angular.module('appleApp', ['ngRoute']);
 
-	// configure our routes
-	scotchApp.config(function($routeProvider) {
-		$routeProvider
+// configure our routes
+appleApp.config(function ($routeProvider) {
+    $routeProvider
 
-			// route for the home page
-			.when('/', {
-				templateUrl : 'scripts/pages/home.html',
-				controller  : 'mainController'
-			})
+        // route for the home page
+        .when('/', {
+            templateUrl: 'scripts/pages/home.html',
+            controller: 'mainController'
+        })
 
-			// route for the about page
-			.when('/about', {
-			    templateUrl: 'scripts/pages/about.html',
-				controller  : 'aboutController'
-			})
+        // route for the about page
+        .when('/about', {
+            templateUrl: 'scripts/pages/about.html',
+            controller: 'aboutController'
+        })
 
-			// route for the contact page
-			.when('/contact', {
-			    templateUrl: 'scripts/pages/contact.html',
-				controller  : 'contactController'
-			});
-	});
+        // route for the contact page
+        .when('/contact', {
+            templateUrl: 'scripts/pages/contact.html',
+            controller: 'contactController'
+        });
+});
 
-	// create the controller and inject Angular's $scope
-	scotchApp.controller('mainController', function($scope) {
-		// create a message to display in our view
-		$scope.message = 'Everyone come and see how good I look!';
-	});
+// create the controller and inject Angular's $scope
+appleApp.controller('mainController', function ($scope) {
+    // create a message to display in our view
+    $scope.message = 'Everyone come and see how good I look!';
+});
 
-	scotchApp.controller('aboutController', function($scope) {
-		$scope.message = 'Look! I am an about page.';
-	});
+appleApp.controller('aboutController', function ($scope) {
+    $scope.message = 'Look! I am an about page.';
+});
 
-	scotchApp.controller('contactController', function($scope) {
-		$scope.message = 'Contact us! JK. This is just a demo.';
-	});
+appleApp.controller('contactController', function ($scope) {
+    $scope.message = 'Contact us! JK. This is just a demo.';
+});
