@@ -11,7 +11,7 @@
             // route for the home page
             .when('/', {
                 templateUrl: 'application/home/index.html',
-                controller: 'mainController'
+                controller: 'homeController'
             })
 
             // route for the about page
@@ -25,20 +25,6 @@
                 templateUrl: 'application/contact/index.html',
                 controller: 'contactController'
             });
-    });
-
-    // create the controller and inject Angular's $scope
-    appleApp.controller('mainController', function ($scope) {
-        // create a message to display in our view
-        $scope.message = 'Everyone come and see how good I look!';
-    });
-
-    appleApp.controller('aboutController', function ($scope) {
-        $scope.message = 'Look! I am an about page.';
-    });
-
-    appleApp.controller('contactController', function ($scope) {
-        $scope.message = 'Contact us! JK. This is just a demo.';
     });
 
 })();
