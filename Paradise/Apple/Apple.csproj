@@ -118,6 +118,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Scripts\pages\about.html" />
+    <Content Include="Scripts\pages\contact.html" />
+    <Content Include="Scripts\pages\home.html" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
