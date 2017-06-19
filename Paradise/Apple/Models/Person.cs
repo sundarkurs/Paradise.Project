@@ -13,6 +13,8 @@ namespace Apple.Models
 
         public string LastName { get; set; }
 
+        public string EMail { get; set; }
+
         public DateTime DateOfBirth { get; set; }
 
         public string Address { get; set; }

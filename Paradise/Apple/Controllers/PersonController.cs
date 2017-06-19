@@ -15,35 +15,35 @@ namespace Apple.Controllers
         PersonRepository personRepository = new PersonRepository();
 
         [HttpGet]
-        [Route("getall")]
+        [Route("GetAll")]
         public IHttpActionResult GetPersons()
         {
             return Json(personRepository.GetAll());
         }
 
         [HttpGet]
-        [Route("get")]
+        [Route("Get")]
         public IHttpActionResult Get(int id)
         {
             return Json(personRepository.Get(id));
         }
 
         [HttpPost]
-        [Route("create")]
+        [Route("Create")]
         public IHttpActionResult Create(Person person)
         {
             return Json(personRepository.Add(person));
         }
 
         [HttpPost]
-        [Route("update")]
+        [Route("Update")]
         public IHttpActionResult Put(Person person)
         {
             return Json(true);
         }
 
         [HttpDelete]
-        [Route("delete")]
+        [Route("Delete")]
         public IHttpActionResult Delete(int id)
         {
             return Json(personRepository.Delete(id));

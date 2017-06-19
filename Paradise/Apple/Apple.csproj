@@ -137,6 +137,9 @@
     <Content Include="application\about\controller.js" />
     <Content Include="application\contact\controller.js" />
     <Content Include="application\home\controller.js" />
+    <Content Include="application\person\create.html" />
+    <Content Include="application\person\services.js" />
+    <Content Include="application\person\controller.js" />
     <Content Include="Global.asax" />
     <Content Include="application\about\index.html" />
     <Content Include="application\contact\index.html" />

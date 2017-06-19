@@ -8,7 +8,8 @@
     homeController.$inject = ['$http', '$scope'];
 
     function homeController($http, $scope) {
-        $scope.message = 'Everyone come and see how good I look!';
+        var vm = this;
+        vm.message = "Look! I am an about page.";
     }
 
 })();

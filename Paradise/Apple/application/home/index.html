@@ -1,5 +1,8 @@
-<div class="jumbotron text-center">
-	<h1>Home Page</h1>
-	
-	<p>{{ message }}</p>
+<div ng-controller="homeController as vm" class="container">
+
+    <div class="jumbotron text-center">
+        <h2>Home Page</h2>
+        <p>{{ vm.message }}</p>
+    </div>
+
 </div>

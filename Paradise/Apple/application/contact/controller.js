@@ -8,7 +8,8 @@
     contactController.$inject = ['$http', '$scope'];
 
     function contactController($http, $scope) {
-        $scope.message = 'Contact us! JK. This is just a demo.';
+        var vm = this;
+        vm.message = "Look! I am an about page.";
     }
 
 })();

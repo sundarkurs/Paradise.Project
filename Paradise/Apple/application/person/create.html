@@ -1,0 +1,42 @@
+<div ng-controller="personController as vm" class="container">
+
+    <div class="jumbotron text-center">
+        <h2>Person Page</h2>
+        <p>{{ vm.personMessage }}</p>
+    </div>
+    
+    <form>
+        <div class="form-group">
+            <label for="inputdefault">First Name</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        
+        <div class="form-group">
+            <label for="inputdefault">Last Name</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        
+        <div class="form-group">
+            <label for="inputdefault">EMail</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        
+        <div class="form-group">
+            <label for="inputdefault">Mobile</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        
+        <div class="form-group">
+            <label for="inputdefault">Date Of Birth</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        
+        <div class="form-group">
+            <label for="inputdefault">Address</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+    </form>
+
+    <button type="button" class="btn btn-primary" ng-click="vm.create()">Save</button>
+
+</div>

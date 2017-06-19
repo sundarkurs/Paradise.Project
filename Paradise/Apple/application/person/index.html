@@ -1,5 +1,41 @@
-<div class="jumbotron text-center">
-	<h1>Contact Page</h1>
-	
-	<p>{{ message }}</p>
+<div ng-controller="personController as vm" class="container">
+
+    <div class="jumbotron text-center">
+        <h2>Person Page</h2>
+        <p>{{ vm.personMessage }}</p>
+    </div>
+
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-sm-4" ng-repeat="person in vm.persons">
+                <h1>{{person.FirstName}}</h1>
+                <p>{{person.Id}}</p>
+                {{person.FirstName + ' ' + person.LastName}}
+                <p>{{person.DateOfBirth | date:'MM/dd/yyyy'}}</p>
+                <p>{{person.Address}}</p>
+            </div>
+        </div>
+    </div>-->
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Date Of Birth</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="person in vm.persons">
+                <td>{{person.FirstName}}</td>
+                <td>{{person.LastName}}</td>
+                <td>{{person.DateOfBirth | date:'MM/dd/yyyy'}}</td>
+                <td>{{person.Address}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="#person/create">Add</a>
+
 </div>

@@ -1,24 +1,38 @@
 ﻿<!DOCTYPE html>
 <html ng-app="appleApp">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
     <!-- SCROLLS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>
     <!-- SPELLS -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-    <script src="~/application/app.js"></script>
-    <script src="~/application/about/controller.js"></script>
-    <script src="~/application/contact/controller.js"></script>
-    <script src="~/application/home/controller.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
 
     <title>@ViewBag.Title</title>
 </head>
-
 <body ng-controller="homeController">
 
     @RenderBody()
 
     @RenderSection("scripts", required: false)
+
+    <script src="~/application/app.js"></script>
+
+    <script src="~/application/about/controller.js"></script>
+
+    <script src="~/application/contact/controller.js"></script>
+
+    <script src="~/application/home/controller.js"></script>
+
+    <script src="~/application/person/controller.js"></script>
+    <script src="~/application/person/services.js"></script>
+
 </body>
 </html>

@@ -1,5 +1,8 @@
-<div class="jumbotron text-center">
-	<h1>Contact Page</h1>
-	
-	<p>{{ message }}</p>
+<div ng-controller="contactController as vm" class="container">
+
+    <div class="jumbotron text-center">
+        <h2>Contact Page</h2>
+        <p>{{ vm.message }}</p>
+    </div>
+
 </div>
