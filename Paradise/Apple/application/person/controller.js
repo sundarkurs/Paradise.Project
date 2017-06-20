@@ -10,6 +10,8 @@
     function personController($http, $scope, personService) {
         var vm = this;
         vm.persons = [];
+        vm.person = {};
+
         vm.personMessage = "Everyone come and see how good I look!";
         vm.create = create;
         //$scope.message = 'Everyone come and see how good I look!';
@@ -25,7 +27,10 @@
         };
 
         function create() {
-            alert(1);
+            personService.Create(this.person, function (response) {
+                debugger;
+                vm.persons = response;
+            });
         }
     }
 

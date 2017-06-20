@@ -9,8 +9,8 @@
 
     function personService($http, $rootScope) {
         var service = {};
-        var apiPrefix = "http://dev.apple.com/api/person";
         service.GetAll = getAll;
+        service.Create = create;
 
         return service;
 
@@ -18,6 +18,13 @@
             $http.get($rootScope.webApiUrl + "/GetAll")
                 .then(function (response) {
                     callback(response.data);
+                });
+        }
+
+        function create(person, callback) {
+            $http.post($rootScope.webApiUrl + '/Create', person)
+                .success(function (response) {
+                    callback(response);
                 });
         }
 

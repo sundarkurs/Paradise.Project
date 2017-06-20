@@ -5,38 +5,44 @@
         <p>{{ vm.personMessage }}</p>
     </div>
     
-    <form>
+    <div class="alert alert-success">
+        <strong>Success!</strong> Indicates a successful or positive action.
+    </div>
+
+    <form ng-submit="submit()" name="form">
         <div class="form-group">
-            <label for="inputdefault">First Name</label>
-            <input class="form-control" id="inputdefault" type="text">
+            <label for="txtFirstName">First Name</label>
+            <input class="form-control" id="txtFirstName" type="text" ng-model="vm.person.FirstName" required>
         </div>
-        
+
         <div class="form-group">
-            <label for="inputdefault">Last Name</label>
-            <input class="form-control" id="inputdefault" type="text">
+            <label for="txtLastName">Last Name</label>
+            <input class="form-control" id="txtLastName" type="text" ng-model="vm.person.LastName" required>
         </div>
-        
+
         <div class="form-group">
-            <label for="inputdefault">EMail</label>
-            <input class="form-control" id="inputdefault" type="text">
+            <label for="txtEMail">EMail</label>
+            <input type="email" id="txtEMail" class="form-control" name="email" ng-model="vm.person.EMail" required />
+            <span class="help-inline" ng-show="submitted && form.email.$error.required">Required</span>
+            <span class="help-inline" ng-show="submitted && form.email.$error.email">Invalid email</span>
         </div>
-        
+
         <div class="form-group">
-            <label for="inputdefault">Mobile</label>
-            <input class="form-control" id="inputdefault" type="text">
+            <label for="txtMobile">Mobile</label>
+            <input class="form-control" id="txtMobile" type="text" ng-model="vm.person.Mobile" required>
         </div>
-        
+
         <div class="form-group">
-            <label for="inputdefault">Date Of Birth</label>
-            <input class="form-control" id="inputdefault" type="text">
+            <label for="txtDateOfBirth">Date Of Birth</label>
+            <input class="form-control" id="txtDateOfBirth" type="text" ng-model="vm.person.DateOfBirth" required>
         </div>
-        
+
         <div class="form-group">
-            <label for="inputdefault">Address</label>
-            <input class="form-control" id="inputdefault" type="text">
+            <label for="txtAddress">Address</label>
+            <input class="form-control" id="txtAddress" type="text" ng-model="vm.person.Address" required>
         </div>
     </form>
 
-    <button type="button" class="btn btn-primary" ng-click="vm.create()">Save</button>
+    <button type="submit" class="btn btn-primary" ng-click="submitted=true">Save</button>
 
 </div>
