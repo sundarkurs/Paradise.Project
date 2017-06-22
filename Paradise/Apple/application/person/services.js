@@ -17,8 +17,30 @@
         function getAll(callback) {
             $http.get($rootScope.webApiUrl + "/GetAll")
                 .then(function (response) {
+                    debugger;
                     callback(response.data);
                 });
+
+            //$http.get($rootScope.webApiUrl + "/GetAll", {timeout : 120})
+            //    .then(function (response) {
+            //        console.log('success');
+            //        callback(response.data);
+            //    }, function (data) {
+            //        console.log("error handle");
+            //    });
+
+            //$http.get($rootScope.webApiUrl + "/GetAll", { timeout: 120 })
+            //    .success(function (response) {
+            //        debugger;
+            //        console.log("success");
+            //        callback(response);
+            //    })
+            //    .error(function (response) {
+            //        debugger;
+            //        console.log("error");
+            //    });
+
+
         }
 
         function create(person, callback) {

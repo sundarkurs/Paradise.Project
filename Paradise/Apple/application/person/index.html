@@ -1,21 +1,10 @@
-<div ng-controller="personController as vm" class="container">
+<div class="container">
 
     <div class="jumbotron text-center">
         <h2>Person Page</h2>
-        <p>{{ vm.personMessage }}</p>
+        <p>{{ personMessage }}</p>
+        <span id="spanMessage" style="display: none">Loading...</span>
     </div>
-
-    <!--<div class="container">
-        <div class="row">
-            <div class="col-sm-4" ng-repeat="person in vm.persons">
-                <h1>{{person.FirstName}}</h1>
-                <p>{{person.Id}}</p>
-                {{person.FirstName + ' ' + person.LastName}}
-                <p>{{person.DateOfBirth | date:'MM/dd/yyyy'}}</p>
-                <p>{{person.Address}}</p>
-            </div>
-        </div>
-    </div>-->
 
     <table class="table">
         <thead>
@@ -27,7 +16,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="person in vm.persons">
+            <tr ng-repeat="person in persons">
                 <td>{{person.FirstName}}</td>
                 <td>{{person.LastName}}</td>
                 <td>{{person.DateOfBirth | date:'MM/dd/yyyy'}}</td>

@@ -18,6 +18,8 @@ namespace Apple.Controllers
         [Route("GetAll")]
         public IHttpActionResult GetPersons()
         {
+            System.Threading.Thread.Sleep(180000);
+
             return Json(personRepository.GetAll());
         }
 

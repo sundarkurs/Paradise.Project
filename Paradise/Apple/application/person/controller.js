@@ -8,28 +8,28 @@
     personController.$inject = ['$http', '$scope', 'personService'];
 
     function personController($http, $scope, personService) {
-        var vm = this;
-        vm.persons = [];
-        vm.person = {};
-
-        vm.personMessage = "Everyone come and see how good I look!";
-        vm.create = create;
-        //$scope.message = 'Everyone come and see how good I look!';
-
+        
+        $scope.persons = [];
+        $scope.person = {};
+        $scope.create = create;
+        $scope.personMessage = "from scope";
+        
         (function initController() {
             getAll();
         })();
 
         function getAll() {
+            $("#spanMessage").show();
             personService.GetAll(function (response) {
-                vm.persons = response;
+                $("#spanMessage").hide();
+                $scope.persons = response;
             });
         };
 
         function create() {
             personService.Create(this.person, function (response) {
                 debugger;
-                vm.persons = response;
+                $scope.persons = response;
             });
         }
     }
